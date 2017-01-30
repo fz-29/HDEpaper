@@ -430,7 +430,12 @@ Signal detection in the somatosensory cortex area, that pertains to touch sense,
 
 The human motor function represents a distributed and hierarchical system. The optimal execution involves distributed brain structures at different levels of hierarchy. These include the pre-frontal cortex, motor cortex, spinal cord, the anterior horn cells etc. in generating action sequences, a sequence of actions is implemented by a string of subsequences of actions, each possibly implemented in a different part of the body. The optimization of the motor learning procedure takes place at multiple levels of hierarchy:
 
-\includegraphics[scale=0.6]{motorControl}
+\begin{figure}
+  \includegraphics[scale=0.6]{motorControl}
+  \caption{Description of Heirarchical Motor Operations in Humans}
+  \label{fig:motorControl}
+\end{figure}
+
 
 \begin{itemize}
 \item[1.] Stage 1 involves motivation and planning for the action to be performed. This may be categorised as involving collaboration of the sensory and the pre-motor components. For instance, signals in the somatosensory cortex area, pertaining to the sense of touch may trigger a chain of motor actions. For voluntary motor actions, decision making and planning occurs in the pre-frontal cortex and the  pyramidal cells of the motor cortex.
@@ -459,7 +464,13 @@ u_i = a_i + F (b_i - c_i)
 Where, $F$ is called the differential weight (Usually lies between $[0, 1]$).\\
 And to obtain the new position of the individual, a crossover operation is implemented between $x_i$ and $u_i$, controlled by the parameter $CR$ called the crossover probability. The value for $CR$ always lies between $[0, 1]$.
 
-\includegraphics[scale=0.3]{contourDE}
+\begin{figure}
+  \includegraphics[scale=0.3]{contourDE}
+  \caption{Two dimensional example of an objective function showing its contour lines and the process for
+generating v in scheme DE2}
+  \label{fig:contourDE}
+\end{figure}
+
 
 %\begin{algorithm}
 %\caption{Classical Differential Evolution}
@@ -560,7 +571,13 @@ E_l = l + F (x - c)
 \end{algorithmic}
 \end{algorithm}
 
-\includegraphics[scale=0.25]{contourDL}
+\begin{figure}
+  \includegraphics[scale=0.25]{contourDL}
+  \caption{The process for generating generation of $E_g$ and $E_l$ in a 2 dimensional optimization.}
+  \label{fig:contourDL}
+\end{figure}
+
+
 
 In the algorithm \ref{algo}, The Hierarchical crossover is controlled by the conditional equation $i_c \textless (HC*i_N)$. According to this equation, during the initial phases ($HC$ fraction of total generations) of the optimization procedure, only the local leader is responsible for the motion of the agents, and after a certain amount of time has passed, the global leader also takes part in the motion generation process, signifying the motor control operation.
 Additionaly, The hierarchical crossover parameter $HC$ also influences the mutation process wherein the degree of final mutation is decided based on the probability $HC$.
@@ -679,6 +696,68 @@ The set of objective functions considered for testing the proposed algorithm and
 %\include{table2}
 \input{table3}
 %\include{table4}
+
+\begin{figure*}[h]
+    \centering
+    \begin{subfigure}[b]{0.35\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D10}
+        \caption{F1D10}
+    \end{subfigure}
+    %~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+%      %(or a blank line to force the subfigure onto a new line)
+%    \begin{subfigure}[b]{0.35\textwidth}
+%        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{sphere_d3.png}
+%        \caption{Upto iteration 50}
+%    \end{subfigure}
+    %~
+    \begin{subfigure}[b]{0.35\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D30}
+        \caption{F1D30}
+    \end{subfigure}
+    
+    \begin{subfigure}[b]{0.35\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D50}
+        \caption{F1D10}
+    \end{subfigure}
+    
+    \begin{subfigure}[b]{0.35\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D100}
+        \caption{F1D30}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{0.35\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F5D10}
+        \caption{F1D10}
+    \end{subfigure}
+    %~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+%      %(or a blank line to force the subfigure onto a new line)
+%    \begin{subfigure}[b]{0.35\textwidth}
+%        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{sphere_d3.png}
+%        \caption{Upto iteration 50}
+%    \end{subfigure}
+    %~
+    \begin{subfigure}[b]{0.35\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F12D30}
+        \caption{F1D30}
+    \end{subfigure}
+    \vspace{-10mm}
+
+    \centering
+    \begin{subfigure}[b]{0.35\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F27D50}
+        \caption{F1D10}
+    \end{subfigure}
+    
+    \begin{subfigure}[b]{0.35\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F23D100}
+        \caption{F1D30}
+    \end{subfigure}
+
+    \caption{Comparision analysis over various functions and dimensions}
+    \vspace{-10mm}
+
+\end{figure*}
+
 
 \section{Conclusion}
 %\include{conclude}
