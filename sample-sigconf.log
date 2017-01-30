@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.17)  31 JAN 2017 00:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.17)  31 JAN 2017 00:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1045,7 +1045,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 (./samplebody-conf.tex [1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-] <images/contourDE.png, id=50, 863.225pt x 567.11874pt>
+] <images/contourDE.png, id=54, 863.225pt x 567.11874pt>
 File: images/contourDE.png Graphic file (type png)
 
 <use images/contourDE.png>
@@ -1056,32 +1056,42 @@ Overfull \hbox (17.822pt too wide) in paragraph at lines 45--47
  [][] 
  []
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/contourDL.png, id=56, 963.6pt x 722.7pt>
+File: images/contourDL.png Graphic file (type png)
+ <use images/contourDL.png>
+Package pdftex.def Info: images/contourDL.png used on input line 52.
+(pdftex.def)             Requested size: 240.89941pt x 180.67455pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 68.
+[2.2 <./images/contourDE.png> <./images/contourDL.png>]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 73.
+put line 79.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 9.0pt on input line 76.
+(Font)              scaled to size 9.0pt on input line 82.
 Package microtype Info: Character `013' is missing
 (microtype)             in font `OT1/LinuxLibertineT-TLF/m/sc/9'.
 (microtype)             Ignoring protrusion settings for this character.
 
-LaTeX Warning: Command \textless invalid in math mode on input line 87.
+
+LaTeX Warning: Command \textless invalid in math mode on input line 93.
 
 LaTeX Font Info:    Try loading font information for OML+LinuxLibertineT-TLF on
- input line 87.
-LaTeX Font Info:    No file OMLLinuxLibertineT-TLF.fd. on input line 87.
+ input line 93.
+LaTeX Font Info:    No file OMLLinuxLibertineT-TLF.fd. on input line 93.
 
 LaTeX Font Warning: Font shape `OML/LinuxLibertineT-TLF/m/n' undefined
 (Font)              using `OML/nxlmi/m/it' instead
-(Font)              for symbol `textless' on input line 87.
+(Font)              for symbol `textless' on input line 93.
 
 
-LaTeX Warning: Command \textless invalid in math mode on input line 87.
-
-
-LaTeX Warning: Command \textless invalid in math mode on input line 95.
-
-
-LaTeX Warning: Command \textless invalid in math mode on input line 95.
+LaTeX Warning: Command \textless invalid in math mode on input line 93.
 
 
 LaTeX Warning: Command \textless invalid in math mode on input line 101.
@@ -1089,21 +1099,19 @@ LaTeX Warning: Command \textless invalid in math mode on input line 101.
 
 LaTeX Warning: Command \textless invalid in math mode on input line 101.
 
-<images/contourDL.png, id=58, 963.6pt x 722.7pt>
-File: images/contourDL.png Graphic file (type png)
- <use images/contourDL.png>
-Package pdftex.def Info: images/contourDL.png used on input line 113.
-(pdftex.def)             Requested size: 240.89941pt x 180.67455pt.
+
+LaTeX Warning: Command \textless invalid in math mode on input line 107.
 
 
-LaTeX Warning: Command \textless invalid in math mode on input line 120.
+LaTeX Warning: Command \textless invalid in math mode on input line 107.
 
 
-LaTeX Warning: Command \textless invalid in math mode on input line 120.
+LaTeX Warning: Command \textless invalid in math mode on input line 118.
 
-LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 127.
-[2.2 <./images/contourDE.png>] (./functable.tex
+
+LaTeX Warning: Command \textless invalid in math mode on input line 118.
+
+(./functable.tex
 Missing character: There is no â in font LinLibertineT-tlf-ot1!
 Missing character: There is no ™ in font LinLibertineT-tlf-ot1!
 Missing character: There is no â in font LinLibertineT-tlf-ot1!
@@ -1114,8 +1122,7 @@ Missing character: There is no â in font LinLibertineT-tlf-ot1!
 Missing character: There is no ™ in font LinLibertineT-tlf-ot1!
 Missing character: There is no â in font LinLibertineT-tlf-ot1!
 Missing character: There is no ™ in font LinLibertineT-tlf-ot1!
-) (./paramsTable.tex)
-(./table1.tex
+) (./paramsTable.tex [3.3]) (./table1.tex
 Overfull \hbox (1.32315pt too wide) in paragraph at lines 32--32
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 10810.387667| 
  []
@@ -1905,89 +1912,85 @@ Overfull \hbox (1.32315pt too wide) in paragraph at lines 142--143
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 15318.554601| 
  []
 
-) <images/F1D10.jpeg, id=77, 803.0pt x 602.25pt>
+) <images/F1D10.jpeg, id=89, 803.0pt x 602.25pt>
 File: images/F1D10.jpeg Graphic file (type jpg)
  <use images/F1D10.jpeg>
-Package pdftex.def Info: images/F1D10.jpeg used on input line 148.
+Package pdftex.def Info: images/F1D10.jpeg used on input line 146.
 (pdftex.def)             Requested size: 151.89003pt x 113.91406pt.
 
-<images/F1D30.jpeg, id=78, 803.0pt x 602.25pt>
+<images/F1D30.jpeg, id=90, 803.0pt x 602.25pt>
 File: images/F1D30.jpeg Graphic file (type jpg)
  <use images/F1D30.jpeg>
-Package pdftex.def Info: images/F1D30.jpeg used on input line 152.
+Package pdftex.def Info: images/F1D30.jpeg used on input line 150.
 (pdftex.def)             Requested size: 151.89003pt x 113.91406pt.
 
-<images/F1D50.jpeg, id=79, 803.0pt x 602.25pt>
+<images/F1D50.jpeg, id=91, 803.0pt x 602.25pt>
 File: images/F1D50.jpeg Graphic file (type jpg)
  <use images/F1D50.jpeg>
-Package pdftex.def Info: images/F1D50.jpeg used on input line 156.
+Package pdftex.def Info: images/F1D50.jpeg used on input line 154.
 (pdftex.def)             Requested size: 151.89003pt x 113.91406pt.
 
-<images/F1D100.jpeg, id=80, 803.0pt x 602.25pt>
+<images/F1D100.jpeg, id=92, 803.0pt x 602.25pt>
 File: images/F1D100.jpeg Graphic file (type jpg)
  <use images/F1D100.jpeg>
-Package pdftex.def Info: images/F1D100.jpeg used on input line 161.
+Package pdftex.def Info: images/F1D100.jpeg used on input line 159.
 (pdftex.def)             Requested size: 151.89003pt x 113.91406pt.
 
-<images/F5D10.jpeg, id=81, 803.0pt x 602.25pt>
+<images/F5D10.jpeg, id=93, 803.0pt x 602.25pt>
 File: images/F5D10.jpeg Graphic file (type jpg)
  <use images/F5D10.jpeg>
-Package pdftex.def Info: images/F5D10.jpeg used on input line 165.
+Package pdftex.def Info: images/F5D10.jpeg used on input line 163.
 (pdftex.def)             Requested size: 151.89003pt x 113.91406pt.
 
-<images/F12D30.jpeg, id=82, 803.0pt x 602.25pt>
+<images/F12D30.jpeg, id=94, 803.0pt x 602.25pt>
 File: images/F12D30.jpeg Graphic file (type jpg)
  <use images/F12D30.jpeg>
-Package pdftex.def Info: images/F12D30.jpeg used on input line 169.
+Package pdftex.def Info: images/F12D30.jpeg used on input line 167.
 (pdftex.def)             Requested size: 151.89003pt x 113.91406pt.
 
-<images/F27D50.jpeg, id=83, 803.0pt x 602.25pt>
+<images/F27D50.jpeg, id=95, 803.0pt x 602.25pt>
 File: images/F27D50.jpeg Graphic file (type jpg)
  <use images/F27D50.jpeg>
-Package pdftex.def Info: images/F27D50.jpeg used on input line 174.
+Package pdftex.def Info: images/F27D50.jpeg used on input line 172.
 (pdftex.def)             Requested size: 151.89003pt x 113.91406pt.
 
-<images/F23D100.jpeg, id=84, 803.0pt x 602.25pt>
+<images/F23D100.jpeg, id=96, 803.0pt x 602.25pt>
 File: images/F23D100.jpeg Graphic file (type jpg)
  <use images/F23D100.jpeg>
-Package pdftex.def Info: images/F23D100.jpeg used on input line 178.
+Package pdftex.def Info: images/F23D100.jpeg used on input line 176.
 (pdftex.def)             Requested size: 151.89003pt x 113.91406pt.
 )
 No file sample-sigconf.bbl.
-[3.3 <./images/contourDL.png>] [4.4 <./images/F1D10.jpeg> <./images/F1D30.jpeg>
- <./images/F1D50.jpeg> <./images/F1D100.jpeg> <./images/F5D10.jpeg> <./images/F
-12D30.jpeg> <./images/F27D50.jpeg> <./images/F23D100.jpeg>] [5.5
+[4.4
 
-
-] [6.6]
-[7.7] [8.8] [9.9]
+] [5.5] [6.6] [7.7] [8.8] [9.9 <./images/F1D10.jpeg> <./images/F1D30.jpeg> <./i
+mages/F1D50.jpeg> <./images/F1D100.jpeg> <./images/F5D10.jpeg> <./images/F12D30
+.jpeg> <./images/F27D50.jpeg> <./images/F23D100.jpeg>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
- (./sample-sigconf.aux)
+
+(./sample-sigconf.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
+Package rerunfilecheck Info: File `sample-sigconf.out' has not changed.
+(rerunfilecheck)             Checksum: 31325350459D7BD18F4194105C47E291;473.
 
-
-Package rerunfilecheck Warning: File `sample-sigconf.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `sample-sigconf.out':
-(rerunfilecheck)             Before: 22751E93CD798698C5E1B2221E1DC694;426
-(rerunfilecheck)             After:  31325350459D7BD18F4194105C47E291;473.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
  ) 
 Here is how much of TeX's memory you used:
- 14831 strings out of 493029
- 229563 string characters out of 6136234
- 502815 words of memory out of 5000000
- 17656 multiletter control sequences out of 15000+600000
+ 14832 strings out of 493029
+ 229574 string characters out of 6136234
+ 479592 words of memory out of 5000000
+ 17657 multiletter control sequences out of 15000+600000
  107427 words of font info for 321 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,12n,94p,1260b,608s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,13n,94p,1260b,608s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_tltjc6.enc}{/us
 r/share/texlive/texmf-dist/fonts/enc/dvips/newtx/libertinealt.enc}{/usr/share/t
 exlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fo
@@ -2010,10 +2013,10 @@ e/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/newtx/zxlr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/
 zxlri.pfb>
-Output written on sample-sigconf.pdf (9 pages, 1161901 bytes).
+Output written on sample-sigconf.pdf (9 pages, 1161956 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 153 compressed objects within 2 object streams
+ 193 PDF objects out of 1000 (max. 8388607)
+ 156 compressed objects within 2 object streams
  31 named destinations out of 1000 (max. 500000)
- 48747 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 48755 words of extra memory for PDF output out of 51595 (max. 10000000)
 

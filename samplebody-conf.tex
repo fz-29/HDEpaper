@@ -41,11 +41,17 @@ u_i = a_i + F (b_i - c_i)
 Where, $F$ is called the differential weight (Usually lies between $[0, 1]$).\\
 And to obtain the new position of the individual, a crossover operation is implemented between $x_i$ and $u_i$, controlled by the parameter $CR$ called the crossover probability. The value for $CR$ always lies between $[0, 1]$.
 
-\begin{figure}
+\begin{figure}[h!]
   \includegraphics[scale=0.3]{contourDE}
   \caption{Two dimensional example of an objective function showing its contour lines and the process for
 generating v in scheme DE2}
   \label{fig:contourDE}
+\end{figure}
+
+\begin{figure}[h!]
+  \includegraphics[scale=0.25]{contourDL}
+  \caption{The process for generating generation of $E_g$ and $E_l$ in a 2 dimensional optimization.}
+  \label{fig:contourDL}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -108,14 +114,6 @@ E_l = l + F (x - c)
   \EndProcedure
 \end{algorithmic}
 \end{algorithm}
-
-\begin{figure}
-  \includegraphics[scale=0.25]{contourDL}
-  \caption{The process for generating generation of $E_g$ and $E_l$ in a 2 dimensional optimization.}
-  \label{fig:contourDL}
-\end{figure}
-
-
 
 In the algorithm \ref{algo}, The Hierarchical crossover is controlled by the conditional equation $i_c \textless (HC*i_N)$. According to this equation, during the initial phases ($HC$ fraction of total generations) of the optimization procedure, only the local leader is responsible for the motion of the agents, and after a certain amount of time has passed, the global leader also takes part in the motion generation process, signifying the motor control operation.
 Additionaly, The hierarchical crossover parameter $HC$ also influences the mutation process wherein the degree of final mutation is decided based on the probability $HC$.
