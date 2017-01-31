@@ -8,8 +8,11 @@ Efficient execution of task requires feedback based facilitation and inhibition 
 
 The present paper focusses on introducing an optimisation algorithm modelled intuitively on the distributed and hierarchical operation of the brain motor function. We seek to exploit the <> inherent structure of the popular Differential Evolution algorithm by extrapolating the <Add a Line>. The algorithm performance is exhaustively compared on the <Add here and connect to different algorithms>.<Why we have extrapolated DE>.<How introducing Hierarchy has ensured faster convergence and better optimization that other adaptive variants that have been discussed like JADE>.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+\begin{figure}
+  \includegraphics[scale=0.6]{motorControl}
+  \caption{Description of Heirarchical Motor Operations in Humans}
+  \label{fig:motorControl}
+\end{figure}
 
 % Operational maturity of biological control systems have enamored researchers across various domains.Consequently, these have been the source of inspiration of various mathematical and logical models for control, automation and optimization. The behavioural characteristics observed at the Cellular level in E.Coli fueled the inspiration for the Bacterial Foraging Optimization algorithm.
 
@@ -133,14 +136,14 @@ The set of objective functions considered for testing the proposed algorithm and
 
 \input{functable}
 
-\subsection{Results}
+
 
 \input{table1}
 %\include{table2}
 
 \input{table3}
 %\include{table4}
-
+\subsection{Results}
 %% Convergence Profiles over CEC functions
 \begin{figure*}[t]
     \centering
@@ -215,6 +218,23 @@ The set of objective functions considered for testing the proposed algorithm and
         \caption{F27D100}
     \end{subfigure}
 
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F6D50}
+        \caption{F6D50}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F6D100}
+        \caption{F6D100}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F20D50}
+        \caption{F20D50}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F20D100}
+        \caption{F20D100}
+    \end{subfigure}
+
     \caption{Comparision analysis over various functions and dimensions}
     \vspace{-4mm}
 \end{figure*}
@@ -223,10 +243,6 @@ The set of objective functions considered for testing the proposed algorithm and
 \section{Conclusion}
 %\include{conclude}
 Differential Evolution is one of the most popular and widely used evolutionary meta-heuristic for the task of optimization. In this work,  we have proposed a new variant of the same called "Hierarchical Motor Differential Evolution", inspired from the hierarchical structure of the brain motor function. This approach enables the population to follow two distince motion patterns, one governed by their local leaders and one by the global leader. Based on these two influences, the individuals try to achieve the global optimum, and have shown to outperform the algorithms taken under consideration by a appreciable factor, as is clearly depicted through the numerical results and performance plots. however, since the proposed algorithm fizzles on a small fraction of the objective functions, we shall continue our quest to improve it's performance through continous modifications through our future work, and analyse it's performance on several real-world applications.~\cite{cao:frlbd} 
-
-%\bibliographystyle{abbrv}
-\bibliography{sigproc}  % sigproc.bib is the name of the Bibliography in this case
-
 
 % \begin{acks}
 %   The authors would like to thank Dr. Yuhua Li for providing the
