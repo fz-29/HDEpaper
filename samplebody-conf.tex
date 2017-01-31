@@ -130,60 +130,99 @@ The set of objective functions considered for testing the proposed algorithm and
 \input{functable}
 
 \subsection{Results}
+%\input{paramsTable}
+\begin{table}[h]
 
-\input{paramsTable}
+\end{table}
 
 \input{table1}
 %\include{table2}
+
 \input{table3}
 %\include{table4}
 
 %% Convergence Profiles over CEC functions
-\begin{figure*}[hptb]
+\begin{figure*}[!b]
     \centering
-    \begin{subfigure}[b]{0.30\textwidth}
+    \begin{subfigure}[b]{0.24\textwidth}
         % \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D10}
         \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D10}
         \caption{F1D10}
     \end{subfigure}
-    \begin{subfigure}[b]{0.30\textwidth}
+    \begin{subfigure}[b]{0.24\textwidth}
         \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D30}
         \caption{F1D30}
     \end{subfigure}    
-    \begin{subfigure}[b]{0.30\textwidth}
+    \begin{subfigure}[b]{0.24\textwidth}
         \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D50}
         \caption{F1D10}
     \end{subfigure}
-
-    \begin{subfigure}[b]{0.30\textwidth}
+    \begin{subfigure}[b]{0.24\textwidth}
         \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D100}
         \caption{F1D30}
-    \end{subfigure}    
-    \begin{subfigure}[b]{0.30\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F5D10}
-        \caption{F1D10}
     \end{subfigure}
-    \begin{subfigure}[b]{0.30\textwidth}
+
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F12D10}
+        \caption{F12D10}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
         \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F12D30}
-        \caption{F1D30}
+        \caption{F12D30}
+    \end{subfigure}        
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F12D50}
+        \caption{F12D50}
     \end{subfigure}
-        
-    \begin{subfigure}[b]{0.30\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F27D50}
-        \caption{F1D10}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F12D100}
+        \caption{F12D100}
     \end{subfigure}
-    \begin{subfigure}[b]{0.30\textwidth}
+
+    \begin{subfigure}[b]{0.24\textwidth}
+        % \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D10}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F23D10}
+        \caption{F23D10}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F23D30}
+        \caption{F23D30}
+    \end{subfigure}    
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F23D50}
+        \caption{F23D50}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
         \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F23D100}
-        \caption{F1D30}
+        \caption{F23D100}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{0.24\textwidth}
+        % \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D10}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F27D10}
+        \caption{F27D10}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F27D30}
+        \caption{F27D30}
+    \end{subfigure}    
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F27D50}
+        \caption{F27D50}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F27D100}
+        \caption{F27D100}
     \end{subfigure}
 
     \caption{Comparision analysis over various functions and dimensions}
     \vspace{-4mm}
 \end{figure*}
 
-\section{Conclusion}
-%\include{conclude}
-Differential Evolution is one of the most popular and widely used evolutionary meta-heuristic for the task of optimization. In this work,  we have proposed a new variant of the same called "Hierarchical Motor Differential Evolution", inspired from the hierarchical structure of the brain motor function. This approach enables the population to follow two distince motion patterns, one governed by their local leaders and one by the global leader. Based on these two influences, the individuals try to achieve the global optimum, and have shown to outperform the algorithms taken under consideration by a appreciable factor, as is clearly depicted through the numerical results and performance plots. however, since the proposed algorithm fizzles on a small fraction of the objective functions, we shall continue our quest to improve it's performance through continous modifications through our future work, and analyse it's performance on several real-world applications.
+
+% \section{Conclusion}
+% %\include{conclude}
+% Differential Evolution is one of the most popular and widely used evolutionary meta-heuristic for the task of optimization. In this work,  we have proposed a new variant of the same called "Hierarchical Motor Differential Evolution", inspired from the hierarchical structure of the brain motor function. This approach enables the population to follow two distince motion patterns, one governed by their local leaders and one by the global leader. Based on these two influences, the individuals try to achieve the global optimum, and have shown to outperform the algorithms taken under consideration by a appreciable factor, as is clearly depicted through the numerical results and performance plots. however, since the proposed algorithm fizzles on a small fraction of the objective functions, we shall continue our quest to improve it's performance through continous modifications through our future work, and analyse it's performance on several real-world applications.
 
 
 % \begin{acks}
