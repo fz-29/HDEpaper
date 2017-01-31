@@ -1,12 +1,14 @@
 \section{Introduction}
 
-Optimization is a mathematical process to obtain the best solution from a pool of certain possible solutions. Over the years, several algorithms inspired from natural and biological phenomena have been proposed to efficiently solve optimization tasks. Evolutionary algorithms are classified as meta-heuristic search algorithms, where possible solution elements span the n-dimensional search space to find the global optimum solution.
-Biological control systems in particular have inspired a lot of popular algorithms that have excelled on a large number of real world problems. At the cellular level in the E.Coli Bacterium,there is sensing and locomotion involved in seeking nourishment and avoid harmful chemicals. The Bacterial Foraging Optimization Algorithm(BFOA) explains a variety of bacterial swarming and dictates how foraging proceeds in E.Coli. ACO deals with behaviour of ants and has been a successful model for solving complex problems. PSO is a swarm intelligence algo based on behaviour of birds anf fishes that models these particles as they traverse an N-Dimensional search space and share information in order to obtain global optimum.
+Evolutionary algorithms are classified as meta-heuristic search algorithms, where possible solution elements span the n-dimensional search space to find the global optimum solution. Over the years, natural phenomena and biological processes have laid the foundation for several algorithms for control and optimization that have highlighted their applicability in solving intricate optimization problems in various fields.At the cellular level in the E.Coli Bacterium,there is sensing and locomotion involved in seeking nourishment and avoid harmful chemicals.These behavioral characterisitics have fueled the inspiration for the bacterial foraging optimization algorithm. Ant Colony Optimization(ACO) deals with behaviour of ants and has been a successful model for solving complex problems. PSO is a swarm intelligence algorithm based on behaviour of birds anf fishes that models these particles as they traverse an n-Dimensional search space and share information in order to obtain global optimum.
+From a biological control point, the human brain represents one of the most sophesticated architectures and several research attempts seek to mimic its accuracy, precision and efficiency.The brain function activities can be classified into 2 categories:- sensory and motor operations. Sensory cortical functions inspired concept of neural networks and they are being scaled successfully in deep learning to solve vast amount of problems. 
+The human motor function represents a neural distributed and hierarchical control system. It can be classified as having local control functions for movement as well as higher level controllers for gross motion and decision making for planning actions.The optimal execution of motor operation involves distributed brain structures at different levels of hierarchy.These include the pre-frontal cortex, motor cortex, spinal cord, anterior horn cells etc. For generating an actions sequence, a sequence of actions is implemented by a string of subsequences of actions each implemented in a different part of the body. The operational structure has been depicted in Figure 1.[]
+For optimality of actions, neurons act in unison. The neurons in the motor cortex act like global leaders and send inhibitory or facilitatory influence over the anterior horn cells, local leaders, located in the spinal cord. These local leaders, are connected to the muscle fibres, effectors through a peripheral nerve and neuromuscular junction.
+Efficient execution of task requires feedback based facilitation and inhibition of the effectors over the anterior horn cells. These sequence of operations consitute the optimal convergence of the system leading to smooth motor execution.
 
-At a more intrinsic biological level, the function of the human brain is at the pinnacle of relevance in the current social and technological settings , and several research initiatives attempt to mimic human-like accuracy, precision and efficiency. The brain function activities can be categorised into 2 categories:- sensory and motor operations. Sensory cortical functions inspired concept of neural networks and they are being scaled successfully in deep learning to solve vast amount of problems. 
-The human motor function represents a neural distributed and hierarchical control system. It can be classified as having local control functions for movement and higher level controllers for gross motion and decision making for planning actions.The optimal execution of motor operation involves distributed brain structures at different levels of hierarchy.
+The present paper focusses on introducing an optimisation algorithm modelled intuitively on the distributed and hierarchical operation of the brain motor function. We seek to exploit the <> inherent structure of the popular Differential Evolution algorithm by extrapolating the <Add a Line>. The algorithm performance is exhaustively compared on the <Add here and connect to different algorithms>.<Why we have extrapolated DE>.<How introducing Hierarchy has ensured faster convergence and better optimization that other adaptive variants that have been discussed like JADE>.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 % Operational maturity of biological control systems have enamored researchers across various domains.Consequently, these have been the source of inspiration of various mathematical and logical models for control, automation and optimization. The behavioural characteristics observed at the Cellular level in E.Coli fueled the inspiration for the Bacterial Foraging Optimization algorithm.
@@ -61,20 +63,6 @@ Taking inspiration from the human motor system, we model the hierarchical motor 
 
 The position of each particle in the population is affected by the influence of global leaders and local leaders, while also being affected by a randomly chosen particle from the population to induce some stochasticity in the optimization pipeline. We first model the influence of the global leader on the local leaders and the influences of the local leaders  on each population element using equation \eqref{one} and \eqref{two}. We introduce a hierarchical crossover between the two influencing equations governed by a hierarchical crossover parameter $HC$.
 
-Analogously to [step 3] in the brain motor operation, the updation of particle positions requires generating feedback for the leaders as a part of the optimization procedure, and hence the local leaders and the global leader are updated based onn their objective function value generated from the perturbations in population particles. This series of events comprise of one optimization pass (one loop step). On execution of several optimization passes as described, the system is able to converge to an optimal configuration, analogous to the successful execution of the required task as shown in [step 4].
-
-The updated position of the particle $x$ is governed by the hierarchical crossover operation and a mutation operation. The hierarchical operation is affected by the global leader $g_L$ and the local leader $l$ through the parametric equations \eqref{one} and \eqref{two}. Switching between the two is governed by the hierarchical crossover parameter $HC$. The given equations are discussed as follows:
-
-\begin{equation}
-\label{one}
-E_g = g_L + F (l - c)
-\end{equation}
-
-\begin{equation}
-\label{two}
-E_l = l + F (x - c)
-\end{equation}
-
 \begin{algorithm}
 \caption{Distributed Leader Optimization}
 \label{algo}
@@ -114,6 +102,22 @@ E_l = l + F (x - c)
   \EndProcedure
 \end{algorithmic}
 \end{algorithm}
+
+Analogously to [step 3] in the brain motor operation, the updation of particle positions requires generating feedback for the leaders as a part of the optimization procedure, and hence the local leaders and the global leader are updated based onn their objective function value generated from the perturbations in population particles. This series of events comprise of one optimization pass (one loop step). On execution of several optimization passes as described, the system is able to converge to an optimal configuration, analogous to the successful execution of the required task as shown in [step 4].
+
+The updated position of the particle $x$ is governed by the hierarchical crossover operation and a mutation operation. The hierarchical operation is affected by the global leader $g_L$ and the local leader $l$ through the parametric equations \eqref{one} and \eqref{two}. Switching between the two is governed by the hierarchical crossover parameter $HC$. The given equations are discussed as follows:
+
+\begin{equation}
+\label{one}
+E_g = g_L + F (l - c)
+\end{equation}
+
+\begin{equation}
+\label{two}
+E_l = l + F (x - c)
+\end{equation}
+
+
 
 In the algorithm \ref{algo}, The Hierarchical crossover is controlled by the conditional equation $i_c \textless (HC*i_N)$. According to this equation, during the initial phases ($HC$ fraction of total generations) of the optimization procedure, only the local leader is responsible for the motion of the agents, and after a certain amount of time has passed, the global leader also takes part in the motion generation process, signifying the motor control operation.
 Additionaly, The hierarchical crossover parameter $HC$ also influences the mutation process wherein the degree of final mutation is decided based on the probability $HC$.
@@ -218,7 +222,10 @@ The set of objective functions considered for testing the proposed algorithm and
 
 \section{Conclusion}
 %\include{conclude}
-Differential Evolution is one of the most popular and widely used evolutionary meta-heuristic for the task of optimization. In this work,  we have proposed a new variant of the same called "Hierarchical Motor Differential Evolution", inspired from the hierarchical structure of the brain motor function. This approach enables the population to follow two distince motion patterns, one governed by their local leaders and one by the global leader. Based on these two influences, the individuals try to achieve the global optimum, and have shown to outperform the algorithms taken under consideration by a appreciable factor, as is clearly depicted through the numerical results and performance plots. however, since the proposed algorithm fizzles on a small fraction of the objective functions, we shall continue our quest to improve it's performance through continous modifications through our future work, and analyse it's performance on several real-world applications.
+Differential Evolution is one of the most popular and widely used evolutionary meta-heuristic for the task of optimization. In this work,  we have proposed a new variant of the same called "Hierarchical Motor Differential Evolution", inspired from the hierarchical structure of the brain motor function. This approach enables the population to follow two distince motion patterns, one governed by their local leaders and one by the global leader. Based on these two influences, the individuals try to achieve the global optimum, and have shown to outperform the algorithms taken under consideration by a appreciable factor, as is clearly depicted through the numerical results and performance plots. however, since the proposed algorithm fizzles on a small fraction of the objective functions, we shall continue our quest to improve it's performance through continous modifications through our future work, and analyse it's performance on several real-world applications.~\cite{cao:frlbd} 
+
+%\bibliographystyle{abbrv}
+\bibliography{sigproc}  % sigproc.bib is the name of the Bibliography in this case
 
 
 % \begin{acks}
@@ -236,22 +243,22 @@ Differential Evolution is one of the most popular and widely used evolutionary m
 
 % \end{acks}
 
-\subsection{Citations}
-Citations to articles~\cite{bowman:reasoning,
-clark:pct, braams:babel, herlihy:methodology},
-conference proceedings~\cite{clark:pct} or maybe
-books \cite{Lamport:LaTeX, salas:calculus} listed
-in the Bibliography section of your
-article will occur throughout the text of your article.
-You should use BibTeX to automatically produce this bibliography;
-you simply need to insert one of several citation commands with
-a key of the item cited in the proper location in
-the \texttt{.tex} file~\cite{Lamport:LaTeX}.
-The key is a short reference you invent to uniquely
-identify each work; in this sample document, the key is
-the first author's surname and a
-word from the title.  This identifying key is included
-with each item in the \texttt{.bib} file for your article.
+% \subsection{Citations}
+% Citations to articles~\cite{bowman:reasoning,
+% clark:pct, braams:babel, herlihy:methodology},
+% conference proceedings~\cite{clark:pct} or maybe
+% books \cite{Lamport:LaTeX, salas:calculus} listed
+% in the Bibliography section of your
+% article will occur throughout the text of your article.
+% You should use BibTeX to automatically produce this bibliography;
+% you simply need to insert one of several citation commands with
+% a key of the item cited in the proper location in
+% the \texttt{.tex} file~\cite{Lamport:LaTeX}.
+% The key is a short reference you invent to uniquely
+% identify each work; in this sample document, the key is
+% the first author's surname and a
+% word from the title.  This identifying key is included
+% with each item in the \texttt{.bib} file for your article.
 
 % The details of the construction of the \texttt{.bib} file
 % are beyond the scope of this sample document, but more
