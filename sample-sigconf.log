@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.17)  31 JAN 2017 21:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.3)  1 FEB 2017 15:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1861,151 +1861,155 @@ Overfull \hbox (1.32315pt too wide) in paragraph at lines 145--146
 ) <images/F1D10.jpeg, id=93, 803.0pt x 602.25pt>
 File: images/F1D10.jpeg Graphic file (type jpg)
  <use images/F1D10.jpeg>
-Package pdftex.def Info: images/F1D10.jpeg used on input line 155.
+Package pdftex.def Info: images/F1D10.jpeg used on input line 162.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F1D30.jpeg, id=94, 803.0pt x 602.25pt>
 File: images/F1D30.jpeg Graphic file (type jpg)
  <use images/F1D30.jpeg>
-Package pdftex.def Info: images/F1D30.jpeg used on input line 159.
+Package pdftex.def Info: images/F1D30.jpeg used on input line 166.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F1D50.jpeg, id=95, 803.0pt x 602.25pt>
 File: images/F1D50.jpeg Graphic file (type jpg)
  <use images/F1D50.jpeg>
-Package pdftex.def Info: images/F1D50.jpeg used on input line 163.
+Package pdftex.def Info: images/F1D50.jpeg used on input line 170.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F1D100.jpeg, id=96, 803.0pt x 602.25pt>
 File: images/F1D100.jpeg Graphic file (type jpg)
  <use images/F1D100.jpeg>
-Package pdftex.def Info: images/F1D100.jpeg used on input line 167.
+Package pdftex.def Info: images/F1D100.jpeg used on input line 174.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F12D10.jpeg, id=97, 803.0pt x 602.25pt>
 File: images/F12D10.jpeg Graphic file (type jpg)
  <use images/F12D10.jpeg>
-Package pdftex.def Info: images/F12D10.jpeg used on input line 172.
+Package pdftex.def Info: images/F12D10.jpeg used on input line 179.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F12D30.jpeg, id=98, 803.0pt x 602.25pt>
 File: images/F12D30.jpeg Graphic file (type jpg)
  <use images/F12D30.jpeg>
-Package pdftex.def Info: images/F12D30.jpeg used on input line 176.
+Package pdftex.def Info: images/F12D30.jpeg used on input line 183.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F12D50.jpeg, id=99, 803.0pt x 602.25pt>
 File: images/F12D50.jpeg Graphic file (type jpg)
  <use images/F12D50.jpeg>
-Package pdftex.def Info: images/F12D50.jpeg used on input line 180.
+Package pdftex.def Info: images/F12D50.jpeg used on input line 187.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F12D100.jpeg, id=100, 803.0pt x 602.25pt>
 File: images/F12D100.jpeg Graphic file (type jpg)
  <use images/F12D100.jpeg>
-Package pdftex.def Info: images/F12D100.jpeg used on input line 184.
+Package pdftex.def Info: images/F12D100.jpeg used on input line 191.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F23D10.jpeg, id=101, 803.0pt x 602.25pt>
 File: images/F23D10.jpeg Graphic file (type jpg)
  <use images/F23D10.jpeg>
-Package pdftex.def Info: images/F23D10.jpeg used on input line 190.
+Package pdftex.def Info: images/F23D10.jpeg used on input line 197.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F23D30.jpeg, id=102, 803.0pt x 602.25pt>
 File: images/F23D30.jpeg Graphic file (type jpg)
  <use images/F23D30.jpeg>
-Package pdftex.def Info: images/F23D30.jpeg used on input line 194.
+Package pdftex.def Info: images/F23D30.jpeg used on input line 201.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F23D50.jpeg, id=103, 803.0pt x 602.25pt>
 File: images/F23D50.jpeg Graphic file (type jpg)
  <use images/F23D50.jpeg>
-Package pdftex.def Info: images/F23D50.jpeg used on input line 198.
+Package pdftex.def Info: images/F23D50.jpeg used on input line 205.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F23D100.jpeg, id=104, 803.0pt x 602.25pt>
 File: images/F23D100.jpeg Graphic file (type jpg)
  <use images/F23D100.jpeg>
-Package pdftex.def Info: images/F23D100.jpeg used on input line 202.
+Package pdftex.def Info: images/F23D100.jpeg used on input line 209.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F27D10.jpeg, id=105, 803.0pt x 602.25pt>
 File: images/F27D10.jpeg Graphic file (type jpg)
  <use images/F27D10.jpeg>
-Package pdftex.def Info: images/F27D10.jpeg used on input line 208.
+Package pdftex.def Info: images/F27D10.jpeg used on input line 215.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F27D30.jpeg, id=106, 803.0pt x 602.25pt>
 File: images/F27D30.jpeg Graphic file (type jpg)
  <use images/F27D30.jpeg>
-Package pdftex.def Info: images/F27D30.jpeg used on input line 212.
+Package pdftex.def Info: images/F27D30.jpeg used on input line 219.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F27D50.jpeg, id=107, 803.0pt x 602.25pt>
 File: images/F27D50.jpeg Graphic file (type jpg)
  <use images/F27D50.jpeg>
-Package pdftex.def Info: images/F27D50.jpeg used on input line 216.
+Package pdftex.def Info: images/F27D50.jpeg used on input line 223.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F27D100.jpeg, id=108, 803.0pt x 602.25pt>
 File: images/F27D100.jpeg Graphic file (type jpg)
  <use images/F27D100.jpeg>
-Package pdftex.def Info: images/F27D100.jpeg used on input line 220.
+Package pdftex.def Info: images/F27D100.jpeg used on input line 227.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F6D50.jpeg, id=109, 803.0pt x 602.25pt>
 File: images/F6D50.jpeg Graphic file (type jpg)
  <use images/F6D50.jpeg>
-Package pdftex.def Info: images/F6D50.jpeg used on input line 225.
+Package pdftex.def Info: images/F6D50.jpeg used on input line 232.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F6D100.jpeg, id=110, 803.0pt x 602.25pt>
 File: images/F6D100.jpeg Graphic file (type jpg)
  <use images/F6D100.jpeg>
-Package pdftex.def Info: images/F6D100.jpeg used on input line 229.
+Package pdftex.def Info: images/F6D100.jpeg used on input line 236.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F20D50.jpeg, id=111, 803.0pt x 602.25pt>
 File: images/F20D50.jpeg Graphic file (type jpg)
  <use images/F20D50.jpeg>
-Package pdftex.def Info: images/F20D50.jpeg used on input line 233.
+Package pdftex.def Info: images/F20D50.jpeg used on input line 240.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F20D100.jpeg, id=112, 803.0pt x 602.25pt>
 File: images/F20D100.jpeg Graphic file (type jpg)
  <use images/F20D100.jpeg>
-Package pdftex.def Info: images/F20D100.jpeg used on input line 237.
+Package pdftex.def Info: images/F20D100.jpeg used on input line 244.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 )
-(./sample-sigconf.bbl) [4.4
-
-] [5.5 <./images/F1D10.jpeg> <./images/F1D30.jpeg> <./images/F1D50.jpeg> <./ima
-ges/F1D100.jpeg> <./images/F12D10.jpeg> <./images/F12D30.jpeg> <./images/F12D50
-.jpeg> <./images/F12D100.jpeg> <./images/F23D10.jpeg> <./images/F23D30.jpeg> <.
-/images/F23D50.jpeg> <./images/F23D100.jpeg> <./images/F27D10.jpeg> <./images/F
-27D30.jpeg> <./images/F27D50.jpeg> <./images/F27D100.jpeg> <./images/F6D50.jpeg
-> <./images/F6D100.jpeg> <./images/F20D50.jpeg> <./images/F20D100.jpeg>] [6.6] 
-[7.7]
+(./sample-sigconf.bbl) [4.4] [5.5 <./images/F1D10.jpeg> <./images/F1D30.jpeg> <
+./images/F1D50.jpeg> <./images/F1D100.jpeg> <./images/F12D10.jpeg> <./images/F1
+2D30.jpeg> <./images/F12D50.jpeg> <./images/F12D100.jpeg> <./images/F23D10.jpeg
+> <./images/F23D30.jpeg> <./images/F23D50.jpeg> <./images/F23D100.jpeg> <./imag
+es/F27D10.jpeg> <./images/F27D30.jpeg> <./images/F27D50.jpeg> <./images/F27D100
+.jpeg> <./images/F6D50.jpeg> <./images/F6D100.jpeg> <./images/F20D50.jpeg> <./i
+mages/F20D100.jpeg>] [6.6] [7.7]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
  (./sample-sigconf.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
-Package rerunfilecheck Info: File `sample-sigconf.out' has not changed.
-(rerunfilecheck)             Checksum: 1883A8CED1C77EAEF8FC20CD5550BE49;520.
 
+
+Package rerunfilecheck Warning: File `sample-sigconf.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `sample-sigconf.out':
+(rerunfilecheck)             Before: 1883A8CED1C77EAEF8FC20CD5550BE49;520
+(rerunfilecheck)             After:  B93194A64630BFC3CFA7A5A8A925DFAF;628.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
  ) 
 Here is how much of TeX's memory you used:
- 14688 strings out of 493029
- 225906 string characters out of 6136234
- 488734 words of memory out of 5000000
+ 14692 strings out of 493029
+ 225998 string characters out of 6136235
+ 492918 words of memory out of 5000000
  17538 multiletter control sequences out of 15000+600000
- 73143 words of font info for 229 fonts, out of 8000000 for 9000
+ 73416 words of font info for 231 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  60i,13n,94p,1646b,608s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/libertinealt.enc}{/usr/s
@@ -2026,10 +2030,10 @@ sr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/newtx/zxlr.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/newtx/zxlri.pfb>
-Output written on sample-sigconf.pdf (7 pages, 1928000 bytes).
+Output written on sample-sigconf.pdf (7 pages, 1929410 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
- 145 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
+ 194 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
  41148 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -137,9 +137,25 @@ Additionaly, The hierarchical crossover parameter $HC$ also influences the mutat
 
 All evaluations were performed using Python 2.7.12 with Scipy and Numpy for numerical computations and Matplotlib package for graphical representation of the result data. This section is divided into two sub-sections: Section A provides description about the problem set used for analysis of algorithmic efficiency and accuracy, and section B comprises of tabular and graphical data to support the claim of eminence of the proposed approach.
 
-\subsection{Problem Set Description}
+\subsection{Problem Set Description and Parameter settings}
 
-The set of objective functions considered for testing the proposed algorithm and compare it's performance against DE, Particle Swarm Optimization Differential Evolution (PSODE) and Joint Adaptive Differential Evolution (JADE) has been taken from the CEC 2017 [] set of benchmark functions.
+The set of objective functions considered for testing the proposed algorithm and compare it's performance against classsical DE and it's variants PSODE and Joint Adaptive Differential Evolution (JADE) have been taken from the CEC 2017 [] set of scalable benchmark functions. Exhaustive comparisions and analysis have been depicted on dimensions D = 10, 30, 50 and 100 for a clear understanding of the strengths of the proposed algorithm. For fair comparisions, the parameters for all algorithms are fixed to the following values: [values of params].
+Summarized in Table [] are the 30 objective functions from the CEC 2017 dataset and the optimal value for each fuction denoted by $F*$. In all simulation runs, we set the population size $NP$ to a fixed value of $40$ and the number of runs for each dimenstions are: [Number of runs], and the results are shown in a tabular structure depicting the best and average values of the population individuals for the simulations. For clarity, we employ a scoring method for determining the reliability of algorithms where the most suitable values for each test function have been highlighted in [bold], and allocated an incremental score of 1.
+At the end of each table, we summarize the performance of each algorithm based on the final score allocated for all 30 objective functions, and ultimately discuss the overall performance of the algorithms based on these scores.
+
+Additionally, several graphical results have been discussed to observe the convergence rate and efficiency of the algorithms used in the simulation. These graphs were plotted based on the numerical results obtained from the simulation runs used to build the tables.
+
+\subsection{Numerical and Graphical Results} 
+
+In Tables 2-5, the best and mean values obtained for the population agents in the simulation runs have been reported, and the optimum results for each objective function have been highlighted in [bold] and allocated an incremental score as discussed in the Parameter section.
+
+%-------------Result Discussion-----------------%
+
+In addition to the tabular information, the plots in Fig. 4 aptly depict the performance of all algorithms across various dimensions and objective functions.
+On overall compilation of the plots, it is clear that HIDE shows a better convergence rate as compared to rest of the algorithms. Moreover, on higher dimensions, the proposed algorithm evidently outperforms all other algorithms both in terms of convergence rate and optimality.
+On lower dimensions (D=10, 30), HIDE shows a performance trend similar to PSODE as shown in Fig. 4 (a, b, e, f, i, j, m, n) and can been seen to produce better end-results as compared to PSODE, DE and JADE in almost all these cases, as was evident from the tabular information as well.
+For problems in higher dimensions (D=50, 100), it is very clear that HIDE optperforms rest of the algorithms by a high margin, especially in Fig. 4 (s, t), where the algorithm displays an impressive convergence rate and a far better optimality than DE, PSODE and JADE. Similarly, in Fig. 4 (k, l, o, p) HIDE shows a faster convergence than any other algorithms considered for comparisions, hence validating the claim that the proposed approach is able to overcome the issue of slow convergence with Differential Evolution algorithm.
+This remarkable trait in HIDE enhances it's utility for high dimensional problems where fast convergence to global optimum value is required, hence making it superior to the other considered algorithms and several variants of the Differential Algorithm
 
 \input{table1}
 %\include{table2}
