@@ -6,49 +6,52 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: sigproc.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--no number and no volume in cec2017benchmark
+Warning--page numbers missing in both pages and numpages fields in cec2017benchmark
 Warning--empty address in dorigo2010ant
 Warning--empty address in kennedy2011particle
+Warning--empty address in onwubolu2013new
 Warning--empty address in passino2005biomimicry
 Warning--empty address in storn1995differential
-You've used 6 entries,
+You've used 12 entries,
             5551 wiz_defined-function locations,
-            1323 strings with 16002 characters,
-and the built_in function-call counts, 5621 in all, are:
-= -- 722
-> -- 174
+            1358 strings with 16928 characters,
+and the built_in function-call counts, 11689 in all, are:
+= -- 1671
+> -- 394
 < -- 0
-+ -- 48
-- -- 72
-* -- 355
-:= -- 637
-add.period$ -- 35
-call.type$ -- 6
-change.case$ -- 33
-chr.to.int$ -- 6
-cite$ -- 10
-duplicate$ -- 468
-empty$ -- 340
-format.name$ -- 84
-if$ -- 1330
++ -- 114
+- -- 152
+* -- 770
+:= -- 1274
+add.period$ -- 67
+call.type$ -- 12
+change.case$ -- 71
+chr.to.int$ -- 12
+cite$ -- 19
+duplicate$ -- 911
+empty$ -- 671
+format.name$ -- 180
+if$ -- 2907
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 14
-newline$ -- 88
-num.names$ -- 48
-pop$ -- 171
+missing$ -- 36
+newline$ -- 136
+num.names$ -- 96
+pop$ -- 332
 preamble$ -- 1
-purify$ -- 63
+purify$ -- 131
 quote$ -- 0
-skip$ -- 151
+skip$ -- 286
 stack$ -- 0
-substring$ -- 432
-swap$ -- 52
+substring$ -- 837
+swap$ -- 93
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 72
-warning$ -- 4
-while$ -- 60
+type$ -- 150
+warning$ -- 7
+while$ -- 112
 width$ -- 0
-write$ -- 144
-(There were 4 warnings)
+write$ -- 246
+(There were 7 warnings)
