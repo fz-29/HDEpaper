@@ -12,46 +12,47 @@ Warning--empty address in dorigo2010ant
 Warning--empty address in kennedy2011particle
 Warning--empty address in onwubolu2013new
 Warning--empty address in passino2005biomimicry
+Warning--empty address in Shaw1982119
 Warning--empty address in storn1995differential
-You've used 12 entries,
+You've used 13 entries,
             5551 wiz_defined-function locations,
-            1358 strings with 16928 characters,
-and the built_in function-call counts, 11689 in all, are:
-= -- 1671
-> -- 394
+            1368 strings with 17235 characters,
+and the built_in function-call counts, 12679 in all, are:
+= -- 1766
+> -- 446
 < -- 0
-+ -- 114
-- -- 152
-* -- 770
-:= -- 1274
-add.period$ -- 67
-call.type$ -- 12
-change.case$ -- 71
-chr.to.int$ -- 12
-cite$ -- 19
-duplicate$ -- 911
-empty$ -- 671
-format.name$ -- 180
-if$ -- 2907
++ -- 129
+- -- 179
+* -- 860
+:= -- 1405
+add.period$ -- 73
+call.type$ -- 13
+change.case$ -- 78
+chr.to.int$ -- 13
+cite$ -- 21
+duplicate$ -- 981
+empty$ -- 722
+format.name$ -- 199
+if$ -- 3108
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 36
-newline$ -- 136
-num.names$ -- 96
-pop$ -- 332
+missing$ -- 37
+newline$ -- 147
+num.names$ -- 106
+pop$ -- 362
 preamble$ -- 1
-purify$ -- 131
+purify$ -- 143
 quote$ -- 0
-skip$ -- 286
+skip$ -- 301
 stack$ -- 0
-substring$ -- 837
-swap$ -- 93
-text.length$ -- 0
+substring$ -- 911
+swap$ -- 97
+text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 150
-warning$ -- 7
-while$ -- 112
+type$ -- 164
+warning$ -- 8
+while$ -- 118
 width$ -- 0
-write$ -- 246
-(There were 7 warnings)
+write$ -- 266
+(There were 8 warnings)

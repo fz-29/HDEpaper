@@ -139,6 +139,23 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Shaw, Kellam, and Mottram}{Shaw
+  et~al\mbox{.}}{1982}]%
+        {Shaw1982119}
+\bibfield{author}{\bibinfo{person}{David~M. Shaw}, \bibinfo{person}{A.M.P.
+  Kellam}, {and} \bibinfo{person}{R.F. Mottram}.}
+  \bibinfo{year}{1982}\natexlab{}.
+\newblock \showarticletitle{Brain Sciences in Psychiatry}.
+\newblock In \bibinfo{booktitle}{{\em Brain Sciences in Psychiatry}},
+  \bibfield{editor}{\bibinfo{person}{David~M. Shaw}, \bibinfo{person}{A.M.P.
+  Kellam}, {and} \bibinfo{person}{R.F. Mottram}} (Eds.).
+  \bibinfo{publisher}{Butterworth-Heinemann}.
+\newblock
+\showISBNx{978-0-407-00236-4}
+\showDOI{%
+\url{http://dx.doi.org/10.1016/B978-0-407-00236-4.50009-4}}
+
+
 \bibitem[\protect\citeauthoryear{Storn and Price}{Storn and Price}{1995}]%
         {storn1995differential}
 \bibfield{author}{\bibinfo{person}{Rainer Storn} {and} \bibinfo{person}{Kenneth
