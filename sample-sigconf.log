@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.17)  2 FEB 2017 18:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.17)  2 FEB 2017 19:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**sample-sigconf
+**sample-sigconf.tex
 (./sample-sigconf.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
@@ -998,7 +998,7 @@ File: images/contourDE.png Graphic file (type png)
 Package pdftex.def Info: images/contourDE.png used on input line 56.
 (pdftex.def)             Requested size: 258.9695pt x 170.13693pt.
 
-Overfull \hbox (17.822pt too wide) in paragraph at lines 56--58
+Overfull \hbox (17.822pt too wide) in paragraph at lines 56--57
  [][] 
  []
 
@@ -1008,57 +1008,56 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <images/contourDL.png, id=80, 963.6pt x 722.7pt>
 File: images/contourDL.png Graphic file (type png)
  <use images/contourDL.png>
-Package pdftex.def Info: images/contourDL.png used on input line 63.
+Package pdftex.def Info: images/contourDL.png used on input line 62.
 (pdftex.def)             Requested size: 240.89941pt x 180.67455pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 7558) has occurred while \output is active []
-
-LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 74.
- [2.2 <./images/contourDE.png> <./images/contourDL.png>]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 76.
+put line 75.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 9.0pt on input line 79.
+(Font)              scaled to size 9.0pt on input line 78.
 Package microtype Info: Character `013' is missing
 (microtype)             in font `OT1/LinuxLibertineT-TLF/m/sc/9'.
 (microtype)             Ignoring protrusion settings for this character.
 
-
-LaTeX Warning: Command \textless invalid in math mode on input line 90.
+LaTeX Warning: Command \textless invalid in math mode on input line 89.
 
 LaTeX Font Info:    Try loading font information for OML+LinuxLibertineT-TLF on
- input line 90.
-LaTeX Font Info:    No file OMLLinuxLibertineT-TLF.fd. on input line 90.
+ input line 89.
+LaTeX Font Info:    No file OMLLinuxLibertineT-TLF.fd. on input line 89.
 
 LaTeX Font Warning: Font shape `OML/LinuxLibertineT-TLF/m/n' undefined
 (Font)              using `OML/nxlmi/m/it' instead
-(Font)              for symbol `textless' on input line 90.
+(Font)              for symbol `textless' on input line 89.
 
 
-LaTeX Warning: Command \textless invalid in math mode on input line 90.
+LaTeX Warning: Command \textless invalid in math mode on input line 89.
 
 
-LaTeX Warning: Command \textless invalid in math mode on input line 98.
+LaTeX Warning: Command \textless invalid in math mode on input line 97.
 
 
-LaTeX Warning: Command \textless invalid in math mode on input line 98.
+LaTeX Warning: Command \textless invalid in math mode on input line 97.
 
 
-LaTeX Warning: Command \textless invalid in math mode on input line 104.
+LaTeX Warning: Command \textless invalid in math mode on input line 103.
 
 
-LaTeX Warning: Command \textless invalid in math mode on input line 104.
+LaTeX Warning: Command \textless invalid in math mode on input line 103.
+
+LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 115.
+[2.2 <./images/contourDE.png> <./images/contourDL.png>]
+Underfull \vbox (badness 1881) has occurred while \output is active []
 
 
-LaTeX Warning: Command \textless invalid in math mode on input line 131.
+
+LaTeX Warning: Command \textless invalid in math mode on input line 130.
 
 
-LaTeX Warning: Command \textless invalid in math mode on input line 131.
+LaTeX Warning: Command \textless invalid in math mode on input line 130.
 
 (./functable.tex
 Missing character: There is no â in font LinLibertineT-tlf-ot1!
@@ -2510,121 +2509,121 @@ Overfull \hbox (1.32315pt too wide) in paragraph at lines 146--147
 ) <images/F1D10.jpeg, id=121, 803.0pt x 602.25pt>
 File: images/F1D10.jpeg Graphic file (type jpg)
  <use images/F1D10.jpeg>
-Package pdftex.def Info: images/F1D10.jpeg used on input line 162.
+Package pdftex.def Info: images/F1D10.jpeg used on input line 161.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F1D30.jpeg, id=122, 803.0pt x 602.25pt>
 File: images/F1D30.jpeg Graphic file (type jpg)
  <use images/F1D30.jpeg>
-Package pdftex.def Info: images/F1D30.jpeg used on input line 166.
+Package pdftex.def Info: images/F1D30.jpeg used on input line 165.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F1D50.jpeg, id=123, 803.0pt x 602.25pt>
 File: images/F1D50.jpeg Graphic file (type jpg)
  <use images/F1D50.jpeg>
-Package pdftex.def Info: images/F1D50.jpeg used on input line 170.
+Package pdftex.def Info: images/F1D50.jpeg used on input line 169.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F1D100.jpeg, id=124, 803.0pt x 602.25pt>
 File: images/F1D100.jpeg Graphic file (type jpg)
  <use images/F1D100.jpeg>
-Package pdftex.def Info: images/F1D100.jpeg used on input line 174.
+Package pdftex.def Info: images/F1D100.jpeg used on input line 173.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F12D10.jpeg, id=125, 803.0pt x 602.25pt>
 File: images/F12D10.jpeg Graphic file (type jpg)
  <use images/F12D10.jpeg>
-Package pdftex.def Info: images/F12D10.jpeg used on input line 179.
+Package pdftex.def Info: images/F12D10.jpeg used on input line 178.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F12D30.jpeg, id=126, 803.0pt x 602.25pt>
 File: images/F12D30.jpeg Graphic file (type jpg)
  <use images/F12D30.jpeg>
-Package pdftex.def Info: images/F12D30.jpeg used on input line 183.
+Package pdftex.def Info: images/F12D30.jpeg used on input line 182.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F12D50.jpeg, id=127, 803.0pt x 602.25pt>
 File: images/F12D50.jpeg Graphic file (type jpg)
  <use images/F12D50.jpeg>
-Package pdftex.def Info: images/F12D50.jpeg used on input line 187.
+Package pdftex.def Info: images/F12D50.jpeg used on input line 186.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F12D100.jpeg, id=128, 803.0pt x 602.25pt>
 File: images/F12D100.jpeg Graphic file (type jpg)
  <use images/F12D100.jpeg>
-Package pdftex.def Info: images/F12D100.jpeg used on input line 191.
+Package pdftex.def Info: images/F12D100.jpeg used on input line 190.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F23D10.jpeg, id=129, 803.0pt x 602.25pt>
 File: images/F23D10.jpeg Graphic file (type jpg)
  <use images/F23D10.jpeg>
-Package pdftex.def Info: images/F23D10.jpeg used on input line 197.
+Package pdftex.def Info: images/F23D10.jpeg used on input line 196.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F23D30.jpeg, id=130, 803.0pt x 602.25pt>
 File: images/F23D30.jpeg Graphic file (type jpg)
  <use images/F23D30.jpeg>
-Package pdftex.def Info: images/F23D30.jpeg used on input line 201.
+Package pdftex.def Info: images/F23D30.jpeg used on input line 200.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F23D50.jpeg, id=131, 803.0pt x 602.25pt>
 File: images/F23D50.jpeg Graphic file (type jpg)
  <use images/F23D50.jpeg>
-Package pdftex.def Info: images/F23D50.jpeg used on input line 205.
+Package pdftex.def Info: images/F23D50.jpeg used on input line 204.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F23D100.jpeg, id=132, 803.0pt x 602.25pt>
 File: images/F23D100.jpeg Graphic file (type jpg)
  <use images/F23D100.jpeg>
-Package pdftex.def Info: images/F23D100.jpeg used on input line 209.
+Package pdftex.def Info: images/F23D100.jpeg used on input line 208.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F27D10.jpeg, id=133, 803.0pt x 602.25pt>
 File: images/F27D10.jpeg Graphic file (type jpg)
  <use images/F27D10.jpeg>
-Package pdftex.def Info: images/F27D10.jpeg used on input line 215.
+Package pdftex.def Info: images/F27D10.jpeg used on input line 214.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F27D30.jpeg, id=134, 803.0pt x 602.25pt>
 File: images/F27D30.jpeg Graphic file (type jpg)
  <use images/F27D30.jpeg>
-Package pdftex.def Info: images/F27D30.jpeg used on input line 219.
+Package pdftex.def Info: images/F27D30.jpeg used on input line 218.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F27D50.jpeg, id=135, 803.0pt x 602.25pt>
 File: images/F27D50.jpeg Graphic file (type jpg)
  <use images/F27D50.jpeg>
-Package pdftex.def Info: images/F27D50.jpeg used on input line 223.
+Package pdftex.def Info: images/F27D50.jpeg used on input line 222.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F27D100.jpeg, id=136, 803.0pt x 602.25pt>
 File: images/F27D100.jpeg Graphic file (type jpg)
  <use images/F27D100.jpeg>
-Package pdftex.def Info: images/F27D100.jpeg used on input line 227.
+Package pdftex.def Info: images/F27D100.jpeg used on input line 226.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F6D50.jpeg, id=137, 803.0pt x 602.25pt>
 File: images/F6D50.jpeg Graphic file (type jpg)
  <use images/F6D50.jpeg>
-Package pdftex.def Info: images/F6D50.jpeg used on input line 232.
+Package pdftex.def Info: images/F6D50.jpeg used on input line 231.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F6D100.jpeg, id=138, 803.0pt x 602.25pt>
 File: images/F6D100.jpeg Graphic file (type jpg)
  <use images/F6D100.jpeg>
-Package pdftex.def Info: images/F6D100.jpeg used on input line 236.
+Package pdftex.def Info: images/F6D100.jpeg used on input line 235.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F20D50.jpeg, id=139, 803.0pt x 602.25pt>
 File: images/F20D50.jpeg Graphic file (type jpg)
  <use images/F20D50.jpeg>
-Package pdftex.def Info: images/F20D50.jpeg used on input line 240.
+Package pdftex.def Info: images/F20D50.jpeg used on input line 239.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 <images/F20D100.jpeg, id=140, 803.0pt x 602.25pt>
 File: images/F20D100.jpeg Graphic file (type jpg)
  <use images/F20D100.jpeg>
-Package pdftex.def Info: images/F20D100.jpeg used on input line 244.
+Package pdftex.def Info: images/F20D100.jpeg used on input line 243.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2667,16 +2666,19 @@ Package rerunfilecheck Info: File `sample-sigconf.out' has not changed.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 171.
  ) 
 Here is how much of TeX's memory you used:
  14829 strings out of 493029
  229103 string characters out of 6136234
- 504035 words of memory out of 5000000
+ 504004 words of memory out of 5000000
  17603 multiletter control sequences out of 15000+600000
  78589 words of font info for 263 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,13n,94p,1696b,606s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,13n,94p,1700b,606s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-4.enc}{/usr
 /share/texlive/texmf-dist/fonts/enc/dvips/newtx/libertinealt.enc}{/usr/share/te
 xlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_tltjc6.enc}{/usr/share/texlive/
@@ -2697,7 +2699,7 @@ share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/newtx/zxlr.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/newtx/zxlri.pfb>
-Output written on sample-sigconf.pdf (8 pages, 1958591 bytes).
+Output written on sample-sigconf.pdf (8 pages, 1957799 bytes).
 PDF statistics:
  239 PDF objects out of 1000 (max. 8388607)
  189 compressed objects within 2 object streams
