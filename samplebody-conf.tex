@@ -59,21 +59,22 @@ generating v in scheme DE}
   \label{fig:contourDE}
 \end{figure}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Hierarchy Influenced Differential Evolution}
+
+Taking inspiration from the human motor system, we model the hierarchical motor operations in our optimization agents, where we define a global leader which influences the action of several distributed local leaders and the particle agents which act as the effectors. The global leader is analogous to the decision making and planning section in the motor system hierarchy whilst, the local leaders correspond to motion generators acting under the influence of the  global leader.
+
 \begin{figure}[h!]
   \includegraphics[scale=0.25]{contourDL}
   \caption{The process for generating generation of $E_g$ and $E_l$ in a 2 dimensional optimization.}
   \label{fig:contourDL}
 \end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Distributed Leader Optimization}
-
-Taking inspiration from the human motor system, we model the hierarchical motor operations in our optimization agents, where we define a global leader which influences the action of several distributed local leaders and the particle agents which act as the effectors. The global leader is analogous to the decision making and planning section in the motor system hierarchy whilst, the local leaders correspond to motion generators acting under the influence of the  global leader.
 
 The position of each particle in the population is affected by the influence of global leaders and local leaders, while also being affected by a randomly chosen particle from the population to induce some stochasticity in the optimization pipeline. We first model the influence of the global leader on the local leaders and the influences of the local leaders  on each population element using equation \eqref{one} and \eqref{two}. We introduce a hierarchical crossover between the two influencing equations governed by a hierarchical crossover parameter $HC$.
 
 \begin{algorithm}
-\caption{Distributed Leader Optimization}
+\caption{Hierarchy Influenced Differential Evolution}
 \label{algo}
 \begin{algorithmic}[1]
   \Procedure{Start}{}
@@ -126,36 +127,30 @@ E_g = g_L + F (l - c)
 E_l = l + F (x - c)
 \end{equation}
 
-
-
 In the algorithm \ref{algo}, The Hierarchical crossover is controlled by the conditional equation $i_c \textless (HC*i_N)$. According to this equation, during the initial phases ($HC$ fraction of total generations) of the optimization procedure, only the local leader is responsible for the motion of the agents, and after a certain amount of time has passed, the global leader also takes part in the motion generation process, signifying the motor control operation.
 Additionaly, The hierarchical crossover parameter $HC$ also influences the mutation process wherein the degree of final mutation is decided based on the probability $HC$.
 \input{functable}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results and Discussions}
 
 All evaluations were performed using Python 2.7.12 with Scipy\cite{oliphant2007python} and Numpy\cite{van2011numpy} for numerical computations and Matplotlib \cite{Hunter:2007} package for graphical representation of the result data. This section is divided into two sub-sections: Section A provides description about the problem set used for analysis of algorithmic efficiency and accuracy, and section B comprises of tabular and graphical data to support the claim of eminence of the proposed approach.
 
 \subsection{Problem Set Description}
 
-The set of objective functions considered for testing the proposed algorithm and compare it's performance against classsical DE and it's variants PSODE and Joint Adaptive Differential Evolution (JADE) have been taken from the CEC 2017 [] set of benchmark functions. Exhaustive comparisions and analysis have been depicted on dimensions D = 10, 30, 50 and 100 for a clear understanding of the strengths of the proposed algorithm. Objective functions $f_1 - f_3$ are simple unimodal functions and $f_4 - f_10$ are multimodal functions with a high number of local optima values. Functions $f_11 - f_20$ are all hybrid functions using a combination of functions from $f_1 - f_10$. The set of composite function range from $f_21 - f_30$ and merges the properties of the sub-functions better while incorporating the basic functions as well as hybrid functoins to increase complexity while maintaining continuity around the global optima.
+The set of objective functions considered for testing the proposed algorithm and compare it's performance against classsical DE and it's variants PSODE and JADE have been taken from the CEC 2017 [] set of benchmark functions. Exhaustive comparisions and analysis have been depicted on dimensions D = 10, 30, 50 and 100 for a clear understanding of the strengths of the proposed algorithm. Objective functions $f_1 - f_3$ are simple unimodal functions and $f_4 - f_10$ are multimodal functions with a high number of local optima values. Functions $f_11 - f_20$ are all hybrid functions using a combination of functions from $f_1 - f_10$. The set of composite function range from $f_21 - f_30$ and merges the properties of the sub-functions better while incorporating the basic functions as well as hybrid functoins to increase complexity while maintaining continuity around the global optima.
 
 Summarized in Table 1 are the 30 objective functions from the CEC 2017 dataset and the global optimum value for each fuction denoted by $F*$. In all simulation runs, we set the population size $NP$ to a fixed value of $40$, and the results are shown in a tabular structure depicting the best and average values of the population individuals for the simulations. Additionally, several graphical results have been discussed to observe the convergence rate and efficiency of the algorithms used in the simulation. These graphs were plotted based on the numerical results obtained from the simulation runs used to build the tables.
 
 \subsection{Parameter Settings}
-
-
 \input{paramsTable}
 
 For fair comparisions, the parameters for all algorithms are fixed to the values depicted in table 2. As clear from the table, we set the parameters F and CR as 0.4 and 0.48 for DE across all experiments. The parameters for JADE were selected as suggested in the original work. These parameter settiings allow transparency in results and a base for fair and clear comparisions in the analysis of the algorithms.
 
 \input{table1}
-
 \input{table3}
 
 %% Convergence Profiles over CEC functions
-\begin{figure*}[t]
+\begin{figure*}[h!]
     \centering
     \begin{subfigure}[b]{0.24\textwidth}
         % \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D10}
@@ -264,8 +259,7 @@ In addition to the tabular information, the plots in Fig. 4 aptly depict the per
 On overall compilation of the plots, it is clear that HIDE shows a better convergence rate as compared to rest of the algorithms. Moreover, on higher dimensions, the proposed algorithm evidently outperforms all other algorithms both in terms of convergence rate and optimality.
 On lower dimensions (D=10, 30), HIDE shows a performance trend similar to PSODE as shown in Fig. 4 (a, b, e, f, i, j, m, n) and can been seen to produce better end-results as compared to PSODE, DE and JADE in almost all these cases, as was evident from the tabular information as well.
 For problems in higher dimensions (D=50, 100), it is very clear that HIDE optperforms rest of the algorithms by a high margin, especially in Fig. 4 (s, t), where the algorithm displays an impressive convergence rate and a far better optimality than DE, PSODE and JADE. Similarly, in Fig. 4 (k, l, o, p) HIDE shows a faster convergence than any other algorithms considered for comparisions, hence validating the claim that the proposed approach is able to overcome the issue of slow convergence with Differential Evolution algorithm.
-This remarkable trait in HIDE enhances it's utility for high dimensional problems where fast convergence to global optimum value is required, hence making it superior to the other considered algorithms and several variants of the Differential Algorithm
-
+This remarkable trait in HIDE enhances it's utility for high dimensional problems where fast convergence to global optimum value is required, hence making it superior to the other considered algorithms and several variants of the Differential Algorithm.
 
 \section{Conclusion}
 %\include{conclude}
