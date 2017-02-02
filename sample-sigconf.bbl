@@ -38,15 +38,70 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
-\bibitem[\protect\citeauthoryear{Cao, Yin, Tang, and Sun}{Cao
-  et~al\mbox{.}}{2010}]%
-        {cao:frlbd}
-\bibfield{author}{\bibinfo{person}{Zhimin Cao}, \bibinfo{person}{Qi Yin},
-  \bibinfo{person}{Xiaoou Tang}, {and} \bibinfo{person}{Jian Sun}.}
-  \bibinfo{year}{2010}\natexlab{}.
-\newblock \showarticletitle{Face recognition with learning-based descriptor}.
-  In \bibinfo{booktitle}{{\em Computer Vision and Pattern Recognition (CVPR),
-  2010 IEEE Conference on}}. IEEE, \bibinfo{pages}{2707--2714}.
+\bibitem[\protect\citeauthoryear{Dorigo and St{\"u}tzle}{Dorigo and
+  St{\"u}tzle}{2010}]%
+        {dorigo2010ant}
+\bibfield{author}{\bibinfo{person}{Marco Dorigo} {and} \bibinfo{person}{Thomas
+  St{\"u}tzle}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Ant colony optimization: overview and recent
+  advances}.
+\newblock In \bibinfo{booktitle}{{\em Handbook of metaheuristics}}.
+  \bibinfo{publisher}{Springer}, \bibinfo{pages}{227--263}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kennedy}{Kennedy}{2011}]%
+        {kennedy2011particle}
+\bibfield{author}{\bibinfo{person}{James Kennedy}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Particle swarm optimization}.
+\newblock In \bibinfo{booktitle}{{\em Encyclopedia of machine learning}}.
+  \bibinfo{publisher}{Springer}, \bibinfo{pages}{760--766}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Passino}{Passino}{2002}]%
+        {passino2002biomimicry}
+\bibfield{author}{\bibinfo{person}{Kevin~M Passino}.}
+  \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Biomimicry of bacterial foraging for distributed
+  optimization and control}.
+\newblock \bibinfo{journal}{{\em IEEE control systems\/}} \bibinfo{volume}{22},
+  \bibinfo{number}{3} (\bibinfo{year}{2002}), \bibinfo{pages}{52--67}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Passino}{Passino}{2005}]%
+        {passino2005biomimicry}
+\bibfield{author}{\bibinfo{person}{Kevin~M Passino}.}
+  \bibinfo{year}{2005}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em Biomimicry for optimization, control, and
+  automation}}.
+\newblock \bibinfo{publisher}{Springer Science \& Business Media}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Storn and Price}{Storn and Price}{1995}]%
+        {storn1995differential}
+\bibfield{author}{\bibinfo{person}{Rainer Storn} {and} \bibinfo{person}{Kenneth
+  Price}.} \bibinfo{year}{1995}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em Differential evolution-a simple and
+  efficient adaptive scheme for global optimization over continuous spaces}}.
+  Vol.~\bibinfo{volume}{3}.
+\newblock \bibinfo{publisher}{ICSI Berkeley}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Zhang and Sanderson}{Zhang and
+  Sanderson}{2009}]%
+        {zhang2009jade}
+\bibfield{author}{\bibinfo{person}{Jingqiao Zhang} {and}
+  \bibinfo{person}{Arthur~C Sanderson}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{JADE: adaptive differential evolution with optional
+  external archive}.
+\newblock \bibinfo{journal}{{\em IEEE Transactions on evolutionary
+  computation\/}} \bibinfo{volume}{13}, \bibinfo{number}{5}
+  (\bibinfo{year}{2009}), \bibinfo{pages}{945--958}.
 \newblock
 
 
