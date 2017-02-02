@@ -38,6 +38,32 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
+\bibitem[\protect\citeauthoryear{Awad, Ali, Liang, Qu, and Suganthan}{Awad
+  et~al\mbox{.}}{2016}]%
+        {cec2017benchmark}
+\bibfield{author}{\bibinfo{person}{NH Awad}, \bibinfo{person}{MZ Ali},
+  \bibinfo{person}{JJ Liang}, \bibinfo{person}{BY Qu}, {and}
+  \bibinfo{person}{PN Suganthan}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Problem Definitions and Evaluation Criteria for the
+  CEC 2017 Special Session and Competition on Single objective Real-Parameter
+  Numerical Optimization}.
+\newblock \bibinfo{journal}{{\em Technical Report,\/}} (\bibinfo{year}{2016}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Das and Suganthan}{Das and Suganthan}{2011}]%
+        {das2011differential}
+\bibfield{author}{\bibinfo{person}{Swagatam Das} {and}
+  \bibinfo{person}{Ponnuthurai~Nagaratnam Suganthan}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Differential evolution: A survey of the
+  state-of-the-art}.
+\newblock \bibinfo{journal}{{\em Evolutionary Computation, IEEE Transactions
+  on\/}} \bibinfo{volume}{15}, \bibinfo{number}{99} (\bibinfo{year}{2011}),
+  \bibinfo{pages}{4--31}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Dorigo and St{\"u}tzle}{Dorigo and
   St{\"u}tzle}{2010}]%
         {dorigo2010ant}
@@ -50,6 +76,17 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Hunter}{Hunter}{2007}]%
+        {Hunter:2007}
+\bibfield{author}{\bibinfo{person}{J.~D. Hunter}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Matplotlib: A 2D graphics environment}.
+\newblock \bibinfo{journal}{{\em Computing In Science \& Engineering\/}}
+  \bibinfo{volume}{9}, \bibinfo{number}{3} (\bibinfo{year}{2007}),
+  \bibinfo{pages}{90--95}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Kennedy}{Kennedy}{2011}]%
         {kennedy2011particle}
 \bibfield{author}{\bibinfo{person}{James Kennedy}.}
@@ -57,6 +94,27 @@
 \newblock \showarticletitle{Particle swarm optimization}.
 \newblock In \bibinfo{booktitle}{{\em Encyclopedia of machine learning}}.
   \bibinfo{publisher}{Springer}, \bibinfo{pages}{760--766}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Oliphant}{Oliphant}{2007}]%
+        {oliphant2007python}
+\bibfield{author}{\bibinfo{person}{Travis~E Oliphant}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Python for scientific computing}.
+\newblock \bibinfo{journal}{{\em Computing in Science \& Engineering\/}}
+  \bibinfo{volume}{9}, \bibinfo{number}{3} (\bibinfo{year}{2007}),
+  \bibinfo{pages}{10--20}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Onwubolu and Babu}{Onwubolu and Babu}{2013}]%
+        {onwubolu2013new}
+\bibfield{author}{\bibinfo{person}{Godfrey~C Onwubolu} {and}
+  \bibinfo{person}{BV Babu}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em New optimization techniques in
+  engineering}}. Vol.~\bibinfo{volume}{141}.
+\newblock \bibinfo{publisher}{Springer}.
 \newblock
 
 
@@ -81,6 +139,23 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Shaw, Kellam, and Mottram}{Shaw
+  et~al\mbox{.}}{1982}]%
+        {Shaw1982119}
+\bibfield{author}{\bibinfo{person}{David~M. Shaw}, \bibinfo{person}{A.M.P.
+  Kellam}, {and} \bibinfo{person}{R.F. Mottram}.}
+  \bibinfo{year}{1982}\natexlab{}.
+\newblock \showarticletitle{Brain Sciences in Psychiatry}.
+\newblock In \bibinfo{booktitle}{{\em Brain Sciences in Psychiatry}},
+  \bibfield{editor}{\bibinfo{person}{David~M. Shaw}, \bibinfo{person}{A.M.P.
+  Kellam}, {and} \bibinfo{person}{R.F. Mottram}} (Eds.).
+  \bibinfo{publisher}{Butterworth-Heinemann}.
+\newblock
+\showISBNx{978-0-407-00236-4}
+\showDOI{%
+\url{http://dx.doi.org/10.1016/B978-0-407-00236-4.50009-4}}
+
+
 \bibitem[\protect\citeauthoryear{Storn and Price}{Storn and Price}{1995}]%
         {storn1995differential}
 \bibfield{author}{\bibinfo{person}{Rainer Storn} {and} \bibinfo{person}{Kenneth
@@ -89,6 +164,20 @@
   efficient adaptive scheme for global optimization over continuous spaces}}.
   Vol.~\bibinfo{volume}{3}.
 \newblock \bibinfo{publisher}{ICSI Berkeley}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Van Der~Walt, Colbert, and Varoquaux}{Van
+  Der~Walt et~al\mbox{.}}{2011}]%
+        {van2011numpy}
+\bibfield{author}{\bibinfo{person}{Stefan Van Der~Walt},
+  \bibinfo{person}{S~Chris Colbert}, {and} \bibinfo{person}{Gael Varoquaux}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{The NumPy array: a structure for efficient
+  numerical computation}.
+\newblock \bibinfo{journal}{{\em Computing in Science \& Engineering\/}}
+  \bibinfo{volume}{13}, \bibinfo{number}{2} (\bibinfo{year}{2011}),
+  \bibinfo{pages}{22--30}.
 \newblock
 
 

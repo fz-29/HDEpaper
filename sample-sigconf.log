@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.3)  2 FEB 2017 17:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.3)  2 FEB 2017 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -703,85 +703,88 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count145
 \@thisrulewidth=\dimen159
 )
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen160
+)
 (./sample-sigconf.aux)
 \openout1 = `sample-sigconf.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 40.
-LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 40
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 41.
+LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 41
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 40.
-LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 40
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 41.
+LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 41
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/omsntxsy.fd
 File: omsntxsy.fd 2012/11/14 Fontinst v1.933 font definitions for OMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 40.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 40.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 41.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 41.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 40.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 40.
+(Font)              scaled to size 7.0pt on input line 41.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 40.
+(Font)              scaled to size 7.3pt on input line 41.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 40.
-LaTeX Font Info:    Try loading font information for U+msa on input line 40.
+(Font)              scaled to size 5.5pt on input line 41.
+LaTeX Font Info:    Try loading font information for U+msa on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 40.
+LaTeX Font Info:    Try loading font information for U+msb on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 40.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 41.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 40.
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 41.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 40.
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 41.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Info: Redefining \microtypecontext on input line 40.
+LaTeX Info: Redefining \microtypecontext on input line 41.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -798,7 +801,7 @@ Package microtype Info: Loading generic settings for font family
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box35
-Package hyperref Info: Link coloring OFF on input line 40.
+Package hyperref Info: Link coloring OFF on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -808,9 +811,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count146
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 41.
+LaTeX Info: Redefining \pageref on input line 41.
+LaTeX Info: Redefining \nameref on input line 41.
 
 (./sample-sigconf.out) (./sample-sigconf.out)
 \@outlinefile=\write4
@@ -820,13 +823,13 @@ LaTeX Info: Redefining \nameref on input line 40.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count147
-\scratchdimen=\dimen160
+\scratchdimen=\dimen161
 \scratchbox=\box36
 \nofMPsegments=\count148
 \nofMParguments=\count149
 \everyMPshowfont=\toks34
 \MPscratchCnt=\count150
-\MPscratchDim=\dimen161
+\MPscratchDim=\dimen162
 \MPnumerator=\count151
 \makeMPintoPDFobject=\count152
 \everyMPtoPDFconversion=\toks35
@@ -891,16 +894,16 @@ Package caption Info: End \AtBeginDocument code.
 
 Excluding 'CCSXML' comment.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 162.
+(Font)              scaled to size 17.28pt on input line 164.
 LaTeX Font Info:    Try loading font information for OT1+LinuxBiolinumT-TLF on 
-input line 162.
+input line 164.
 
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/OT1LinuxBiolinumT-TLF.fd
 File: OT1LinuxBiolinumT-TLF.fd 2012/11/26 (autoinst) Font definitions for OT1/L
 inuxBiolinumT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 162.
+(Font)              scaled to size 17.28pt on input line 164.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinuxBiolinumT-TLF' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -908,34 +911,34 @@ Package microtype Info: Loading generic settings for font family
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/bx/n' in size <17.28> no
 t available
 (Font)              Font shape `OT1/LinuxBiolinumT-TLF/b/n' tried instead on in
-put line 162.
+put line 164.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 162.
+(Font)              scaled to size 17.28pt on input line 164.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 162.
+(Font)              scaled to size 12.0pt on input line 164.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 162.
+(Font)              scaled to size 10.0pt on input line 164.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 7.0pt on input line 162.
+(Font)              scaled to size 7.0pt on input line 164.
 LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
- input line 162.
+ input line 164.
 
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
 File: TS1LinuxLibertineT-TLF.fd 2012/11/26 (autoinst) Font definitions for TS1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 162.
+(Font)              scaled to size 7.0pt on input line 164.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 162.
+(Font)              scaled to size 9.0pt on input line 164.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 162.
+(Font)              scaled to size 10.95pt on input line 164.
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 162.
+(Font)              scaled to size 9.0pt on input line 164.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
@@ -944,42 +947,42 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 162.
+(Font)              scaled to size 9.0pt on input line 164.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 162.
+(Font)              scaled to size 8.0pt on input line 164.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 162.
+(Font)              scaled to size 8.0pt on input line 164.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 162.
+(Font)              scaled to size 8.0pt on input line 164.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.2pt on input line 162.
+(Font)              scaled to size 6.2pt on input line 164.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 162.
+(hyperref)                removing `math shift' on input line 164.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\to' on input line 162.
+(hyperref)                removing `\to' on input line 164.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 162.
+(hyperref)                removing `math shift' on input line 164.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 162.
+(hyperref)                removing `math shift' on input line 164.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\to' on input line 162.
+(hyperref)                removing `\to' on input line 164.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 162.
+(hyperref)                removing `math shift' on input line 164.
 
 (./samplebody-conf.tex
-<images/motorControl.png, id=48, 383.4325pt x 362.35374pt>
+<images/motorControl.png, id=49, 383.4325pt x 362.35374pt>
 File: images/motorControl.png Graphic file (type png)
 
 <use images/motorControl.png>
@@ -988,7 +991,7 @@ Package pdftex.def Info: images/motorControl.png used on input line 7.
  [1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./images/motorControl.png>]
-<images/contourDE.png, id=71, 863.225pt x 567.11874pt>
+<images/contourDE.png, id=79, 863.225pt x 567.11874pt>
 File: images/contourDE.png Graphic file (type png)
 
 <use images/contourDE.png>
@@ -1002,7 +1005,7 @@ Overfull \hbox (17.822pt too wide) in paragraph at lines 56--58
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/contourDL.png, id=72, 963.6pt x 722.7pt>
+<images/contourDL.png, id=80, 963.6pt x 722.7pt>
 File: images/contourDL.png Graphic file (type png)
  <use images/contourDL.png>
 Package pdftex.def Info: images/contourDL.png used on input line 63.
@@ -1068,7 +1071,12 @@ Missing character: There is no â in font LinLibertineT-tlf-ot1!
 Missing character: There is no ™ in font LinLibertineT-tlf-ot1!
 Missing character: There is no â in font LinLibertineT-tlf-ot1!
 Missing character: There is no ™ in font LinLibertineT-tlf-ot1!
-) [3.3] (./paramsTable.tex) (./table1.tex
+) [3.3] (./paramsTable.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 16.
+
+) (./table1.tex
 Overfull \hbox (2.69734pt too wide) in paragraph at lines 30--30
 []\OT1/LinuxLibertineT-TLF/b/n/9 1694.437597| 
  []
@@ -1554,1132 +1562,1145 @@ Overfull \hbox (2.93134pt too wide) in paragraph at lines 145--146
  []
 
 ) (./table3.tex
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 12--12
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 13--13
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 5884574.87314| 
  []
 
 
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 12--12
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 13--13
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 367294248.521| 
  []
 
 
-Overfull \hbox (5.42445pt too wide) in paragraph at lines 12--12
+Overfull \hbox (5.42445pt too wide) in paragraph at lines 13--13
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 154233.646744| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 12--14
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 13--15
 []\OT1/LinuxLibertineT-TLF/b/n/9 3665.419272| 
  []
 
 
-Overfull \hbox (1.91408pt too wide) in paragraph at lines 14--14
+Overfull \hbox (1.91408pt too wide) in paragraph at lines 15--15
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 4.718137e+24| 
  []
 
 
-Overfull \hbox (2.12108pt too wide) in paragraph at lines 14--14
+Overfull \hbox (2.12108pt too wide) in paragraph at lines 15--15
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 3.364977e+44| 
  []
 
 
-Overfull \hbox (2.91335pt too wide) in paragraph at lines 14--14
+Overfull \hbox (2.91335pt too wide) in paragraph at lines 15--15
 []\OT1/LinuxLibertineT-TLF/b/n/9 5.02374e+26| 
  []
 
 
-Overfull \hbox (2.12108pt too wide) in paragraph at lines 14--14
+Overfull \hbox (2.12108pt too wide) in paragraph at lines 15--15
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 2.212101e+19| 
  []
 
 
-Overfull \hbox (2.12108pt too wide) in paragraph at lines 14--14
+Overfull \hbox (2.12108pt too wide) in paragraph at lines 15--15
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 2.544543e+23| 
  []
 
 
-Overfull \hbox (2.12108pt too wide) in paragraph at lines 14--14
+Overfull \hbox (2.12108pt too wide) in paragraph at lines 15--15
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 2.279950e+17| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 16--16
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 17--17
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 45520.966376| 
  []
 
 
-Overfull \hbox (1.53015pt too wide) in paragraph at lines 16--16
+Overfull \hbox (1.53015pt too wide) in paragraph at lines 17--17
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 62237.296819| 
  []
 
 
-Overfull \hbox (5.42445pt too wide) in paragraph at lines 16--16
+Overfull \hbox (5.42445pt too wide) in paragraph at lines 17--17
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 143481.793147| 
  []
 
 
-Overfull \hbox (5.42445pt too wide) in paragraph at lines 16--16
+Overfull \hbox (5.42445pt too wide) in paragraph at lines 17--17
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 156166.762356| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 16--16
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 17--17
 []\OT1/LinuxLibertineT-TLF/b/n/9 44613.29993| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 16--18
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 17--19
 []\OT1/LinuxLibertineT-TLF/b/n/9 58182.83733| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 26--26
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 27--27
 []\OT1/LinuxLibertineT-TLF/b/n/9 1144.604745| 
  []
 
 
-Overfull \hbox (1.53015pt too wide) in paragraph at lines 28--28
+Overfull \hbox (1.53015pt too wide) in paragraph at lines 29--29
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 22196.387817| 
  []
 
 
-Overfull \hbox (1.53015pt too wide) in paragraph at lines 28--28
+Overfull \hbox (1.53015pt too wide) in paragraph at lines 29--29
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 29218.775982| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 28--28
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 29--29
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 11958.280061| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 28--28
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 29--29
 []\OT1/LinuxLibertineT-TLF/b/n/9 13174.66236| 
  []
 
 
-Overfull \hbox (1.53015pt too wide) in paragraph at lines 28--28
+Overfull \hbox (1.53015pt too wide) in paragraph at lines 29--29
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 24753.040541| 
  []
 
 
-Overfull \hbox (2.17265pt too wide) in paragraph at lines 28--28
+Overfull \hbox (2.17265pt too wide) in paragraph at lines 29--29
 []\OT1/LinuxLibertineT-TLF/b/n/9 10251.4763\OT1/LinuxLibertineT-TLF/m/n/9 (-20)
  1| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 30--30
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 31--31
 []\OT1/LinuxLibertineT-TLF/b/n/9 6050.434374| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 30--32
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 31--33
 []\OT1/LinuxLibertineT-TLF/b/n/9 6609.804567| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 32--32
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 33--33
 []\OT1/LinuxLibertineT-TLF/b/n/9 1156.439606| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 32--34
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 33--35
 []\OT1/LinuxLibertineT-TLF/b/n/9 1205.254497| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 34--34
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 35--35
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 16987989.981| 
  []
 
 
-Overfull \hbox (1.53015pt too wide) in paragraph at lines 34--34
+Overfull \hbox (1.53015pt too wide) in paragraph at lines 35--35
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 3448448.7906| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 34--36
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 35--37
 []\OT1/LinuxLibertineT-TLF/b/n/9 494471.0756| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 36--36
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 37--37
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 16893.949921| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 36--36
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 37--37
 []\OT1/LinuxLibertineT-TLF/b/n/9 4301.829606| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 36--36
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 37--37
 []\OT1/LinuxLibertineT-TLF/b/n/9 1484.761799| 
  []
 
 
-Overfull \hbox (1.53015pt too wide) in paragraph at lines 38--38
+Overfull \hbox (1.53015pt too wide) in paragraph at lines 39--39
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 38490.532315| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 38--38
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 39--39
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 174367.45065| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 38--38
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 39--39
 []\OT1/LinuxLibertineT-TLF/b/n/9 2466.047056| 
  []
 
 
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 38--38
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 39--39
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 238838.470051| 
  []
 
 
-Overfull \hbox (1.53015pt too wide) in paragraph at lines 38--38
+Overfull \hbox (1.53015pt too wide) in paragraph at lines 39--39
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 67939.000264| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 38--40
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 39--41
 []\OT1/LinuxLibertineT-TLF/b/n/9 26290.31618| 
  []
 
 
-Overfull \hbox (1.53015pt too wide) in paragraph at lines 40--40
+Overfull \hbox (1.53015pt too wide) in paragraph at lines 41--41
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 26989.255509| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 40--40
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 41--41
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 13553.041864| 
  []
 
 
-Overfull \hbox (1.53015pt too wide) in paragraph at lines 40--40
+Overfull \hbox (1.53015pt too wide) in paragraph at lines 41--41
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 25636.769611| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 40--40
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 41--41
 []\OT1/LinuxLibertineT-TLF/b/n/9 9167.267098| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 40--40
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 41--41
 []\OT1/LinuxLibertineT-TLF/b/n/9 1938.200405| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 42--42
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 43--43
 []\OT1/LinuxLibertineT-TLF/b/n/9 2345.400708| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 42--42
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 43--43
 []\OT1/LinuxLibertineT-TLF/b/n/9 2916.561016| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 44--44
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 45--45
 []\OT1/LinuxLibertineT-TLF/b/n/9 2561.370306| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 44--46
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 45--47
 []\OT1/LinuxLibertineT-TLF/b/n/9 2874.965038| 
  []
 
 
-Overfull \hbox (1.53015pt too wide) in paragraph at lines 46--46
+Overfull \hbox (1.53015pt too wide) in paragraph at lines 47--47
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 264037.12570| 
  []
 
 
-Overfull \hbox (1.53015pt too wide) in paragraph at lines 46--46
+Overfull \hbox (1.53015pt too wide) in paragraph at lines 47--47
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 872072.47739| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 46--46
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 47--47
 []\OT1/LinuxLibertineT-TLF/b/n/9 113941.3176| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 46--46
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 47--47
 []\OT1/LinuxLibertineT-TLF/b/n/9 26965.28512| 
  []
 
 
-Overfull \hbox (5.42445pt too wide) in paragraph at lines 46--46
+Overfull \hbox (5.42445pt too wide) in paragraph at lines 47--47
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 114846.121366| 
  []
 
 
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 46--46
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 47--47
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 260540.781819| 
  []
 
 
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 46--48
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 47--49
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 536454.326476| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 48--48
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 49--49
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 10051.912407| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 48--48
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 49--49
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 16555.756926| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 48--48
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 49--49
 []\OT1/LinuxLibertineT-TLF/b/n/9 2013.126904| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 48--50
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 49--51
 []\OT1/LinuxLibertineT-TLF/b/n/9 3609.258962| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 50--50
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 51--51
 []\OT1/LinuxLibertineT-TLF/b/n/9 2495.031774| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 50--52
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 51--53
 []\OT1/LinuxLibertineT-TLF/b/n/9 3080.137478| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 52--52
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 53--53
 []\OT1/LinuxLibertineT-TLF/b/n/9 2447.758274| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 52--54
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 53--55
 []\OT1/LinuxLibertineT-TLF/b/n/9 2570.911014| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 54--54
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 55--55
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 10803.653732| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 54--54
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 55--55
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 11032.880953| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 54--54
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 55--55
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 10465.022457| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 54--54
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 55--55
 []\OT1/LinuxLibertineT-TLF/b/n/9 8181.446081| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 54--56
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 55--57
 []\OT1/LinuxLibertineT-TLF/b/n/9 9755.070369| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 56--56
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 57--57
 []\OT1/LinuxLibertineT-TLF/b/n/9 2851.650254| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 56--58
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 57--59
 []\OT1/LinuxLibertineT-TLF/b/n/9 3162.313622| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 58--58
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 59--59
 []\OT1/LinuxLibertineT-TLF/b/n/9 3036.799607| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 58--58
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 59--59
 []\OT1/LinuxLibertineT-TLF/b/n/9 3158.330504| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 60--60
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 61--61
 []\OT1/LinuxLibertineT-TLF/b/n/9 2931.142314| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 60--62
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 61--63
 []\OT1/LinuxLibertineT-TLF/b/n/9 2954.767839| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 62--64
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 63--65
 []\OT1/LinuxLibertineT-TLF/b/n/9 3262.668498| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 64--64
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 65--65
 []\OT1/LinuxLibertineT-TLF/b/n/9 3141.010872| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 64--66
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 65--67
 []\OT1/LinuxLibertineT-TLF/b/n/9 3176.011524| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 66--66
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 67--67
 []\OT1/LinuxLibertineT-TLF/b/n/9 3240.725865| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 66--66
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 67--67
 []\OT1/LinuxLibertineT-TLF/b/n/9 3288.253039| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 68--68
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 69--69
 []\OT1/LinuxLibertineT-TLF/b/n/9 3533.945743| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 68--68
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 69--69
 []\OT1/LinuxLibertineT-TLF/b/n/9 3956.835243| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 70--70
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 71--71
 []\OT1/LinuxLibertineT-TLF/b/n/9 3346.483679| 
  []
 
 
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 87--87
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 88--88
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 3427212811.79| 
  []
 
 
-Overfull \hbox (5.42445pt too wide) in paragraph at lines 87--87
+Overfull \hbox (5.42445pt too wide) in paragraph at lines 88--88
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 13807281895.7| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 87--87
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 88--88
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 13516.698933| 
  []
 
 
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 87--87
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 88--88
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 6067123.52108| 
  []
 
 
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 87--87
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 88--88
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 29751976.5091| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 87--89
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 88--90
 []\OT1/LinuxLibertineT-TLF/b/n/9 11708.82360| 
  []
 
 
-Overfull \hbox (1.91408pt too wide) in paragraph at lines 89--89
+Overfull \hbox (1.91408pt too wide) in paragraph at lines 90--90
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 1.54741e+112| 
  []
 
 
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 91--91
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 92--92
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 208808.969094| 
  []
 
 
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 91--91
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 92--92
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 242699.687639| 
  []
 
 
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 91--91
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 92--92
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 312244.360944| 
  []
 
 
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 91--91
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 92--92
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 332179.290693| 
  []
 
 
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 91--91
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 92--92
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 241427.723667| 
  []
 
 
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 91--91
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 92--92
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 257462.977885| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 91--91
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 92--92
 []\OT1/LinuxLibertineT-TLF/b/n/9 220765.0838| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 91--93
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 92--94
 []\OT1/LinuxLibertineT-TLF/b/n/9 251901.1093| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 99--99
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 100--100
 []\OT1/LinuxLibertineT-TLF/b/n/9 1311.849757| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 99--99
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 100--100
 []\OT1/LinuxLibertineT-TLF/b/n/9 1534.207764| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 101--101
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 102--102
 []\OT1/LinuxLibertineT-TLF/b/n/9 1293.552115| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 101--103
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 102--104
 []\OT1/LinuxLibertineT-TLF/b/n/9 1592.162983| 
  []
 
 
-Overfull \hbox (1.53015pt too wide) in paragraph at lines 103--103
+Overfull \hbox (1.53015pt too wide) in paragraph at lines 104--104
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 59726.514621| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 103--103
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 104--104
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 71986.043905| 
  []
 
 
-Overfull \hbox (1.53015pt too wide) in paragraph at lines 103--103
+Overfull \hbox (1.53015pt too wide) in paragraph at lines 104--104
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 30336.745335| 
  []
 
 
-Overfull \hbox (1.53015pt too wide) in paragraph at lines 103--103
+Overfull \hbox (1.53015pt too wide) in paragraph at lines 104--104
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 63640.331351| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 103--103
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 104--104
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 74961.220998| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 103--103
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 104--104
 []\OT1/LinuxLibertineT-TLF/b/n/9 23466.57501| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 103--105
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 104--106
 []\OT1/LinuxLibertineT-TLF/b/n/9 27067.02959| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 105--105
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 106--106
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 12005.889721| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 105--105
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 106--106
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 14725.348334| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 105--105
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 106--106
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 14227.801909| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 105--105
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 106--106
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 15355.621891| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 105--105
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 106--106
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 12937.027857| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 105--105
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 106--106
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 14972.950738| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 105--105
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 106--106
 []\OT1/LinuxLibertineT-TLF/b/n/9 11153.58683| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 105--107
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 106--108
 []\OT1/LinuxLibertineT-TLF/b/n/9 13298.09210| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 107--107
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 108--108
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 11481.260145| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 107--107
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 108--108
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 40447.548688| 
  []
 
 
-Overfull \hbox (1.53015pt too wide) in paragraph at lines 107--107
+Overfull \hbox (1.53015pt too wide) in paragraph at lines 108--108
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 57228.683666| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 107--107
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 108--108
 []\OT1/LinuxLibertineT-TLF/b/n/9 3521.901521| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 107--107
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 108--108
 []\OT1/LinuxLibertineT-TLF/b/n/9 4544.804011| 
  []
 
 
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 109--109
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 110--110
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 529993877.325| 
  []
 
 
-Overfull \hbox (5.42445pt too wide) in paragraph at lines 109--109
+Overfull \hbox (5.42445pt too wide) in paragraph at lines 110--110
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 1881773956.29| 
  []
 
 
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 109--109
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 110--110
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 2893556.27222| 
  []
 
 
-Overfull \hbox (1.53015pt too wide) in paragraph at lines 109--109
+Overfull \hbox (1.53015pt too wide) in paragraph at lines 110--110
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 6415173.6097| 
  []
 
 
-Overfull \hbox (1.53015pt too wide) in paragraph at lines 109--109
+Overfull \hbox (1.53015pt too wide) in paragraph at lines 110--110
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 26105108.937| 
  []
 
 
-Overfull \hbox (5.42445pt too wide) in paragraph at lines 109--109
+Overfull \hbox (5.42445pt too wide) in paragraph at lines 110--110
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 41876679.0862| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 109--109
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 110--110
 []\OT1/LinuxLibertineT-TLF/b/n/9 3680108.181| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 109--111
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 110--112
 []\OT1/LinuxLibertineT-TLF/b/n/9 10059039.63| 
  []
 
 
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 111--111
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 112--112
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 508209.562668| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 111--111
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 112--112
 []\OT1/LinuxLibertineT-TLF/b/n/9 8892.775994| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 111--111
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 112--112
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 12675.845535| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 111--111
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 112--112
 []\OT1/LinuxLibertineT-TLF/b/n/9 2976.841354| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 111--113
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 112--114
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 11376.986338| 
  []
 
 
-Overfull \hbox (5.42445pt too wide) in paragraph at lines 113--113
+Overfull \hbox (5.42445pt too wide) in paragraph at lines 114--114
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 728122.833253| 
  []
 
 
-Overfull \hbox (5.42445pt too wide) in paragraph at lines 113--113
+Overfull \hbox (5.42445pt too wide) in paragraph at lines 114--114
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 1329183.17224| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 113--113
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 114--114
 []\OT1/LinuxLibertineT-TLF/b/n/9 132194.7952| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 113--113
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 114--114
 []\OT1/LinuxLibertineT-TLF/b/n/9 365560.8816| 
  []
 
 
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 113--113
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 114--114
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 548410.338286| 
  []
 
 
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 113--113
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 114--114
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 941547.524763| 
  []
 
 
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 113--113
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 114--114
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 234045.940166| 
  []
 
 
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 113--115
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 114--116
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 867160.306892| 
  []
 
 
-Overfull \hbox (5.42445pt too wide) in paragraph at lines 115--115
+Overfull \hbox (5.42445pt too wide) in paragraph at lines 116--116
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 181957.060133| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 115--115
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 116--116
 []\OT1/LinuxLibertineT-TLF/b/n/9 1799.506503| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 117--117
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 118--118
 []\OT1/LinuxLibertineT-TLF/b/n/9 3519.494945| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 117--119
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 118--120
 []\OT1/LinuxLibertineT-TLF/b/n/9 4796.802728| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 119--119
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 120--120
 []\OT1/LinuxLibertineT-TLF/b/n/9 4450.177422| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 119--119
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 120--120
 []\OT1/LinuxLibertineT-TLF/b/n/9 3582.785882| 
  []
 
 
-Overfull \hbox (5.42445pt too wide) in paragraph at lines 121--121
+Overfull \hbox (5.42445pt too wide) in paragraph at lines 122--122
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 1357845.39305| 
  []
 
 
-Overfull \hbox (5.42445pt too wide) in paragraph at lines 121--121
+Overfull \hbox (5.42445pt too wide) in paragraph at lines 122--122
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 1938893.27972| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 121--121
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 122--122
 []\OT1/LinuxLibertineT-TLF/b/n/9 146426.2736| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 121--121
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 122--122
 []\OT1/LinuxLibertineT-TLF/b/n/9 763318.8226| 
  []
 
 
-Overfull \hbox (5.42445pt too wide) in paragraph at lines 121--121
+Overfull \hbox (5.42445pt too wide) in paragraph at lines 122--122
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 1004224.20385| 
  []
 
 
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 121--121
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 122--122
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 2315010.29868| 
  []
 
 
-Overfull \hbox (1.53015pt too wide) in paragraph at lines 121--121
+Overfull \hbox (1.53015pt too wide) in paragraph at lines 122--122
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 631040.14635| 
  []
 
 
-Overfull \hbox (5.42445pt too wide) in paragraph at lines 121--123
+Overfull \hbox (5.42445pt too wide) in paragraph at lines 122--124
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 1335739.59138| 
  []
 
 
-Overfull \hbox (1.53015pt too wide) in paragraph at lines 123--123
+Overfull \hbox (1.53015pt too wide) in paragraph at lines 124--124
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 26455.706954| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 123--123
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 124--124
 []\OT1/LinuxLibertineT-TLF/b/n/9 2071.077067| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 123--125
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 124--126
 []\OT1/LinuxLibertineT-TLF/b/n/9 3664.159878| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 125--125
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 126--126
 []\OT1/LinuxLibertineT-TLF/b/n/9 3627.777893| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 125--127
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 126--128
 []\OT1/LinuxLibertineT-TLF/b/n/9 5228.430669| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 127--127
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 128--128
 []\OT1/LinuxLibertineT-TLF/b/n/9 3085.692252| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 127--127
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 128--128
 []\OT1/LinuxLibertineT-TLF/b/n/9 2885.574085| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 129--129
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 130--130
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 17808.897744| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 129--129
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 130--130
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 19562.986646| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 129--129
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 130--130
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 19213.375668| 
  []
 
 
-Overfull \hbox (1.53015pt too wide) in paragraph at lines 129--129
+Overfull \hbox (1.53015pt too wide) in paragraph at lines 130--130
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 20278.929093| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 129--129
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 130--130
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 18695.522312| 
  []
 
 
-Overfull \hbox (1.53015pt too wide) in paragraph at lines 129--129
+Overfull \hbox (1.53015pt too wide) in paragraph at lines 130--130
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 20167.413741| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 129--129
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 130--130
 []\OT1/LinuxLibertineT-TLF/b/n/9 17548.33905| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 129--131
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 130--132
 []\OT1/LinuxLibertineT-TLF/b/n/9 19547.15124| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 131--131
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 132--132
 []\OT1/LinuxLibertineT-TLF/b/n/9 3352.556985| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 131--133
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 132--134
 []\OT1/LinuxLibertineT-TLF/b/n/9 3609.098575| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 133--133
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 134--134
 []\OT1/LinuxLibertineT-TLF/b/n/9 3801.368588| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 133--133
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 134--134
 []\OT1/LinuxLibertineT-TLF/b/n/9 4042.426859| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 135--135
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 136--136
 []\OT1/LinuxLibertineT-TLF/b/n/9 3153.485413| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 137--137
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 138--138
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 11924.799473| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 137--137
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 138--138
 []\OT1/LinuxLibertineT-TLF/b/n/9 2900.000382| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 139--139
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 140--140
 []\OT1/LinuxLibertineT-TLF/b/n/9 3194.809213| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 139--141
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 140--142
 []\OT1/LinuxLibertineT-TLF/b/n/9 3200.023953| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 141--141
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 142--142
 []\OT1/LinuxLibertineT-TLF/b/n/9 3295.122914| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 141--141
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 142--142
 []\OT1/LinuxLibertineT-TLF/b/n/9 3340.280383| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 143--143
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 144--144
 []\OT1/LinuxLibertineT-TLF/b/n/9 4541.195471| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 143--145
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 144--146
 []\OT1/LinuxLibertineT-TLF/b/n/9 5739.291549| 
  []
 
 
-Overfull \hbox (5.63145pt too wide) in paragraph at lines 145--145
+Overfull \hbox (5.63145pt too wide) in paragraph at lines 146--146
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 202435555.594| 
  []
 
 
-Overfull \hbox (2.93134pt too wide) in paragraph at lines 145--145
+Overfull \hbox (2.93134pt too wide) in paragraph at lines 146--146
 []\OT1/LinuxLibertineT-TLF/b/n/9 3584.974771| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 145--145
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 146--146
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 10674.217331| 
  []
 
 
-Overfull \hbox (2.69734pt too wide) in paragraph at lines 145--145
+Overfull \hbox (2.69734pt too wide) in paragraph at lines 146--146
 []\OT1/LinuxLibertineT-TLF/b/n/9 7139.460728| 
  []
 
 
-Overfull \hbox (1.32315pt too wide) in paragraph at lines 145--146
+Overfull \hbox (1.32315pt too wide) in paragraph at lines 146--147
 []\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 15318.554601| 
  []
 
-) <images/F1D10.jpeg, id=109, 803.0pt x 602.25pt>
+) <images/F1D10.jpeg, id=121, 803.0pt x 602.25pt>
 File: images/F1D10.jpeg Graphic file (type jpg)
  <use images/F1D10.jpeg>
-Package pdftex.def Info: images/F1D10.jpeg used on input line 179.
+Package pdftex.def Info: images/F1D10.jpeg used on input line 162.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/F1D30.jpeg, id=110, 803.0pt x 602.25pt>
+<images/F1D30.jpeg, id=122, 803.0pt x 602.25pt>
 File: images/F1D30.jpeg Graphic file (type jpg)
  <use images/F1D30.jpeg>
-Package pdftex.def Info: images/F1D30.jpeg used on input line 183.
+Package pdftex.def Info: images/F1D30.jpeg used on input line 166.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/F1D50.jpeg, id=111, 803.0pt x 602.25pt>
+<images/F1D50.jpeg, id=123, 803.0pt x 602.25pt>
 File: images/F1D50.jpeg Graphic file (type jpg)
  <use images/F1D50.jpeg>
-Package pdftex.def Info: images/F1D50.jpeg used on input line 187.
+Package pdftex.def Info: images/F1D50.jpeg used on input line 170.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/F1D100.jpeg, id=112, 803.0pt x 602.25pt>
+<images/F1D100.jpeg, id=124, 803.0pt x 602.25pt>
 File: images/F1D100.jpeg Graphic file (type jpg)
  <use images/F1D100.jpeg>
-Package pdftex.def Info: images/F1D100.jpeg used on input line 191.
+Package pdftex.def Info: images/F1D100.jpeg used on input line 174.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/F12D10.jpeg, id=113, 803.0pt x 602.25pt>
+<images/F12D10.jpeg, id=125, 803.0pt x 602.25pt>
 File: images/F12D10.jpeg Graphic file (type jpg)
  <use images/F12D10.jpeg>
-Package pdftex.def Info: images/F12D10.jpeg used on input line 196.
+Package pdftex.def Info: images/F12D10.jpeg used on input line 179.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/F12D30.jpeg, id=114, 803.0pt x 602.25pt>
+<images/F12D30.jpeg, id=126, 803.0pt x 602.25pt>
 File: images/F12D30.jpeg Graphic file (type jpg)
  <use images/F12D30.jpeg>
-Package pdftex.def Info: images/F12D30.jpeg used on input line 200.
+Package pdftex.def Info: images/F12D30.jpeg used on input line 183.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/F12D50.jpeg, id=115, 803.0pt x 602.25pt>
+<images/F12D50.jpeg, id=127, 803.0pt x 602.25pt>
 File: images/F12D50.jpeg Graphic file (type jpg)
  <use images/F12D50.jpeg>
-Package pdftex.def Info: images/F12D50.jpeg used on input line 204.
+Package pdftex.def Info: images/F12D50.jpeg used on input line 187.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/F12D100.jpeg, id=116, 803.0pt x 602.25pt>
+<images/F12D100.jpeg, id=128, 803.0pt x 602.25pt>
 File: images/F12D100.jpeg Graphic file (type jpg)
  <use images/F12D100.jpeg>
-Package pdftex.def Info: images/F12D100.jpeg used on input line 208.
+Package pdftex.def Info: images/F12D100.jpeg used on input line 191.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/F23D10.jpeg, id=117, 803.0pt x 602.25pt>
+<images/F23D10.jpeg, id=129, 803.0pt x 602.25pt>
 File: images/F23D10.jpeg Graphic file (type jpg)
  <use images/F23D10.jpeg>
-Package pdftex.def Info: images/F23D10.jpeg used on input line 214.
+Package pdftex.def Info: images/F23D10.jpeg used on input line 197.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/F23D30.jpeg, id=118, 803.0pt x 602.25pt>
+<images/F23D30.jpeg, id=130, 803.0pt x 602.25pt>
 File: images/F23D30.jpeg Graphic file (type jpg)
  <use images/F23D30.jpeg>
-Package pdftex.def Info: images/F23D30.jpeg used on input line 218.
+Package pdftex.def Info: images/F23D30.jpeg used on input line 201.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/F23D50.jpeg, id=119, 803.0pt x 602.25pt>
+<images/F23D50.jpeg, id=131, 803.0pt x 602.25pt>
 File: images/F23D50.jpeg Graphic file (type jpg)
  <use images/F23D50.jpeg>
-Package pdftex.def Info: images/F23D50.jpeg used on input line 222.
+Package pdftex.def Info: images/F23D50.jpeg used on input line 205.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/F23D100.jpeg, id=120, 803.0pt x 602.25pt>
+<images/F23D100.jpeg, id=132, 803.0pt x 602.25pt>
 File: images/F23D100.jpeg Graphic file (type jpg)
  <use images/F23D100.jpeg>
-Package pdftex.def Info: images/F23D100.jpeg used on input line 226.
+Package pdftex.def Info: images/F23D100.jpeg used on input line 209.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/F27D10.jpeg, id=121, 803.0pt x 602.25pt>
+<images/F27D10.jpeg, id=133, 803.0pt x 602.25pt>
 File: images/F27D10.jpeg Graphic file (type jpg)
  <use images/F27D10.jpeg>
-Package pdftex.def Info: images/F27D10.jpeg used on input line 232.
+Package pdftex.def Info: images/F27D10.jpeg used on input line 215.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/F27D30.jpeg, id=122, 803.0pt x 602.25pt>
+<images/F27D30.jpeg, id=134, 803.0pt x 602.25pt>
 File: images/F27D30.jpeg Graphic file (type jpg)
  <use images/F27D30.jpeg>
-Package pdftex.def Info: images/F27D30.jpeg used on input line 236.
+Package pdftex.def Info: images/F27D30.jpeg used on input line 219.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/F27D50.jpeg, id=123, 803.0pt x 602.25pt>
+<images/F27D50.jpeg, id=135, 803.0pt x 602.25pt>
 File: images/F27D50.jpeg Graphic file (type jpg)
  <use images/F27D50.jpeg>
-Package pdftex.def Info: images/F27D50.jpeg used on input line 240.
+Package pdftex.def Info: images/F27D50.jpeg used on input line 223.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/F27D100.jpeg, id=124, 803.0pt x 602.25pt>
+<images/F27D100.jpeg, id=136, 803.0pt x 602.25pt>
 File: images/F27D100.jpeg Graphic file (type jpg)
  <use images/F27D100.jpeg>
-Package pdftex.def Info: images/F27D100.jpeg used on input line 244.
+Package pdftex.def Info: images/F27D100.jpeg used on input line 227.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/F6D50.jpeg, id=125, 803.0pt x 602.25pt>
+<images/F6D50.jpeg, id=137, 803.0pt x 602.25pt>
 File: images/F6D50.jpeg Graphic file (type jpg)
  <use images/F6D50.jpeg>
-Package pdftex.def Info: images/F6D50.jpeg used on input line 249.
+Package pdftex.def Info: images/F6D50.jpeg used on input line 232.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/F6D100.jpeg, id=126, 803.0pt x 602.25pt>
+<images/F6D100.jpeg, id=138, 803.0pt x 602.25pt>
 File: images/F6D100.jpeg Graphic file (type jpg)
  <use images/F6D100.jpeg>
-Package pdftex.def Info: images/F6D100.jpeg used on input line 253.
+Package pdftex.def Info: images/F6D100.jpeg used on input line 236.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/F20D50.jpeg, id=127, 803.0pt x 602.25pt>
+<images/F20D50.jpeg, id=139, 803.0pt x 602.25pt>
 File: images/F20D50.jpeg Graphic file (type jpg)
  <use images/F20D50.jpeg>
-Package pdftex.def Info: images/F20D50.jpeg used on input line 257.
+Package pdftex.def Info: images/F20D50.jpeg used on input line 240.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/F20D100.jpeg, id=128, 803.0pt x 602.25pt>
+<images/F20D100.jpeg, id=140, 803.0pt x 602.25pt>
 File: images/F20D100.jpeg Graphic file (type jpg)
  <use images/F20D100.jpeg>
-Package pdftex.def Info: images/F20D100.jpeg used on input line 261.
+Package pdftex.def Info: images/F20D100.jpeg used on input line 244.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4.4])
-(./sample-sigconf.bbl) [5.5
+ [4.4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [6.6 <./images/F1D10.jpeg> <./images/F1D30.jpeg> <./images/F1D50.jpeg> <./ima
-ges/F1D100.jpeg> <./images/F12D10.jpeg> <./images/F12D30.jpeg> <./images/F12D50
-.jpeg> <./images/F12D100.jpeg> <./images/F23D10.jpeg> <./images/F23D30.jpeg> <.
-/images/F23D50.jpeg> <./images/F23D100.jpeg> <./images/F27D10.jpeg> <./images/F
-27D30.jpeg> <./images/F27D50.jpeg> <./images/F27D100.jpeg> <./images/F6D50.jpeg
-> <./images/F6D100.jpeg> <./images/F20D50.jpeg> <./images/F20D100.jpeg>] [7.7] 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5.5 <./images/F1D10.jpeg> <./images/F1D30.jpeg> <./images/F1D50.jpeg> <./imag
+es/F1D100.jpeg> <./images/F12D10.jpeg> <./images/F12D30.jpeg> <./images/F12D50.
+jpeg> <./images/F12D100.jpeg> <./images/F23D10.jpeg> <./images/F23D30.jpeg> <./
+images/F23D50.jpeg> <./images/F23D100.jpeg> <./images/F27D10.jpeg> <./images/F2
+7D30.jpeg> <./images/F27D50.jpeg> <./images/F27D100.jpeg> <./images/F6D50.jpeg>
+ <./images/F6D100.jpeg> <./images/F20D50.jpeg> <./images/F20D100.jpeg>])
+(./sample-sigconf.bbl
+LaTeX Font Info:    Try loading font information for OT1+zi4 on input line 156.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/ot1zi4.fd
+File: ot1zi4.fd 2014/06/22 OT1/zi4 (Inconsolata)
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `zi4' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+) [6.6
+
+] [7.7]
 [8.8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
  (./sample-sigconf.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
+Package rerunfilecheck Info: File `sample-sigconf.out' has not changed.
+(rerunfilecheck)             Checksum: B8C6169A6D05FF27FF98247201E650EA;616.
 
-
-Package rerunfilecheck Warning: File `sample-sigconf.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `sample-sigconf.out':
-(rerunfilecheck)             Before: 8F72E1F26306409BC427106F06558F38;628
-(rerunfilecheck)             After:  09C1A1FD4E1BA127AD5FDBF003CD1CD1;677.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 171.
  ) 
 Here is how much of TeX's memory you used:
- 14749 strings out of 493029
- 227360 string characters out of 6136235
- 501877 words of memory out of 5000000
- 17558 multiletter control sequences out of 15000+600000
- 76174 words of font info for 249 fonts, out of 8000000 for 9000
+ 14830 strings out of 493029
+ 229133 string characters out of 6136235
+ 504103 words of memory out of 5000000
+ 17603 multiletter control sequences out of 15000+600000
+ 78703 words of font info for 264 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,13n,94p,1676b,608s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/libertinealt.enc}{/usr/s
-hare/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_tltjc6.enc}{/usr/share/t
-exlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fo
-nts/enc/dvips/libertine/lbtn_c6xmqr.enc}{/usr/share/texlive/texmf-dist/fonts/en
-c/dvips/libertine/lbtn_xogrpz.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvip
-s/libertine/lbtn_naooyc.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libe
-rtine/lbtn_c7kyj5.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/
-lbtn_lu7m2n.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/libertine/Lin
-BiolinumT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinBi
-olinumTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLib
-ertineT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibe
-rtineTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibe
-rtineTI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/fxlri-7lett
-ers.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/newtx/zxlr.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/newtx/zxlri.pfb>
-Output written on sample-sigconf.pdf (8 pages, 1942002 bytes).
+ 60i,13n,94p,1700b,606s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-4.enc}{/usr
+/share/texlive/texmf-dist/fonts/enc/dvips/newtx/libertinealt.enc}{/usr/share/te
+xlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_tltjc6.enc}{/usr/share/texlive/
+texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc
+/dvips/libertine/lbtn_c6xmqr.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips
+/libertine/lbtn_xogrpz.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/liber
+tine/lbtn_naooyc.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/l
+btn_c7kyj5.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_lu
+7m2n.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/inconsolata/Inconsol
+ata-zi4r.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinBio
+linumT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinBioli
+numTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibert
+ineT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLiberti
+neTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLiberti
+neTI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/fxlri-7letters
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/newtx/zxlr.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/newtx/zxlri.pfb>
+Output written on sample-sigconf.pdf (8 pages, 1958940 bytes).
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
- 168 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
- 41156 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 239 PDF objects out of 1000 (max. 8388607)
+ 189 compressed objects within 2 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 41668 words of extra memory for PDF output out of 42996 (max. 10000000)
 
