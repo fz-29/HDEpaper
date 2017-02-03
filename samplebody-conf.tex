@@ -1,7 +1,7 @@
 \section{Introduction}
 
-Evolutionary algorithms are classified as meta-heuristic search algorithms, where possible solution elements span the n-dimensional search space to find the global optimum solution. Over the years, natural phenomena and biological processes have laid the foundation for several algorithms for control and optimization that have highlighted their applicability in solving intricate optimization problems in various fields. At the cellular level in the E.Coli Bacterium, there is sensing and locomotion involved in seeking nourishment and avoid harmful chemicals. These behavioral characterisitics have fueled the inspiration for the Bacterial Foraging Optimization algorithm \cite{passino2002biomimicry}\cite{onwubolu2013new}. Ant Colony Optimization \cite{dorigo2010ant} deals with behaviour of ants and has been a successful model for solving complex problems. Particle Swarm Optimization \cite{kennedy2011particle} is a swarm intelligence algorithm based on behaviour of birds and fishes that models these particles as they traverse an n-dimensional search space and share information in order to obtain global optimum.
-From a biological control point, the human brain represents one of the most sophesticated architectures and several research attempts seek to mimic its accuracy, precision and efficiency. The brain function activities can be classified into 2 categories: sensory and motor operations. Sensory cortical functions inspired the concept of neural networks and they are being scaled successfully in deep learning to solve vast amount of problems.
+Evolutionary algorithms are classified as meta-heuristic search algorithms, where possible solution elements span the n-dimensional search space to find the global optimum solution. Over the years, natural phenomena and biological processes have laid the foundation for several algorithms for control and optimization that have highlighted their applicability in solving intricate optimization problems in various fields. At the cellular level in the E.Coli Bacterium, there is sensing and locomotion involved in seeking nourishment and avoid harmful chemicals. These behavioral characteristics have fueled the inspiration for the Bacterial Foraging Optimization algorithm \cite{passino2002biomimicry}\cite{onwubolu2013new}. Ant Colony Optimization \cite{dorigo2010ant} deals with behavior of ants and has been a successful model for solving complex problems. Particle Swarm Optimization \cite{kennedy2011particle} is a swarm intelligence algorithm based on behavior of birds and fishes that models these particles as they traverse an n-dimensional search space and share information in order to obtain global optimum.
+From a biological control point, the human brain represents one of the most sophisticated architectures and several research attempts seek to mimic its accuracy, precision and efficiency. The brain function activities can be classified into 2 categories: sensory and motor operations. Sensory cortical functions inspired the concept of neural networks and they are being scaled successfully in deep learning to solve vast amount of problems.
 
 \begin{figure}[h!]
   \includegraphics[scale=0.6]{motorControl}
@@ -10,17 +10,17 @@ From a biological control point, the human brain represents one of the most soph
 \end{figure}
 
 The human motor function represents a distributed neural and hierarchical control system. It can be classified as having local control functions for movement as well as higher level controllers for gross motion and decision making for planning actions.The optimal execution of motor operation involves distributed brain structures at different levels of hierarchy. These include the pre-frontal cortex, motor cortex, spinal cord, anterior horn cells etc \cite{Shaw1982119}. For generating an actions sequence, a sequence of actions is implemented by a string of subsequences of actions each implemented in a different part of the body. The operational structure has been depicted in Figure 1\cite{passino2005biomimicry}.
-For optimality of actions, neurons act in unison. The neurons in the motor cortex act like global leaders and send inhibitory or facilitatory influence over the anterior horn cells, local leaders, located in the spinal cord\cite{Shaw1982119}. These local leaders, are connected to the muscle fibres, effectors through a peripheral nerve and neuromuscular junction.
-Efficient execution of task requires feedback based facilitation and inhibition of the effectors over the anterior horn cells. These sequence of operations consitute the optimal convergence of the system leading to smooth motor execution.
+For optimality of actions, neurons act in unison. The neurons in the motor cortex act like global leaders and send inhibitory or facilitatory influence over the anterior horn cells, local leaders, located in the spinal cord\cite{Shaw1982119}. These local leaders, are connected to the muscle fibers, effectors through a peripheral nerve and neuromuscular junction.
+Efficient execution of task requires feedback based facilitation and inhibition of the effectors over the anterior horn cells. These sequence of operations constitute the optimal convergence of the system leading to smooth motor execution.
 
 
-The present paper focusses on introducing an optimisation algorithm modelled intuitively on the distributed and hierarchical operation of the brain motor function.     
+The present paper focuses on introducing an optimization algorithm modeled intuitively on the distributed and hierarchical operation of the brain motor function.     
 
-The Classical Differential Algorithm \cite{storn1995differential}, proposed by Storn and Price has been hailed as one of the best available evolutionary algorithms, owing to it's simple yet effective structure but it has been criticised for it's slow convergence rate. Through this paper, we seek to improve the algorithm's performance by proposing a hierarchical structure in the pipeline of the algorithm. Introduction of a hierarchical architecture in the algorithm enables the algorithm to control the flow of agents based on the influences of local leaders and a global leader, as depicted by the brain motor function in Fig. 1. The algorithmic performance has been exhaustively compared with some popular variants of DE, namely JADE \cite{zhang2009jade}, Particle Swarm Optimization-Differential Evolution(PSODE) and the original Classical Differential Evolution (DE) algorithms. Through this exhaustive comparison, we show even with fixed parameters and the introduction of a hierarchical crossover operator, HIDE is able to outperform adaptive architectures such as JADE by a high margin, as discussed in the result sections. This effective behaviour results from the co-ordinated hierarchy between the global and local control, owing to the selected hierarchical function as discussed in the algorithmic approach. The result section () comprises a thorough analysis and comparison on algorithmic performance on the CEC 2017 objective function set \cite{cec2017benchmark}, where we report the objective function optimal values and display the convergence plots for each algorithm, while discussing the efficiency of HIDE.
+The Classical Differential Algorithm \cite{storn1995differential}, proposed by Storn and Price has been hailed as one of the best available evolutionary algorithms, owing to it's simple yet effective structure but it has been criticized for it's slow convergence rate. Through this paper, we seek to improve the algorithm's performance by proposing a hierarchical structure in the pipeline of the algorithm. Introduction of a hierarchical architecture in the algorithm enables the algorithm to control the flow of agents based on the influences of local leaders and a global leader, as depicted by the brain motor function in Fig. 1. The algorithmic performance has been exhaustively compared with some popular variants of DE, namely JADE \cite{zhang2009jade}, Particle Swarm Optimization-Differential Evolution(PSODE) and the original Classical Differential Evolution (DE) algorithms. Through this exhaustive comparison, we show even with fixed parameters and the introduction of a hierarchical crossover operator, HIDE is able to outperform adaptive architectures such as JADE by a high margin, as discussed in the result sections. This effective behavior results from the co-ordinated hierarchy between the global and local control, owing to the selected hierarchical function as discussed in the algorithmic approach. The result section () comprises a thorough analysis and comparison on algorithmic performance on the CEC 2017 objective function set \cite{cec2017benchmark}, where we report the objective function optimal values and display the convergence plots for each algorithm, while discussing the efficiency of HIDE.
 
 
 
-% Operational maturity of biological control systems have enamored researchers across various domains.Consequently, these have been the source of inspiration of various mathematical and logical models for control, automation and optimization. The behavioural characteristics observed at the Cellular level in E.Coli fueled the inspiration for the Bacterial Foraging Optimization algorithm.
+% Operational maturity of biological control systems have enamored researchers across various domains.Consequently, these have been the source of inspiration of various mathematical and logical models for control, automation and optimization. The behavioral characteristics observed at the Cellular level in E.Coli fueled the inspiration for the Bacterial Foraging Optimization algorithm.
 
 % The biological system most relevant to us is the human brain. It represents the most advanced control architecture and several research initiative seek to mimic its level of accuracy and precision in day-to-day activities. The brain activities can be distributed into two categories: sensory and motor operations. Sensory cortical functions have to an extent inspired the concept of neural networks that have been successfully scaled to a large number of domains. 
 
@@ -42,11 +42,11 @@ The Classical Differential Algorithm \cite{storn1995differential}, proposed by S
 
 \section{Classical Differential Evolution}
 
-The classical Differential Evolution (DE) algorithm is a population-based global optimization algorithm, utilizing a crossover and mutation approach to generate new individuals in the population for achieving optimum solutions\cite{das2011differential}. For each individual $x_i$ that belongs to the population, DE randomly samples three other individuals from the population $a_i$, $b_i$ and $c_i$. Then using the randomly chosen points, a new individual vector is generated using equation \eqref{de}:
+The classical Differential Evolution (DE) algorithm is a population-based global optimization algorithm, utilizing a crossover and mutation approach to generate new individuals in the population for achieving optimum solutions\cite{das2011differential}. For each individual $x_i$ that belongs to the population, DE randomly samples three other individuals from the population $x_{r1,G}$, $x_{r2,G}$ and $x_{r3,G}$. Then using the randomly chosen points, a new individual vector is generated using equation \eqref{de}:
 
 \begin{equation}
 \label{de}
-u_i = a_i + F (b_i - c_i)
+V_i = x_{r1,G} + F (x_{r2,G} - x_{r3,G})
 \end{equation}
 
 Where, $F$ is called the differential weight (Usually lies between $[0, 1]$).\\
@@ -54,8 +54,7 @@ And to obtain the new position of the individual, a crossover operation is imple
 
 \begin{figure}[h!]
   \includegraphics[scale=0.3]{contourDE}
- \caption{Motion planning of individuals in DE on two dimensional example of objective function. The position vectors resulting from the influence of global leader and local leaders are both represented
-as E$_{g}$ and E$_{l}$ on the contour of a two dimensional objective function.}
+ \caption{Motion planning of individuals in DE on two dimensional example of objective function.}
 
   \label{fig:contourDE}
 \end{figure}
@@ -68,7 +67,8 @@ Taking inspiration from the human motor system, we model the hierarchical motor 
 
 \begin{figure}[h!]
   \includegraphics[scale=0.25]{contourDL}
-  \caption{Hierarchical Decisive Motion planning of individuals in HIDE on two dimensional example of objective function}
+  \caption{Hierarchical Decisive Motion planning of individuals in HIDE on two dimensional example of objective function. The position vectors resulting from the influence of global leader and local leaders are both represented
+as E$_{g}$ and E$_{l}$ on the contour of a two dimensional objective function.}
   \label{fig:contourDL}
 \end{figure}
 
@@ -79,14 +79,14 @@ The position of each particle in the population is affected by the influence of 
 \label{algo}
 \begin{algorithmic}[1]
   \Procedure{Start}{}
-    \State Initialize parameters ($HC$, $P$, $N_l$, $N$).
+    \State Initialize parameters ($HC$, $P$, $N_l$, $NP$).
     \State Generate initial global leader $g_L$ as a random point.
     \State Generate $N_l$ local leader points around $g_L$.
-    \State Using a Normal distribution, generate $N$ points for population $P$ around the local leaders.
+    \State Using a Normal distribution, generate $NP$ points for population $P$ around the local leaders.
     \While{termination criteria is not met}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-      \For{each individual $x_i$ in $P$}
-        \State compute the corresponding local leader $l$ based on nearest position.
+      \For{each individual $x_i,L$ in $P$}
+        \State Determine the corresponding local leader $l$ from the set of all local leader based on nearest position.
         \State Let $u = 0$ be an empty vector.
         \State Let $i_c$ and $i_N$ be the current generation and total generations of the procedure.
         \If {$i_c \textless (HC*i_N)$}
@@ -95,12 +95,12 @@ The position of each particle in the population is affected by the influence of 
           \State $u = E_l$ from \eqref{two}.
         \EndIf
         
-        \For{each dimension $i$}
-          \State Generate $r_i = U(0, 1)$, a random number between 0 and 1.
-          \If {$r_i \textless HC$}
-            \State Set $x_i^{'} = x_i$.
+        \For{each dimension $j$}
+          \State Generate $r_j = U(0, 1)$, a random number between 0 and 1.
+          \If {$r_j \textless HC$}
+            \State Set $x_j^{'} = x_j$.
           \Else
-            \State Set $x_i^{'} = u_i$
+            \State Set $x_j^{'} = u_j$
           \EndIf
         \EndFor
         \If {$f(x^{'}) \textless f(x)$}
@@ -114,29 +114,30 @@ The position of each particle in the population is affected by the influence of 
 \end{algorithmic}
 \end{algorithm}
 
-Analogously to the brain motor operation depicted in Fig. 1, the updation of particle positions requires generating feedback for the leaders as a part of the optimization procedure, and hence the local leaders and the global leader are updated based onn their objective function value generated from the perturbations in population particles. This series of events comprise of one optimization pass (one loop step). On execution of several optimization passes as described, the system is able to converge to an optimal configuration, analogous to the successful execution of the required task as shown in the final steps of Fig. 1.
+Analogously to the brain motor operation depicted in Fig. 1, the updation of particle positions requires generating feedback for the leaders as a part of the optimization procedure, and hence the local leaders and the global leader are updated based on their objective function value generated from the perturbations in population particles. This series of events comprise of one optimization pass (one loop step). On execution of several optimization passes as described, the system is able to converge to an optimal configuration, analogous to the successful execution of the required task as shown in the final steps of Fig. 1.
 
-The updated position of the particle $x$ is governed by the hierarchical crossover operation and a mutation operation. The hierarchical operation is affected by the global leader $g_L$ and the local leader $l$ through the parametric equations \eqref{one} and \eqref{two}. Switching between the two is governed by the hierarchical crossover parameter $HC$. The given equations are discussed as follows:
+The updated position of the particle $x_i$ is governed by the hierarchical crossover operation and a mutation operation.
+$x_r$ randomly chosen particle from the population to induce stochasticity. The hierarchical operation is affected by the global leader $g_L$ and the local leader $x_L$ through the parametric equations \eqref{one} and \eqref{two}. Switching between the two is governed by the hierarchical crossover parameter $HC$. The given equations are discussed as follows:
 
 \begin{equation}
 \label{one}
-E_g = g_L + F (l - c)
+E_g = g_L + F (x_L - x_r)
 \end{equation}
 
 \begin{equation}
 \label{two}
-E_l = l + F (x - c)
+E_l = x_L + F (x_{i,L} - x_r)
 \end{equation}
 
 \subsection{Hierarchical Crossover}
 
-Convergence trend in HIDE is largely pivoted about (2) and (3), which in unison, lend a hierarchical structure to the algorithm. A successful optimization algorithm involves establishing a trade-off between fast convergence and robust optimization.[cite-de] Achieving global optimization can be visualised as collaboration of two forces, greedy exploration over a larger subspace followed by intensive exploration over the resulting restricted search space. Phase 1, involving (2) is marked by the interaction between the global and local leaders representing decision planning and facilitation of gross motion. This is followed by phase 2, involving (3) wherein the local leaders interact with and guide their effector population to control intricate motion over the constraint subspace to achieve smooth convergence. Robust covergence necessitates an optimal transition from phase 1 to phase 2 in the hierarchy. This hierachical transition is characterised by our proposed paramter, HC.The value of HC belongs to [0,1]. An optimal value for HC was observed experimentally to lie about one-quater. For the purpose of our results, we have fixed $HC$ to be 0.27.
+Convergence trend in HIDE is largely pivoted about (2) and (3), which in unison, lend a hierarchical structure to the algorithm. A successful optimization algorithm involves establishing a trade-off between fast convergence and robust optimization \cite{storn1995differential}. Achieving global optimization can be visualized as collaboration of two forces, greedy exploration over a larger subspace followed by intensive exploration over the resulting restricted search space. Phase 1, involving (2) is marked by the interaction between the global and local leaders representing decision planning and facilitation of gross motion. This is followed by phase 2, involving (3) wherein the local leaders interact with and guide their effector population to control intricate motion over the constraint subspace to achieve smooth convergence. Robust covergence necessitates an optimal transition from phase 1 to phase 2 in the hierarchy. This hierarchical transition is characterized by our proposed parameter, HC.The value of HC belongs to [0,1]. An optimal value for HC was observed experimentally to lie about one-quarter. For the purpose of our results, we have fixed $HC$ to be 0.27.
 The differential influence of the global leader and distributed local leaders at the higher levels of hierarchy balances the greediness of mutation. Running these vector configurations concurrently has enabled our algorithm to largely avoid local minima in quest to attain global minimum. Our proposition is complemented by the observations in our results section wherein we significantly outperform several popular algorithms on involved multimodal hybrid and composite functions on higher dimensions.
 
 % In algorithm \ref{algo}, The Hierarchical crossover is controlled by the conditional equation $i_c \textless (HC*i_N)$, which controls the decision making between global or local gross motion. The decision control is also portrayed in Fig 3. where the position vectors resulting from the influence of global leader and local leaders are both represented as $E_g$ and $E_l$ on the contour of a two dimensional objective function. Using the hierarchical crossover on the conditional equation, we model the decisive action between global and local influences.
 
 % According to this equation, during the initial planning phases ($HC$ fraction of total generations) of the optimization procedure, the global leader largely characterizes the motion of the agents, and after a certain amount of time has passed, motion generation process is substantially affected by the collective influence of local leaders and population entities, signifying the smooth execution of actions in the hierarchy control flow depicted in Fig 1.
-% Additionaly, The hierarchical crossover parameter $HC$ also influences the mutation process wherein the degree of final mutation is decided based on the probability $HC$.
+% Additionally, The hierarchical crossover parameter $HC$ also influences the mutation process wherein the degree of final mutation is decided based on the probability $HC$.
 
 % The hierarchical structure of control also aids in the avoidance of local minima points via the influence of the global leader, where during the initial planning process all population entities start to converge towards the global [point], and afterwards the influence from local leaders and effector population ensure smooth convergence towards the global optimum.
 \input{functable}
@@ -147,14 +148,14 @@ All evaluations were performed using Python 2.7.12 with Scipy\cite{oliphant2007p
 
 \subsection{Problem Set Description}
 
-The set of objective functions considered for testing the proposed algorithm and compare it's performance against classsical DE and it's variants PSODE and JADE have been taken from the CEC 2017 [] set of benchmark functions. Exhaustive comparisons and analysis have been depicted on dimensions D = 10, 30, 50 and 100 for a clear understanding of the strengths of the proposed algorithm. Objective functions $f_1 - f_3$ are simple unimodal functions and $f_4 - f_{10}$ are multimodal functions with a high number of local optima values. Functions $f_{11} - f_{20}$ are all hybrid functions using a combination of functions from $f_1 - f_{10}$. The set of composite function range from $f_{21} - f_{30}$ and merges the properties of the sub-functions better while incorporating the basic functions as well as hybrid functoins to increase complexity while maintaining continuity around the global optima.
+The set of objective functions considered for testing the proposed algorithm and compare it's performance against classical DE and it's variants PSODE and JADE have been taken from the CEC 2017 set of benchmark functions. Exhaustive comparisons and analysis have been depicted on dimensions D = 10, 30, 50 and 100 for a clear understanding of the strengths of the proposed algorithm. Objective functions $f_1 - f_3$ are simple unimodal functions and $f_4 - f_{10}$ are multimodal functions with a high number of local optima values. Functions $f_{11} - f_{20}$ are all hybrid functions using a combination of functions from $f_1 - f_{10}$. The set of composite function range from $f_{21} - f_{30}$ and merges the properties of the sub-functions better while incorporating the basic functions as well as hybrid functions to increase complexity while maintaining continuity around the global optima.
 
-Summarized in Table 1 are the 30 objective functions from the CEC 2017 dataset and the global optimum value for each fuction denoted by $F*$. In all simulation runs, we set the population size $NP$ to a fixed value of $40$, and the results are shown in a tabular structure depicting the best and average values of the population individuals for the simulations. Additionally, several graphical results have been discussed to observe the convergence rate and efficiency of the algorithms used in the simulation. These graphs were plotted based on the numerical results obtained from the simulation runs used to build the tables.
+Summarized in Table 1 are the 30 objective functions from the CEC 2017 dataset and the global optimum value for each fiction denoted by $F*$. In all simulation runs, we set the population size $NP$ to a fixed value of $40$, and the results are shown in a tabular structure depicting the best and average values of the population individuals for the simulations. Additionally, several graphical results have been discussed to observe the convergence rate and efficiency of the algorithms used in the simulation. These graphs were plotted based on the numerical results obtained from the simulation runs used to build the tables.
 
 \subsection{Parameter Settings}
 \input{paramsTable}
 
-For fair comparisons, the parameters for all algorithms are fixed to the values depicted in table 2. As clear from the table, we set the parameters F and CR as 0.4 and 0.48 for DE across all experiments. The parameters for JADE were selected as suggested in the original work. These parameter settiings allow transparency in results and a base for fair and clear comparisons in the analysis of the algorithms.
+For fair comparisons, the parameters for all algorithms are fixed to the values depicted in table 2. As clear from the table, we set the parameters F and CR as 0.42 and 0.48 for DE across all experiments. The parameters for JADE were selected as suggested in the original work. These parameter settiings allow transparency in results and a base for fair and clear comparisons in the analysis of the algorithms.
 
 \input{table1}
 \input{table3}
@@ -256,27 +257,24 @@ For fair comparisons, the parameters for all algorithms are fixed to the values 
 
 
 \subsection{Numerical and Graphical Results} 
+In tables 3-6, the best and mean values obtained for the population agents in the simulation runs have been reported, and the optimum values for each objective function have been highlighted in \textbf{bold}.For the sake of clarity, the comparison results in each table have been summarized in "w/t/l" format wherein w represents the number of objective functions where the algorithm outperforms all other algorithms, t specifies the number of objective functions where it is tied as the best algorithm for the objective function and l represents the no of test functions where it does not finish first. The utilization of the evaluation metric facilitates a definitive comparison of the different algorithms under consideration.
 
-In Tables 3-6, the best and mean values obtained for the population agents in the simulation runs have been reported, and the optimum results for each objective function have been highlighted in [bold]. For Clarity, the comparisonn results in each table have been summarized in a "w/t/l" format, depicting the corresponding algorithm wins in 'w' functions, ties in 't' functions and loses in 'l' functions. The utilization of such an evaluation metric facilitates the comparison of different algorithms and clarify the distinction between their performances.
+Tables 3 and 4 highlight the performance of the algorithms for D=10 and 30 respectively.For D=10, HIDE depicits impressive performance. It registered a "w/t/l" score of 12/7/11 in the best case and 14/4/12 in the mean of population case. In both these test functions, JADE achieved the second best performance registering a w/t/l of 5/7/18 on the best optimal value case and 9/4/17 on the mean of optimal value case. On D=30, HIDE achieved maximum number of wins in both best and mean case(17 and 18 respectively). JADE achieved second position with 8 and 9 wins in the best and mean case. The decent performance of JADE can be attributed to the adaptive nature of it's parameter selection with enables enhancement of its convergence rate.
 
-Tables 3 and 4 list the computation results for D=10 and 30, respectively. For D=10, HIDE achieves the maximum number of wins and shows an impressive performance with a 'w/t/l' score of '12/7/11' in the best case and '14/4/12' in the mean of population case. JADE achhieves the second best performance with 5 wins and 7 ties in the best case, and 9 wins and 4 ties in the mean case. JADE shows decent results owing to the adaptive nature of it's parameter selection which also improve it's convergence rate as compared to DE (evident from the graphical plots as well). For D=30, HIDE again achieves the maximum number of wins in both best and mean case with 17 wins in best case and 18 in mean case, followed by JADE with 8 and 9 wins in best and mean cases, respectively.
+The results for D=50 and D=100(higher dimensions) have been summarized in tables 5 and 6.On D=50, HIDE depicted exceptional performance, outperforming all other algorithms.It registered 17 wins in the best case and 18 wins in the mean case.Classical DE shows no wins in any case in high dimensional settings owing to its slow convergence rate and inability to attain global optimum thus highlighting the usefulness of the modifications introduced in the variants including HIDE. Similarly for D=100, HIDE again outperforms all other algorithms by an appreciable margin.
+From a functional standpoint, It would be worthwhile to highlight that HIDE outperformed the other algorithm on majority on the composite and hybrid functions, particularly on the higher dimensional settings. The efficiency of HIDE can be attributed to the hierarchical nature of crossover selection and concurrency in vector configurations at the higher hierarchy levels.
+The tabular results reinforce the fact that HIDE outperforms JADE, PSODE and DE.On close analysis, it can be witnessed that HIDE falls behind the other algorithms on a small fraction of unimodal functions such as $f_5, f_7$ on lower dimensions due to fast convergence during early stages of execution. However, the performance of higher dimensions, particularly on the more involved functions highlights utility for real world problems 
 
-In tables 5 and 6, the data for D=50 and 100 (higher dimensions) have been summarized. For D=50, HIDE shows 17 wins in the best case and 18 wins in the mean case, depecting exceptional performance capability. Classical DE shows no wins in any case in high dimensional scenarios owing to it's low convergence rate and incapability to reach the global optimum. Similarly, for D=100, HIDE is able to outperform all comparative algorithms by a very high margin showing it's impressive performance on higher dimensions. This efficiency and accuracy of HIDE can be attributed to the hierarchical nature of crossover selection which enables our algorithm to follow two distinct patterns in a hierarchical fashion.
-
-It is clearly evident from the tabular information that HIDE surpasses DE, JADE and PSODE by an exceptionally high margin. On close analysis, it can be seen that HIDE falls behind the other algorithms in a small fraction of functions on lower dimensions objective functions such as $f_5, f_7$ etc. because of the unimodal and smooth nature of the objective functions where due to fast convergence, the proposed algorithm sometimes converges to a point quickly in the early stages of execution. But it is also evident from the data that HIDE shows remarkable performance on higher dimensions, especially on hybrid and composite objective functions implying it's extensive utility in real world complex problems.
-
-In addition to the tabular information, the plots in Fig. 4 aptly depict the performance of all algorithms across various dimensions and objective functions.
-On overall compilation of the plots, it is clear that HIDE shows a better convergence rate as compared to rest of the algorithms. Moreover, on higher dimensions, the proposed algorithm evidently outperforms all other algorithms both in terms of convergence rate and optimality.
-On lower dimensions (D=10, 30), HIDE shows a performance trend similar to PSODE as shown in Fig. 4 (a, b, e, f, i, j, m, n) and can been seen to produce better end-results as compared to PSODE, DE and JADE in almost all these cases, as was evident from the tabular information as well.
-For problems in higher dimensions (D=50, 100), it is very clear that HIDE optperforms rest of the algorithms by a high margin, especially in Fig. 4 (s, t), where the algorithm displays an impressive convergence rate and a far better optimality than DE, PSODE and JADE. Similarly, in Fig. 4 (k, l, o, p) HIDE shows a faster convergence than any other algorithms considered for comparisons, hence validating the claim that the proposed approach is able to overcome the issue of slow convergence with Differential Evolution algorithm.
-This remarkable trait in HIDE enhances it's utility for high dimensional problems where fast convergence to global optimum value is required, hence making it superior to the other considered algorithms and several variants of the Differential Algorithm.
+The tabular results are complemented through the graphical representations in Fig. 4. Analysis of the plots clearly depicts that HIDE shows a better convergence rate as compared to the other algorithms. As the analysis transcends to higher dimensional settings, the proposed approach outperforms majority of the algorithms in terms of both convergence rate and optimality. HIDE and PSODE produce similar performance trend As observed from Fig. 4(a,b,e,f,i,j,m,n), HIDE produces better end results than PSODE, DE and JADE in majority of the cases 
+The trends of relative performance of HIDE and other algorithms as observed in the tables on lower dimensions is complemented by Fig. 4(a,b,e,f,i,j,m,n). On higher dimensions, HIDE significantly outperforms other algorithms by large margins, especially in Fig. 4(s,t) where it depicts exceptional performance on both convergence rate and optimality.Similarly, in Fig. 4 (k, l, o, p) HIDE shows a
+faster convergence than any other algorithms considered for comparisons,hence validating the claim that the proposed approach is able to overcome the issue of slow convergence with Differential Evolution algorithm. This is remarkable trait in HIDE enhances it’s utility for high dimensional problems where fast convergence to global optimum value is required, hence making it superior to the other considered algorithms and several variants of the DE algorithm.
 
 \section{Conclusion}
 
 Differential Evolution has been regarded as one of the most successful optimization algorithms
-and over the years, several variants have been proposed to enhance its convergence rate and performance.In the present work, we introduced a hierarchy influenced variant of the classical DE algorithm and modelled the same on the brain motor operation. The algorithm was characterised by global leader, local leaders and an effector population. The global leader and distributed local leaders interacted to facilitate gross motion via a greedy exploration stategy. The local leaders and their effectors interacted to control intricate motion for smooth convergence. A hierarchical crossover parameter was introduced to characterise the hierarchical transition between the two interactions. The influence of the vector configurations at the higher levels of hierarchy enabled the algorithm to avoid local minima in most objective functions. The same is complemented through our result observations wherein we significantly outperform several popular algorithm on complex multimodal functions in higher dimensional settings.
+and over the years, several variants have been proposed to enhance its convergence rate and performance.In the present work, we introduced a hierarchy influenced variant of the classical DE algorithm and modeled the same on the brain motor operation. The algorithm was characterized by global leader, local leaders and an effector population. The global leader and distributed local leaders interacted to facilitate gross motion via a greedy exploration strategy. The local leaders and their effectors interacted to control intricate motion for smooth convergence. A hierarchical crossover parameter was introduced to characterize the hierarchical transition between the two interactions. The influence of the vector configurations at the higher levels of hierarchy enabled the algorithm to avoid local minima in most objective functions. The same is complemented through our result observations wherein we significantly outperform several popular algorithm on complex multimodal functions in higher dimensional settings.
 Our proposed approach has sought to establish a viable tradeoff between fast optimization, robust convergence and low number of control parameters.
-The performance analysis of the algorithm highlights the particular effectiveness of the proposed approach on high dimensional hybrid and composite functions. The observed results provide sufficient motivation to extend the scope of the work to complex high dimensional real life problems including image enhancement, travelling salesman problem and flexible job-shop scheduling.
+The performance analysis of the algorithm highlights the particular effectiveness of the proposed approach on high dimensional hybrid and composite functions. The observed results provide sufficient motivation to extend the scope of the work to complex high dimensional real life problems including image enhancement, traveling salesman problem and flexible job-shop scheduling.
 
 
 % \begin{acks}
@@ -290,7 +288,7 @@ The performance analysis of the algorithm highlights the particular effectivenes
 %     China}{http://dx.doi.org/10.13039/501100001809} under Grant
 %   No.:~\grantnum{GS501100001809}{61273304}
 %   and~\grantnum[http://www.nnsf.cn/youngscientsts]{GS501100001809}{Young
-%     Scientsts' Support Program}.
+%     Scientists' Support Program}.
 
 % \end{acks}
 
