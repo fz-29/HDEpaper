@@ -54,7 +54,9 @@ And to obtain the new position of the individual, a crossover operation is imple
 
 \begin{figure}[h!]
   \includegraphics[scale=0.3]{contourDE}
- \caption{Motion planning of individuals in DE on two dimensional example of objective function}
+ \caption{Motion planning of individuals in DE on two dimensional example of objective function. The position vectors resulting from the influence of global leader and local leaders are both represented
+as E$_{g}$ and E$_{l}$ on the contour of a two dimensional objective function.}
+
   \label{fig:contourDE}
 \end{figure}
 
@@ -128,12 +130,15 @@ E_l = l + F (x - c)
 
 \subsection{Hierarchical Crossover}
 
-In algorithm \ref{algo}, The Hierarchical crossover is controlled by the conditional equation $i_c \textless (HC*i_N)$, which controls the decision making between global or local gross motion. The decision control is also portrayed in Fig 3. where the position vectors resulting from the influence of global leader and local leaders are both represented as $E_g$ and $E_l$ on the contour of a two dimensional objective function. Using the hierarchical crossover on the conditional equation, we model the decisive action between global and local influences.
+Convergence trend in HIDE is largely pivoted about (2) and (3), which in unison, lend a hierarchical structure to the algorithm. A successful optimization algorithm involves establishing a trade-off between fast convergence and robust optimization.[cite-de] Achieving global optimization can be visualised as collaboration of two forces, greedy exploration over a larger subspace followed by intensive exploration over the resulting restricted search space. Phase 1, involving (2) is marked by the interaction between the global and local leaders representing decision planning and facilitation of gross motion. This is followed by phase 2, involving (3) wherein the local leaders interact with and guide their effector population to control intricate motion over the constraint subspace to achieve smooth convergence. Robust covergence necessitates an optimal transition from phase 1 to phase 2 in the hierarchy. This hierachical transition is characterised by our proposed paramter, HC.The value of HC belongs to [0,1]. An optimal value for HC was observed experimentally to lie about one-quater. For the purpose of our results, we have fixed $HC$ to be 0.27.
+The differential influence of the global leader and distributed local leaders at the higher levels of hierarchy balances the greediness of mutation. Running these vector configurations concurrently has enabled our algorithm to largely avoid local minima in quest to attain global minimum. Our proposition is complemented by the observations in our results section wherein we significantly outperform several popular algorithms on involved multimodal hybrid and composite functions on higher dimensions.
 
-According to this equation, during the initial planning phases ($HC$ fraction of total generations) of the optimization procedure, the global leader largely characterizes the motion of the agents, and after a certain amount of time has passed, motion generation process is substantially affected by the collective influence of local leaders and population entities, signifying the smooth execution of actions in the hierarchy control flow depicted in Fig 1.
-Additionaly, The hierarchical crossover parameter $HC$ also influences the mutation process wherein the degree of final mutation is decided based on the probability $HC$.
+% In algorithm \ref{algo}, The Hierarchical crossover is controlled by the conditional equation $i_c \textless (HC*i_N)$, which controls the decision making between global or local gross motion. The decision control is also portrayed in Fig 3. where the position vectors resulting from the influence of global leader and local leaders are both represented as $E_g$ and $E_l$ on the contour of a two dimensional objective function. Using the hierarchical crossover on the conditional equation, we model the decisive action between global and local influences.
 
-The hierarchical structure of control also aids in the avoidance of local minima points via the influence of the global leader, where during the initial planning process all population entities start to converge towards the global [point], and afterwards the influence from local leaders and effector population ensure smooth convergence towards the global optimum.
+% According to this equation, during the initial planning phases ($HC$ fraction of total generations) of the optimization procedure, the global leader largely characterizes the motion of the agents, and after a certain amount of time has passed, motion generation process is substantially affected by the collective influence of local leaders and population entities, signifying the smooth execution of actions in the hierarchy control flow depicted in Fig 1.
+% Additionaly, The hierarchical crossover parameter $HC$ also influences the mutation process wherein the degree of final mutation is decided based on the probability $HC$.
+
+% The hierarchical structure of control also aids in the avoidance of local minima points via the influence of the global leader, where during the initial planning process all population entities start to converge towards the global [point], and afterwards the influence from local leaders and effector population ensure smooth convergence towards the global optimum.
 \input{functable}
 
 \section{Results and Discussions}
@@ -142,7 +147,7 @@ All evaluations were performed using Python 2.7.12 with Scipy\cite{oliphant2007p
 
 \subsection{Problem Set Description}
 
-The set of objective functions considered for testing the proposed algorithm and compare it's performance against classsical DE and it's variants PSODE and JADE have been taken from the CEC 2017 [] set of benchmark functions. Exhaustive comparisions and analysis have been depicted on dimensions D = 10, 30, 50 and 100 for a clear understanding of the strengths of the proposed algorithm. Objective functions $f_1 - f_3$ are simple unimodal functions and $f_4 - f_10$ are multimodal functions with a high number of local optima values. Functions $f_11 - f_20$ are all hybrid functions using a combination of functions from $f_1 - f_10$. The set of composite function range from $f_21 - f_30$ and merges the properties of the sub-functions better while incorporating the basic functions as well as hybrid functoins to increase complexity while maintaining continuity around the global optima.
+The set of objective functions considered for testing the proposed algorithm and compare it's performance against classsical DE and it's variants PSODE and JADE have been taken from the CEC 2017 [] set of benchmark functions. Exhaustive comparisions and analysis have been depicted on dimensions D = 10, 30, 50 and 100 for a clear understanding of the strengths of the proposed algorithm. Objective functions $f_1 - f_3$ are simple unimodal functions and $f_4 - f_{10}$ are multimodal functions with a high number of local optima values. Functions $f_{11} - f_{20}$ are all hybrid functions using a combination of functions from $f_1 - f_{10}$. The set of composite function range from $f_{21} - f_{30}$ and merges the properties of the sub-functions better while incorporating the basic functions as well as hybrid functoins to increase complexity while maintaining continuity around the global optima.
 
 Summarized in Table 1 are the 30 objective functions from the CEC 2017 dataset and the global optimum value for each fuction denoted by $F*$. In all simulation runs, we set the population size $NP$ to a fixed value of $40$, and the results are shown in a tabular structure depicting the best and average values of the population individuals for the simulations. Additionally, several graphical results have been discussed to observe the convergence rate and efficiency of the algorithms used in the simulation. These graphs were plotted based on the numerical results obtained from the simulation runs used to build the tables.
 
@@ -159,90 +164,90 @@ For fair comparisions, the parameters for all algorithms are fixed to the values
     \centering
     \begin{subfigure}[b]{0.24\textwidth}
         % \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D10}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D10}
-        \caption{F1D10}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_10D_F1_save}
+        \caption{}
     \end{subfigure}
     \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D30}
-        \caption{F1D30}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_30D_F1_save}
+        \caption{}
     \end{subfigure}    
     \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D50}
-        \caption{F1D10}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F1_save}
+        \caption{}
     \end{subfigure}
     \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D100}
-        \caption{F1D30}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F1_save}
+        \caption{}
     \end{subfigure}
 
     \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F12D10}
-        \caption{F12D10}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_10D_F12_save}
+        \caption{}
     \end{subfigure}
     \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F12D30}
-        \caption{F12D30}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_30D_F12_save}
+        \caption{}
     \end{subfigure}        
     \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F12D50}
-        \caption{F12D50}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F12_save}
+        \caption{}
     \end{subfigure}
     \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F12D100}
-        \caption{F12D100}
-    \end{subfigure}
-
-    \begin{subfigure}[b]{0.24\textwidth}
-        % \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D10}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F23D10}
-        \caption{F23D10}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F23D30}
-        \caption{F23D30}
-    \end{subfigure}    
-    \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F23D50}
-        \caption{F23D50}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F23D100}
-        \caption{F23D100}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F12_save}
+        \caption{}
     \end{subfigure}
 
     \begin{subfigure}[b]{0.24\textwidth}
         % \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D10}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F27D10}
-        \caption{F27D10}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_10D_F23_save}
+        \caption{}
     \end{subfigure}
     \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F27D30}
-        \caption{F27D30}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_30D_F23_save}
+        \caption{}
     \end{subfigure}    
     \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F27D50}
-        \caption{F27D50}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F23_save}
+        \caption{}
     \end{subfigure}
     \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F27D100}
-        \caption{F27D100}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F23_save}
+        \caption{}
     \end{subfigure}
 
     \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F6D50}
-        \caption{F6D50}
+        % \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D10}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_10D_F27_save}
+        \caption{}
     \end{subfigure}
     \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F6D100}
-        \caption{F6D100}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_30D_F27_save}
+        \caption{}
+    \end{subfigure}    
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F27_save}
+        \caption{}
     \end{subfigure}
     \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F20D50}
-        \caption{F20D50}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F27_save}
+        \caption{}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F6_save}
+        \caption{}
     \end{subfigure}
     \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F20D100}
-        \caption{F20D100}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F6_save}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F20_save}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F20_save}
+        \caption{}
     \end{subfigure}
 
     \caption{Comparision analysis over various functions and dimensions}
