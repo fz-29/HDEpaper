@@ -112,7 +112,7 @@ The position of each particle in the population is affected by the influence of 
 \end{algorithmic}
 \end{algorithm}
 
-Analogously to [step 3] in the brain motor operation, the updation of particle positions requires generating feedback for the leaders as a part of the optimization procedure, and hence the local leaders and the global leader are updated based onn their objective function value generated from the perturbations in population particles. This series of events comprise of one optimization pass (one loop step). On execution of several optimization passes as described, the system is able to converge to an optimal configuration, analogous to the successful execution of the required task as shown in [step 4].
+Analogously to the brain motor operation depicted in Fig. 1, the updation of particle positions requires generating feedback for the leaders as a part of the optimization procedure, and hence the local leaders and the global leader are updated based onn their objective function value generated from the perturbations in population particles. This series of events comprise of one optimization pass (one loop step). On execution of several optimization passes as described, the system is able to converge to an optimal configuration, analogous to the successful execution of the required task as shown in the final steps of Fig. 1.
 
 The updated position of the particle $x$ is governed by the hierarchical crossover operation and a mutation operation. The hierarchical operation is affected by the global leader $g_L$ and the local leader $l$ through the parametric equations \eqref{one} and \eqref{two}. Switching between the two is governed by the hierarchical crossover parameter $HC$. The given equations are discussed as follows:
 
@@ -126,8 +126,14 @@ E_g = g_L + F (l - c)
 E_l = l + F (x - c)
 \end{equation}
 
-In the algorithm \ref{algo}, The Hierarchical crossover is controlled by the conditional equation $i_c \textless (HC*i_N)$. According to this equation, during the initial phases ($HC$ fraction of total generations) of the optimization procedure, only the local leader is responsible for the motion of the agents, and after a certain amount of time has passed, the global leader also takes part in the motion generation process, signifying the motor control operation.
+\subsection{Hierarchical Crossover}
+
+In algorithm \ref{algo}, The Hierarchical crossover is controlled by the conditional equation $i_c \textless (HC*i_N)$, which controls the decision making between global or local gross motion. The decision control is also portrayed in Fig 3. where the position vectors resulting from the influence of global leader and local leaders are both represented as $E_g$ and $E_l$ on the contour of a two dimensional objective function. Using the hierarchical crossover on the conditional equation, we model the decisive action between global and local influences.
+
+According to this equation, during the initial planning phases ($HC$ fraction of total generations) of the optimization procedure, the global leader largely characterizes the motion of the agents, and after a certain amount of time has passed, motion generation process is substantially affected by the collective influence of local leaders and population entities, signifying the smooth execution of actions in the hierarchy control flow depicted in Fig 1.
 Additionaly, The hierarchical crossover parameter $HC$ also influences the mutation process wherein the degree of final mutation is decided based on the probability $HC$.
+
+The hierarchical structure of control also aids in the avoidance of local minima points via the influence of the global leader, where during the initial planning process all population entities start to converge towards the global [point], and afterwards the influence from local leaders and effector population ensure smooth convergence towards the global optimum.
 \input{functable}
 
 \section{Results and Discussions}
