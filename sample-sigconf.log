@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.28)  4 FEB 2017 20:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.28)  4 FEB 2017 20:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1062,7 +1062,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--155
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--164
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.174 $x_{r,G}$ \epsilon
+                         P $;$ \thinspace r \epsilon [0,1,.. NP-1] \\
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.175 $x'_
+          {j,i}$ is the trial vector\\
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--177
 
  []
 
@@ -2498,147 +2515,147 @@ Overfull \hbox (1.32315pt too wide) in paragraph at lines 146--147
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) <images/plot_10D_F1_save.jpeg, id=133, 803.0pt x 602.25pt>
+) <images/plot_10D_F1_save.jpeg, id=135, 803.0pt x 602.25pt>
 File: images/plot_10D_F1_save.jpeg Graphic file (type jpg)
 
 <use images/plot_10D_F1_save.jpeg>
-Package pdftex.def Info: images/plot_10D_F1_save.jpeg used on input line 204.
+Package pdftex.def Info: images/plot_10D_F1_save.jpeg used on input line 219.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_30D_F1_save.jpeg, id=134, 803.0pt x 602.25pt>
+<images/plot_30D_F1_save.jpeg, id=136, 803.0pt x 602.25pt>
 File: images/plot_30D_F1_save.jpeg Graphic file (type jpg)
 
 <use images/plot_30D_F1_save.jpeg>
-Package pdftex.def Info: images/plot_30D_F1_save.jpeg used on input line 208.
+Package pdftex.def Info: images/plot_30D_F1_save.jpeg used on input line 223.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_50D_F1_save.jpeg, id=135, 803.0pt x 602.25pt>
+<images/plot_50D_F1_save.jpeg, id=137, 803.0pt x 602.25pt>
 File: images/plot_50D_F1_save.jpeg Graphic file (type jpg)
 
 <use images/plot_50D_F1_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F1_save.jpeg used on input line 212.
+Package pdftex.def Info: images/plot_50D_F1_save.jpeg used on input line 227.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_100D_F1_save.jpeg, id=136, 803.0pt x 602.25pt>
+<images/plot_100D_F1_save.jpeg, id=138, 803.0pt x 602.25pt>
 File: images/plot_100D_F1_save.jpeg Graphic file (type jpg)
 
 <use images/plot_100D_F1_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F1_save.jpeg used on input line 216.
+Package pdftex.def Info: images/plot_100D_F1_save.jpeg used on input line 231.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_10D_F12_save.jpeg, id=137, 803.0pt x 602.25pt>
+<images/plot_10D_F12_save.jpeg, id=139, 803.0pt x 602.25pt>
 File: images/plot_10D_F12_save.jpeg Graphic file (type jpg)
 
 <use images/plot_10D_F12_save.jpeg>
-Package pdftex.def Info: images/plot_10D_F12_save.jpeg used on input line 221.
+Package pdftex.def Info: images/plot_10D_F12_save.jpeg used on input line 236.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_30D_F12_save.jpeg, id=138, 803.0pt x 602.25pt>
+<images/plot_30D_F12_save.jpeg, id=140, 803.0pt x 602.25pt>
 File: images/plot_30D_F12_save.jpeg Graphic file (type jpg)
 
 <use images/plot_30D_F12_save.jpeg>
-Package pdftex.def Info: images/plot_30D_F12_save.jpeg used on input line 225.
+Package pdftex.def Info: images/plot_30D_F12_save.jpeg used on input line 240.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_50D_F12_save.jpeg, id=139, 803.0pt x 602.25pt>
+<images/plot_50D_F12_save.jpeg, id=141, 803.0pt x 602.25pt>
 File: images/plot_50D_F12_save.jpeg Graphic file (type jpg)
 
 <use images/plot_50D_F12_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F12_save.jpeg used on input line 229.
+Package pdftex.def Info: images/plot_50D_F12_save.jpeg used on input line 244.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_100D_F12_save.jpeg, id=140, 803.0pt x 602.25pt>
+<images/plot_100D_F12_save.jpeg, id=142, 803.0pt x 602.25pt>
 File: images/plot_100D_F12_save.jpeg Graphic file (type jpg)
 
 <use images/plot_100D_F12_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F12_save.jpeg used on input line 233.
+Package pdftex.def Info: images/plot_100D_F12_save.jpeg used on input line 248.
 
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_10D_F23_save.jpeg, id=141, 803.0pt x 602.25pt>
+<images/plot_10D_F23_save.jpeg, id=143, 803.0pt x 602.25pt>
 File: images/plot_10D_F23_save.jpeg Graphic file (type jpg)
 
 <use images/plot_10D_F23_save.jpeg>
-Package pdftex.def Info: images/plot_10D_F23_save.jpeg used on input line 239.
+Package pdftex.def Info: images/plot_10D_F23_save.jpeg used on input line 254.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_30D_F23_save.jpeg, id=142, 803.0pt x 602.25pt>
+<images/plot_30D_F23_save.jpeg, id=144, 803.0pt x 602.25pt>
 File: images/plot_30D_F23_save.jpeg Graphic file (type jpg)
 
 <use images/plot_30D_F23_save.jpeg>
-Package pdftex.def Info: images/plot_30D_F23_save.jpeg used on input line 243.
+Package pdftex.def Info: images/plot_30D_F23_save.jpeg used on input line 258.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_50D_F23_save.jpeg, id=143, 803.0pt x 602.25pt>
+<images/plot_50D_F23_save.jpeg, id=145, 803.0pt x 602.25pt>
 File: images/plot_50D_F23_save.jpeg Graphic file (type jpg)
 
 <use images/plot_50D_F23_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F23_save.jpeg used on input line 247.
+Package pdftex.def Info: images/plot_50D_F23_save.jpeg used on input line 262.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_100D_F23_save.jpeg, id=144, 803.0pt x 602.25pt>
+<images/plot_100D_F23_save.jpeg, id=146, 803.0pt x 602.25pt>
 File: images/plot_100D_F23_save.jpeg Graphic file (type jpg)
 
 <use images/plot_100D_F23_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F23_save.jpeg used on input line 251.
+Package pdftex.def Info: images/plot_100D_F23_save.jpeg used on input line 266.
 
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_10D_F27_save.jpeg, id=145, 803.0pt x 602.25pt>
+<images/plot_10D_F27_save.jpeg, id=147, 803.0pt x 602.25pt>
 File: images/plot_10D_F27_save.jpeg Graphic file (type jpg)
 
 <use images/plot_10D_F27_save.jpeg>
-Package pdftex.def Info: images/plot_10D_F27_save.jpeg used on input line 257.
+Package pdftex.def Info: images/plot_10D_F27_save.jpeg used on input line 272.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_30D_F27_save.jpeg, id=146, 803.0pt x 602.25pt>
+<images/plot_30D_F27_save.jpeg, id=148, 803.0pt x 602.25pt>
 File: images/plot_30D_F27_save.jpeg Graphic file (type jpg)
 
 <use images/plot_30D_F27_save.jpeg>
-Package pdftex.def Info: images/plot_30D_F27_save.jpeg used on input line 261.
+Package pdftex.def Info: images/plot_30D_F27_save.jpeg used on input line 276.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_50D_F27_save.jpeg, id=147, 803.0pt x 602.25pt>
+<images/plot_50D_F27_save.jpeg, id=149, 803.0pt x 602.25pt>
 File: images/plot_50D_F27_save.jpeg Graphic file (type jpg)
 
 <use images/plot_50D_F27_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F27_save.jpeg used on input line 265.
+Package pdftex.def Info: images/plot_50D_F27_save.jpeg used on input line 280.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_100D_F27_save.jpeg, id=148, 803.0pt x 602.25pt>
+<images/plot_100D_F27_save.jpeg, id=150, 803.0pt x 602.25pt>
 File: images/plot_100D_F27_save.jpeg Graphic file (type jpg)
 
 <use images/plot_100D_F27_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F27_save.jpeg used on input line 269.
+Package pdftex.def Info: images/plot_100D_F27_save.jpeg used on input line 284.
 
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_50D_F6_save.jpeg, id=149, 803.0pt x 602.25pt>
+<images/plot_50D_F6_save.jpeg, id=151, 803.0pt x 602.25pt>
 File: images/plot_50D_F6_save.jpeg Graphic file (type jpg)
 
 <use images/plot_50D_F6_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F6_save.jpeg used on input line 274.
+Package pdftex.def Info: images/plot_50D_F6_save.jpeg used on input line 289.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_100D_F6_save.jpeg, id=150, 803.0pt x 602.25pt>
+<images/plot_100D_F6_save.jpeg, id=152, 803.0pt x 602.25pt>
 File: images/plot_100D_F6_save.jpeg Graphic file (type jpg)
 
 <use images/plot_100D_F6_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F6_save.jpeg used on input line 278.
+Package pdftex.def Info: images/plot_100D_F6_save.jpeg used on input line 293.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_50D_F20_save.jpeg, id=151, 803.0pt x 602.25pt>
+<images/plot_50D_F20_save.jpeg, id=153, 803.0pt x 602.25pt>
 File: images/plot_50D_F20_save.jpeg Graphic file (type jpg)
 
 <use images/plot_50D_F20_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F20_save.jpeg used on input line 282.
+Package pdftex.def Info: images/plot_50D_F20_save.jpeg used on input line 297.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_100D_F20_save.jpeg, id=152, 803.0pt x 602.25pt>
+<images/plot_100D_F20_save.jpeg, id=154, 803.0pt x 602.25pt>
 File: images/plot_100D_F20_save.jpeg Graphic file (type jpg)
 
 <use images/plot_100D_F20_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F20_save.jpeg used on input line 286.
+Package pdftex.def Info: images/plot_100D_F20_save.jpeg used on input line 301.
 
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
@@ -2723,11 +2740,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 170.
  ) 
 Here is how much of TeX's memory you used:
- 15348 strings out of 493029
- 239141 string characters out of 6136233
- 527633 words of memory out of 5000000
+ 15371 strings out of 493029
+ 239331 string characters out of 6136233
+ 528633 words of memory out of 5000000
  18114 multiletter control sequences out of 15000+600000
- 76155 words of font info for 259 fonts, out of 8000000 for 9000
+ 82744 words of font info for 281 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  60i,12n,94p,1260b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-4.enc}{/usr
@@ -2744,17 +2761,18 @@ linumT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinBioli
 numTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibert
 ineT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLiberti
 neTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLiberti
-neTI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/fxlri-7letters
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newt
-x/zxlr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
-Output written on sample-sigconf.pdf (8 pages, 2005518 bytes).
+neTI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/fxlri-5letters
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/fxlri-7letters.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/zx
+lr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
+Output written on sample-sigconf.pdf (8 pages, 2080958 bytes).
 PDF statistics:
- 257 PDF objects out of 1000 (max. 8388607)
- 204 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
+ 262 PDF objects out of 1000 (max. 8388607)
+ 208 compressed objects within 3 object streams
+ 50 named destinations out of 1000 (max. 500000)
  37068 words of extra memory for PDF output out of 42996 (max. 10000000)
 

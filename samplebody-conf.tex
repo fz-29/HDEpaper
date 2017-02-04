@@ -133,13 +133,13 @@ u_i =
 \vspace{-1.5mm}
 \begin{equation}
 \label{one}
-E_g = g_L + F (x_{L,G} - x_{r,G})
+E_g = g_L + F (x_{L_i,G} - x_{r,G})
 \end{equation}
 
 \vspace{-1.5mm}
 \begin{equation}
 \label{two}
-E_l = x_{L,G} + F (x_{i,G} - x_{r,G})
+E_l = x_{L_i,G} + F (x_{i,G} - x_{r,G})
 \end{equation}
 
 for each dimension $j$ of $x_{j,i,G}$:
@@ -147,23 +147,38 @@ for each dimension $j$ of $x_{j,i,G}$:
 x'_{j,i} =  
 \left\{
 \begin{array}{ll}
-      x_{j,i,G} & if rand(0,1) < HC \\
-      u_{j,i}, & otherwise \\
+      x_{j,i,G} & if \thinspace\thinspace rand(0,1) < HC \\
+      u_{j,i} & otherwise \\
+\end{array} 
+\right. 
+\end{equation}\\
+
+\vspace{-1.5mm}
+\begin{equation}
+x_{i,G+1} =  
+\left\{
+\begin{array}{ll}
+      x'_{i,G}, & if \thinspace\thinspace f(x'_{i,G}) < f(x_{i,G}) \\
+      x_{i,G}, & otherwise \\
 \end{array} 
 \right. 
 \end{equation}\\
 
 where,
 $x_{i,G}$ is the current position of the individual of generation G,\\
-$u_i$ is the trial vector the current individual,\\
-$x_{L,G}$ is the position of the local leader,\\
-$L$ is the Path Value or displacement from the initial position for the current individual,\\
-$\phi$ is the perturbation vector,\\
-$PR$ is the probability of perturbation,\\
-$\gamma \in U(0, 1)$ is a random number from a uniform distribution.\\
+$u_i$ is intermediate trial vector the current individual,\\
+$E_g$ \\
+$E_l$ \\
+$g_L$
+$x_{L_i,G}$ is the position of the local leader for current individual,\\
+$x_{r,G}$ \epsilon P $;$ \thinspace r \epsilon [0,1,.. NP-1] \\
+$x'_{j,i}$ is the trial vector\\
+$x_{i,G+1}$ is the vector position of $x_{i,G}$ for next generation\\
+
 
 
 $x_r$ is randomly chosen particle from the population to induce stochasticity. The hierarchical operation is affected by the global leader $g_L$ and the local leader $x_L$ through the parametric equations \eqref{one} and \eqref{two}. Switching between the two is governed by the hierarchical crossover parameter $HC$.
+
 
 \subsection{Hierarchical Crossover}
 
