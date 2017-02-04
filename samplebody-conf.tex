@@ -115,7 +115,7 @@ The position of each particle in the population is affected by the influence of 
 \end{algorithmic}
 \end{algorithm}
 
-Analogously to the brain motor operation depicted in Figure 1, the updation of particle positions requires generating feedback for the leaders as a part of the optimization procedure, and hence the local leaders and the global leader are updated based on their objective function value generated from the perturbations in population particles. This series of events comprise of one optimization pass (one loop step). On execution of several optimization passes as described, the system is able to converge to an optimal configuration, analogous to the successful execution of the required task as shown in the final steps of Figure 1.
+Analogously to the brain motor operation as depicted in Figure 1, the updation of particle positions requires generating feedback for the leaders as a part of the optimization procedure, and hence the local leaders and the global leader are updated based on their objective function value generated from the perturbations in population particles. This series of events comprise of one optimization pass (one generation step). On execution of several optimization passes as described, the system is able to converge to an optimal configuration, analogous to the successful execution of the required task as shown in the final steps of Figure 1.
 
 For each particle $x_{i,G}$, $i = 0, 1, 2,...NP-1$ for generation G, the trial vector $x'_{i}$ of the particle, is governed by the hierarchical crossover operation and a mutation operation as follows : 
 
@@ -153,6 +153,22 @@ x'_{j,i} =
 \right. 
 \end{equation}\\
 
+
+where \\
+$G_{t}$ is the total number of generations,\\
+$F$ is factor responsible for amplification of differential variation, \\
+$f$ is the objective function, \\
+$x_{i,G}$ is the current position of the individual for generation G,\\
+$u_i$ is the intermediate trial vector of the current individual,\\
+$E_g$ represents the global and local leader interaction,\\
+$E_l$ represents the local leader and effector interaction,\\
+$g_L$ is the global leader for generation G, \\
+$x_{L_i,G}$ is the position of the local leader for current individual,\\
+$x_{r,G}$ \epsilon P $;$ \thinspace r \epsilon [0,1,.. NP-1] \\
+$x'_{j,i}$ is the trial vector\\
+
+$x_{r,G}$ is randomly chosen particle from the population to induce stochasticity. The hierarchical operation is affected by the global leader $g_L$ and the local leader $x_{L_i,G}$  through the parametric equations \eqref{one} and \eqref{two}. Switching between the two is governed by the hierarchical crossover parameter $HC$.
+
 \vspace{-1.5mm}
 \begin{equation}
 x_{i,G+1} =  
@@ -164,25 +180,14 @@ x_{i,G+1} =
 \right. 
 \end{equation}\\
 
-where,
-$x_{i,G}$ is the current position of the individual of generation G,\\
-$u_i$ is intermediate trial vector the current individual,\\
-$E_g$ \\
-$E_l$ \\
-$g_L$
-$x_{L_i,G}$ is the position of the local leader for current individual,\\
-$x_{r,G}$ \epsilon P $;$ \thinspace r \epsilon [0,1,.. NP-1] \\
-$x'_{j,i}$ is the trial vector\\
+where
 $x_{i,G+1}$ is the vector position of $x_{i,G}$ for next generation\\
 
 
 
-$x_r$ is randomly chosen particle from the population to induce stochasticity. The hierarchical operation is affected by the global leader $g_L$ and the local leader $x_L$ through the parametric equations \eqref{one} and \eqref{two}. Switching between the two is governed by the hierarchical crossover parameter $HC$.
-
-
 \subsection{Hierarchical Crossover}
 
-Convergence trend in HIDE is largely pivoted about (2) and (3), which in unison, lend a hierarchical structure to the algorithm. A successful optimization algorithm involves establishing a trade-off between fast convergence and robust optimization \cite{storn1995differential}. Achieving global optimization can be visualized as collaboration of two forces, greedy exploration over a larger subspace followed by intensive exploration over the resulting restricted search space. Phase 1, involving (2) is marked by the interaction between the global and local leaders representing decision planning and facilitation of gross motion. This is followed by phase 2, involving (3) wherein the local leaders interact with and guide their effector population to control intricate motion over the constraint subspace to achieve smooth convergence. Robust covergence necessitates an optimal transition from phase 1 to phase 2 in the hierarchy. This hierarchical transition is characterized by our proposed parameter, HC.The value of HC belongs to [0,1]. An optimal value for HC was observed experimentally to lie about one-quarter. For the purpose of our results, we have fixed $HC$ to be 0.27.
+Convergence trend in HIDE is largely pivoted about (3) and (4), which in unison, lend a hierarchical structure to the algorithm. A successful optimization algorithm involves establishing a trade-off between fast convergence and robust optimization \cite{storn1995differential}. Achieving global optimization can be visualized as collaboration of two forces, greedy exploration over a larger subspace followed by intensive exploration over the resulting restricted search space. Phase 1, involving (3) is marked by the interaction between the global and local leaders representing decision planning and facilitation of gross motion. This is followed by phase 2, involving (4) wherein the local leaders interact with and guide their effector population to control intricate motion over the constraint subspace to achieve smooth convergence. Robust covergence necessitates an optimal transition from phase 1 to phase 2 in the hierarchy. This hierarchical transition is characterized by our proposed parameter, HC.The value of HC belongs to [0,1]. An optimal value for HC was observed experimentally to lie about one-quarter. For the purpose of our results, we have fixed $HC$ to be 0.27.
 The differential influence of the global leader and distributed local leaders at the higher levels of hierarchy balances the greediness of mutation. Running these vector configurations concurrently has enabled our algorithm to largely avoid local minima in quest to attain global minimum. Our proposition is complemented by the observations in our results section wherein we significantly outperform several popular algorithms on involved multimodal hybrid and composite functions on higher dimensions.
 
 % In algorithm \ref{algo}, The Hierarchical crossover is controlled by the conditional equation $i_c \textless (HC*i_N)$, which controls the decision making between global or local gross motion. The decision control is also portrayed in Fig 3. where the position vectors resulting from the influence of global leader and local leaders are both represented as $E_g$ and $E_l$ on the contour of a two dimensional objective function. Using the hierarchical crossover on the conditional equation, we model the decisive action between global and local influences.
@@ -233,37 +238,20 @@ For fair comparisons, the parameters for all algorithms are fixed to the values 
     \end{subfigure}
 
     \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_10D_F12_save}
-        \caption{}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_30D_F12_save}
-        \caption{}
-    \end{subfigure}        
-    \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F12_save}
-        \caption{}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F12_save}
-        \caption{}
-    \end{subfigure}
-
-    \begin{subfigure}[b]{0.24\textwidth}
         % \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D10}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_10D_F23_save}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_10D_F22_save}
         \caption{}
     \end{subfigure}
     \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_30D_F23_save}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_30D_F22_save}
         \caption{}
     \end{subfigure}    
     \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F23_save}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F22_save}
         \caption{}
     \end{subfigure}
     \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F23_save}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F22_save}
         \caption{}
     \end{subfigure}
 
@@ -291,6 +279,23 @@ For fair comparisons, the parameters for all algorithms are fixed to the values 
     \end{subfigure}
     \begin{subfigure}[b]{0.24\textwidth}
         \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F6_save}
+        \caption{}
+    \end{subfigure}        
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F11_save}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F11_save}
+        \caption{}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F12_save}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F12_save}
         \caption{}
     \end{subfigure}
     \begin{subfigure}[b]{0.24\textwidth}
