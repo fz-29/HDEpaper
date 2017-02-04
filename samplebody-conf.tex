@@ -43,15 +43,15 @@ The proposed approach, Hierarchy Influenced Differential Evolution (HIDE), has b
 
 \section{Classical Differential Evolution}
 
-The classical Differential Evolution (DE) algorithm is a population-based global optimization algorithm, utilizing a crossover and mutation approach to generate new individuals in the population for achieving optimum solutions\cite{das2011differential}. For each individual $x_i$ that belongs to the population for generation $G$, DE randomly samples three individuals from the population namely $x_{r1,G}$, $x_{r2,G}$ and $x_{r3,G}$. Employing these randomly chosen points, a new individual trial vector, $V_i$, is generated using equation \eqref{de}:
+The classical Differential Evolution (DE) algorithm is a population-based global optimization algorithm, utilizing a crossover and mutation approach to generate new individuals in the population for achieving optimum solutions\cite{das2011differential}. For each individual $x_i$ that belongs to the population for generation $G$, DE randomly samples three individuals from the population namely $x_{r1,G}$, $x_{r2,G}$ and $x_{r3,G}$. Employing these randomly chosen points, a new individual trial vector, $v_i$, is generated using equation \eqref{de}:
 
 \begin{equation}
 \label{de}
-V_i = x_{r1,G} + F (x_{r2,G} - x_{r3,G})
+v_i = x_{r1,G} + F (x_{r2,G} - x_{r3,G})
 \end{equation}
 
 Where, $F$ is called the differential weight (Usually lies between $[0, 1]$).\\
-To obtain the updated position of the individual, a crossover operation is implemented between $x_{i,G}$ and $V_i$, controlled by the parameter $CR$ called the crossover probability. The value for $CR$ always lies between $[0, 1]$.
+To obtain the updated position of the individual, a crossover operation is implemented between $x_{i,G}$ and $v_i$, controlled by the parameter $CR$ called the crossover probability. The value for $CR$ always lies between $[0, 1]$.
 
 \begin{figure}[h!]
   \includegraphics[scale=0.3]{contourDE}
@@ -80,32 +80,32 @@ The position of each particle in the population is affected by the influence of 
 \label{algo}
 \begin{algorithmic}[1]
   \Procedure{Start}{}
-    \State Initialize parameters ($HC$, $HC$, $P$, $N_l$, $NP$).
+    \State Initialize parameters ($HC$, $F$, $P$, $N_l$, $NP$).
     \State Generate initial global leader $g_L$ as a random point.
-    \State Generate $N_l$ local leader points around $g_L$.
+    \State Generate $N_l$ local leader points around $g_L$ global leader.
     \State Using a Normal distribution, generate $NP$ points for population $P$ around the local leaders.
     \While{termination criteria is not met}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-      \For{each individual $x_i,L$ in $P$}
-        \State Determine the corresponding local leader $l$ from the set of all local leader based on nearest position.
+      \For{each individual $x_{i,G}$ in $P$}
+        \State Determine the corresponding local leader $x_{L_i,G}$ from the set of all local leader based on nearest position.
         \State Let $u = 0$ be an empty vector.
-        \State Let $i_c$ and $i_N$ be the current generation and total generations of the procedure.
-        \If {$i_c \textless (HC*i_N)$}
-          \State $u = E_g$ from \eqref{one}.
+        \State Let $G$ and $G_{t}$ be the current generation and total generations of the procedure.
+        \If {$G \textless (HC * G_{t})$}
+          \State $u_i = E_g$ from \eqref{one}.
         \Else
-          \State $u = E_l$ from \eqref{two}.
+          \State $u_i = E_l$ from \eqref{two}.
         \EndIf
         
         \For{each dimension $j$}
-          \State Generate $r_j = U(0, 1)$, a random number between 0 and 1.
-          \If {$r_j \textless HC$}
-            \State Set $x_j^{'} = x_j$.
+%          \State Generate $r_j = U(0, 1)$, a random number between 0 and 1.
+          \If {$random(0, 1) \textless HC$}
+            \State Set $x'_{j,i} = x_{j,i,G}$.
           \Else
-            \State Set $x_j^{'} = u_j$
+            \State Set $x'_{j,i} = u_{j,i}$
           \EndIf
         \EndFor
-        \If {$f(x^{'}) \textless f(x)$}
-          \State Replace $x$ with $x^{'}$ in the population.
+        \If {$f(x') \textless f(x)$}
+          \State Replace $x$ with $x'$ in the population.
         \EndIf
       \EndFor
       \State Alter local leaders in each population cluster based on objective function value.
@@ -130,7 +130,7 @@ u_i =
 \right. 
 \end{equation}\\
 
-\vspace{-1.5mm}
+\vspace{-5.5mm}
 \begin{equation}
 \label{one}
 E_g = g_L + F (x_{L_i,G} - x_{r,G})
@@ -152,9 +152,9 @@ x'_{j,i} =
 \end{array} 
 \right. 
 \end{equation}\\
+\vspace{-5.5mm}
 
-
-where \\
+where, \\
 $G_{t}$ is the total number of generations,\\
 $F$ is factor responsible for amplification of differential variation, \\
 $f$ is the objective function, \\
