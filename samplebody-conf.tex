@@ -132,11 +132,21 @@ E_l = x_L + F (x_{i,L} - x_r)
 with 
 \begin{equation}
 \label{one}
-x_r \epsilon [0,NP-1]
+x_r \epsilon P; r \epsilon [0,NP-1]
 \end{equation}
 
 
-$x_r$ is randomly chosen particle from the population to induce stochasticity. The hierarchical operation is affected by the global leader $g_L$ and the local leader $x_L$ through the parametric equations \eqref{one} and \eqref{two}. Switching between the two is governed by the hierarchical crossover parameter $HC$. The given equations are discussed as follows:
+$x_r$ is randomly chosen particle from the population to induce stochasticity. The hierarchical operation is affected by the global leader $g_L$ and the local leader $x_L$ through the parametric equations \eqref{one} and \eqref{two}. Switching between the two is governed by the hierarchical crossover parameter $HC$ discussed as follows:
+
+\begin{equation}
+u = 
+\left\{
+\begin{array}{ll}
+      E_g, & i_c \textless (HC*i_N) \\
+      E_l, & otherwise \\
+\end{array} 
+\right.
+\end{equation}
 
 \subsection{Hierarchical Crossover}
 
