@@ -117,26 +117,53 @@ The position of each particle in the population is affected by the influence of 
 
 Analogously to the brain motor operation depicted in Figure 1, the updation of particle positions requires generating feedback for the leaders as a part of the optimization procedure, and hence the local leaders and the global leader are updated based on their objective function value generated from the perturbations in population particles. This series of events comprise of one optimization pass (one loop step). On execution of several optimization passes as described, the system is able to converge to an optimal configuration, analogous to the successful execution of the required task as shown in the final steps of Figure 1.
 
-For each particle $x_i$, $i = 0, 1, 2,...NP-1$ the trial vector of the particle $u$, is governed by the hierarchical crossover operation and a mutation operation as follows : 
+For each particle $x_{i,G}$, $i = 0, 1, 2,...NP-1$ for generation G, the trial vector $x'_{i}$ of the particle, is governed by the hierarchical crossover operation and a mutation operation as follows : 
 
+\vspace{-1.5mm}
+\begin{equation}
+u_i =  
+\left\{
+\begin{array}{ll}
+      E_g, & if \thinspace\thinspace G < HC * G_{t} \\
+      E_l, & otherwise \\
+\end{array} 
+\right. 
+\end{equation}\\
+
+\vspace{-1.5mm}
 \begin{equation}
 \label{one}
-E_g = g_L + F (x_L - x_r)
+E_g = g_L + F (x_{L,G} - x_{r,G})
 \end{equation}
 
+\vspace{-1.5mm}
 \begin{equation}
 \label{two}
-E_l = x_L + F (x_{i,L} - x_r)
+E_l = x_{L,G} + F (x_{i,G} - x_{r,G})
 \end{equation}
 
-with 
+for each dimension $j$ of $x_{j,i,G}$:
 \begin{equation}
-\label{one}
-x_r \epsilon [0,NP-1]
-\end{equation}
+x'_{j,i} =  
+\left\{
+\begin{array}{ll}
+      x_{j,i,G} & if rand(0,1) < HC \\
+      u_{j,i}, & otherwise \\
+\end{array} 
+\right. 
+\end{equation}\\
+
+where,
+$x_{i,G}$ is the current position of the individual of generation G,\\
+$u_i$ is the trial vector the current individual,\\
+$x_{L,G}$ is the position of the local leader,\\
+$L$ is the Path Value or displacement from the initial position for the current individual,\\
+$\phi$ is the perturbation vector,\\
+$PR$ is the probability of perturbation,\\
+$\gamma \in U(0, 1)$ is a random number from a uniform distribution.\\
 
 
-$x_r$ is randomly chosen particle from the population to induce stochasticity. The hierarchical operation is affected by the global leader $g_L$ and the local leader $x_L$ through the parametric equations \eqref{one} and \eqref{two}. Switching between the two is governed by the hierarchical crossover parameter $HC$. The given equations are discussed as follows:
+$x_r$ is randomly chosen particle from the population to induce stochasticity. The hierarchical operation is affected by the global leader $g_L$ and the local leader $x_L$ through the parametric equations \eqref{one} and \eqref{two}. Switching between the two is governed by the hierarchical crossover parameter $HC$.
 
 \subsection{Hierarchical Crossover}
 

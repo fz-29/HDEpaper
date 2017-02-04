@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.28)  4 FEB 2017 19:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.28)  4 FEB 2017 20:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -706,88 +706,118 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen160
 )
-(./sample-sigconf.aux
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
 
-LaTeX Warning: Label `one' multiply defined.
-
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count146
+\calc@Bcount=\count147
+\calc@Adimen=\dimen161
+\calc@Bdimen=\dimen162
+\calc@Askip=\skip71
+\calc@Bskip=\skip72
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count148
+\calc@Cskip=\skip73
 )
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count149
+\l_MT_multwidth_dim=\dimen163
+\origjot=\skip74
+\l_MT_shortvdotswithinadjustabove_dim=\dimen164
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen165
+\l_MT_above_intertext_sep=\dimen166
+\l_MT_below_intertext_sep=\dimen167
+\l_MT_above_shortintertext_sep=\dimen168
+\l_MT_below_shortintertext_sep=\dimen169
+)
+(./sample-sigconf.aux)
 \openout1 = `sample-sigconf.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 41.
-LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 41
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 42.
+LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 42
 .
- (/usr/share/texlive/texmf-dist/tex/latex/newtx/omlnxlmi.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 41.
-LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 41
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 42.
+LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 42
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/omsntxsy.fd
 File: omsntxsy.fd 2012/11/14 Fontinst v1.933 font definitions for OMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 41.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 41.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 42.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 42.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 41.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 42.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 41.
+(Font)              scaled to size 7.0pt on input line 42.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 41.
+(Font)              scaled to size 7.3pt on input line 42.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 41.
-LaTeX Font Info:    Try loading font information for U+msa on input line 41.
+(Font)              scaled to size 5.5pt on input line 42.
+LaTeX Font Info:    Try loading font information for U+msa on input line 42.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 41.
+LaTeX Font Info:    Try loading font information for U+msb on input line 42.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 41.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 42.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 41.
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 42.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 41.
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 42.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Info: Redefining \microtypecontext on input line 41.
+LaTeX Info: Redefining \microtypecontext on input line 42.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -804,7 +834,7 @@ Package microtype Info: Loading generic settings for font family
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box35
-Package hyperref Info: Link coloring OFF on input line 41.
+Package hyperref Info: Link coloring OFF on input line 42.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -812,11 +842,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count146
+\c@section@level=\count150
 )
-LaTeX Info: Redefining \ref on input line 41.
-LaTeX Info: Redefining \pageref on input line 41.
-LaTeX Info: Redefining \nameref on input line 41.
+LaTeX Info: Redefining \ref on input line 42.
+LaTeX Info: Redefining \pageref on input line 42.
+LaTeX Info: Redefining \nameref on input line 42.
 
 (./sample-sigconf.out) (./sample-sigconf.out)
 \@outlinefile=\write4
@@ -825,16 +855,16 @@ LaTeX Info: Redefining \nameref on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count147
-\scratchdimen=\dimen161
+\scratchcounter=\count151
+\scratchdimen=\dimen170
 \scratchbox=\box36
-\nofMPsegments=\count148
-\nofMParguments=\count149
+\nofMPsegments=\count152
+\nofMParguments=\count153
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count150
-\MPscratchDim=\dimen162
-\MPnumerator=\count151
-\makeMPintoPDFobject=\count152
+\MPscratchCnt=\count154
+\MPscratchDim=\dimen171
+\MPnumerator=\count155
+\makeMPintoPDFobject=\count156
 \everyMPtoPDFconversion=\toks35
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -885,8 +915,8 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@mv@tabular=\count153
-\c@mv@boldtabular=\count154
+\c@mv@tabular=\count157
+\c@mv@boldtabular=\count158
 (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
@@ -895,16 +925,16 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 162.
+(Font)              scaled to size 17.28pt on input line 163.
 LaTeX Font Info:    Try loading font information for OT1+LinuxBiolinumT-TLF on 
-input line 162.
+input line 163.
 
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/OT1LinuxBiolinumT-TLF.fd
 File: OT1LinuxBiolinumT-TLF.fd 2012/11/26 (autoinst) Font definitions for OT1/L
 inuxBiolinumT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 162.
+(Font)              scaled to size 17.28pt on input line 163.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinuxBiolinumT-TLF' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -912,40 +942,40 @@ Package microtype Info: Loading generic settings for font family
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/bx/n' in size <17.28> no
 t available
 (Font)              Font shape `OT1/LinuxBiolinumT-TLF/b/n' tried instead on in
-put line 162.
+put line 163.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 162.
+(Font)              scaled to size 17.28pt on input line 163.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 162.
+(Font)              scaled to size 12.0pt on input line 163.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 162.
+(Font)              scaled to size 10.0pt on input line 163.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 7.0pt on input line 162.
+(Font)              scaled to size 7.0pt on input line 163.
 LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
- input line 162.
+ input line 163.
 
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
 File: TS1LinuxLibertineT-TLF.fd 2012/11/26 (autoinst) Font definitions for TS1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 162.
+(Font)              scaled to size 7.0pt on input line 163.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 162.
+(Font)              scaled to size 9.0pt on input line 163.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 162.
+(Font)              scaled to size 10.95pt on input line 163.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 162.
+(Font)              scaled to size 8.0pt on input line 163.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 162.
+(Font)              scaled to size 8.0pt on input line 163.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 162.
+(Font)              scaled to size 8.0pt on input line 163.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.2pt on input line 162.
+(Font)              scaled to size 6.2pt on input line 163.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
@@ -1021,12 +1051,22 @@ LaTeX Warning: Command \textless invalid in math mode on input line 107.
 
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 119.
-[2.2 <./images/contourDE.png> <./images/contourDL.png>] (./functable.tex)
-[3.3] (./paramsTable.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[2.2 <./images/contourDE.png> <./images/contourDL.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
 
 
-(./table1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--164
+
+ []
+
+(./functable.tex) [3.3] (./paramsTable.tex) (./table1.tex
 Overfull \hbox (2.69734pt too wide) in paragraph at lines 31--31
 []\OT1/LinuxLibertineT-TLF/b/n/9 1694.437597| 
  []
@@ -2458,147 +2498,147 @@ Overfull \hbox (1.32315pt too wide) in paragraph at lines 146--147
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) <images/plot_10D_F1_save.jpeg, id=131, 803.0pt x 602.25pt>
+) <images/plot_10D_F1_save.jpeg, id=133, 803.0pt x 602.25pt>
 File: images/plot_10D_F1_save.jpeg Graphic file (type jpg)
 
 <use images/plot_10D_F1_save.jpeg>
-Package pdftex.def Info: images/plot_10D_F1_save.jpeg used on input line 177.
+Package pdftex.def Info: images/plot_10D_F1_save.jpeg used on input line 204.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_30D_F1_save.jpeg, id=132, 803.0pt x 602.25pt>
+<images/plot_30D_F1_save.jpeg, id=134, 803.0pt x 602.25pt>
 File: images/plot_30D_F1_save.jpeg Graphic file (type jpg)
 
 <use images/plot_30D_F1_save.jpeg>
-Package pdftex.def Info: images/plot_30D_F1_save.jpeg used on input line 181.
+Package pdftex.def Info: images/plot_30D_F1_save.jpeg used on input line 208.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_50D_F1_save.jpeg, id=133, 803.0pt x 602.25pt>
+<images/plot_50D_F1_save.jpeg, id=135, 803.0pt x 602.25pt>
 File: images/plot_50D_F1_save.jpeg Graphic file (type jpg)
 
 <use images/plot_50D_F1_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F1_save.jpeg used on input line 185.
+Package pdftex.def Info: images/plot_50D_F1_save.jpeg used on input line 212.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_100D_F1_save.jpeg, id=134, 803.0pt x 602.25pt>
+<images/plot_100D_F1_save.jpeg, id=136, 803.0pt x 602.25pt>
 File: images/plot_100D_F1_save.jpeg Graphic file (type jpg)
 
 <use images/plot_100D_F1_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F1_save.jpeg used on input line 189.
+Package pdftex.def Info: images/plot_100D_F1_save.jpeg used on input line 216.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_10D_F12_save.jpeg, id=135, 803.0pt x 602.25pt>
+<images/plot_10D_F12_save.jpeg, id=137, 803.0pt x 602.25pt>
 File: images/plot_10D_F12_save.jpeg Graphic file (type jpg)
 
 <use images/plot_10D_F12_save.jpeg>
-Package pdftex.def Info: images/plot_10D_F12_save.jpeg used on input line 194.
+Package pdftex.def Info: images/plot_10D_F12_save.jpeg used on input line 221.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_30D_F12_save.jpeg, id=136, 803.0pt x 602.25pt>
+<images/plot_30D_F12_save.jpeg, id=138, 803.0pt x 602.25pt>
 File: images/plot_30D_F12_save.jpeg Graphic file (type jpg)
 
 <use images/plot_30D_F12_save.jpeg>
-Package pdftex.def Info: images/plot_30D_F12_save.jpeg used on input line 198.
+Package pdftex.def Info: images/plot_30D_F12_save.jpeg used on input line 225.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_50D_F12_save.jpeg, id=137, 803.0pt x 602.25pt>
+<images/plot_50D_F12_save.jpeg, id=139, 803.0pt x 602.25pt>
 File: images/plot_50D_F12_save.jpeg Graphic file (type jpg)
 
 <use images/plot_50D_F12_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F12_save.jpeg used on input line 202.
+Package pdftex.def Info: images/plot_50D_F12_save.jpeg used on input line 229.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_100D_F12_save.jpeg, id=138, 803.0pt x 602.25pt>
+<images/plot_100D_F12_save.jpeg, id=140, 803.0pt x 602.25pt>
 File: images/plot_100D_F12_save.jpeg Graphic file (type jpg)
 
 <use images/plot_100D_F12_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F12_save.jpeg used on input line 206.
+Package pdftex.def Info: images/plot_100D_F12_save.jpeg used on input line 233.
 
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_10D_F23_save.jpeg, id=139, 803.0pt x 602.25pt>
+<images/plot_10D_F23_save.jpeg, id=141, 803.0pt x 602.25pt>
 File: images/plot_10D_F23_save.jpeg Graphic file (type jpg)
 
 <use images/plot_10D_F23_save.jpeg>
-Package pdftex.def Info: images/plot_10D_F23_save.jpeg used on input line 212.
+Package pdftex.def Info: images/plot_10D_F23_save.jpeg used on input line 239.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_30D_F23_save.jpeg, id=140, 803.0pt x 602.25pt>
+<images/plot_30D_F23_save.jpeg, id=142, 803.0pt x 602.25pt>
 File: images/plot_30D_F23_save.jpeg Graphic file (type jpg)
 
 <use images/plot_30D_F23_save.jpeg>
-Package pdftex.def Info: images/plot_30D_F23_save.jpeg used on input line 216.
+Package pdftex.def Info: images/plot_30D_F23_save.jpeg used on input line 243.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_50D_F23_save.jpeg, id=141, 803.0pt x 602.25pt>
+<images/plot_50D_F23_save.jpeg, id=143, 803.0pt x 602.25pt>
 File: images/plot_50D_F23_save.jpeg Graphic file (type jpg)
 
 <use images/plot_50D_F23_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F23_save.jpeg used on input line 220.
+Package pdftex.def Info: images/plot_50D_F23_save.jpeg used on input line 247.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_100D_F23_save.jpeg, id=142, 803.0pt x 602.25pt>
+<images/plot_100D_F23_save.jpeg, id=144, 803.0pt x 602.25pt>
 File: images/plot_100D_F23_save.jpeg Graphic file (type jpg)
 
 <use images/plot_100D_F23_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F23_save.jpeg used on input line 224.
+Package pdftex.def Info: images/plot_100D_F23_save.jpeg used on input line 251.
 
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_10D_F27_save.jpeg, id=143, 803.0pt x 602.25pt>
+<images/plot_10D_F27_save.jpeg, id=145, 803.0pt x 602.25pt>
 File: images/plot_10D_F27_save.jpeg Graphic file (type jpg)
 
 <use images/plot_10D_F27_save.jpeg>
-Package pdftex.def Info: images/plot_10D_F27_save.jpeg used on input line 230.
+Package pdftex.def Info: images/plot_10D_F27_save.jpeg used on input line 257.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_30D_F27_save.jpeg, id=144, 803.0pt x 602.25pt>
+<images/plot_30D_F27_save.jpeg, id=146, 803.0pt x 602.25pt>
 File: images/plot_30D_F27_save.jpeg Graphic file (type jpg)
 
 <use images/plot_30D_F27_save.jpeg>
-Package pdftex.def Info: images/plot_30D_F27_save.jpeg used on input line 234.
+Package pdftex.def Info: images/plot_30D_F27_save.jpeg used on input line 261.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_50D_F27_save.jpeg, id=145, 803.0pt x 602.25pt>
+<images/plot_50D_F27_save.jpeg, id=147, 803.0pt x 602.25pt>
 File: images/plot_50D_F27_save.jpeg Graphic file (type jpg)
 
 <use images/plot_50D_F27_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F27_save.jpeg used on input line 238.
+Package pdftex.def Info: images/plot_50D_F27_save.jpeg used on input line 265.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_100D_F27_save.jpeg, id=146, 803.0pt x 602.25pt>
+<images/plot_100D_F27_save.jpeg, id=148, 803.0pt x 602.25pt>
 File: images/plot_100D_F27_save.jpeg Graphic file (type jpg)
 
 <use images/plot_100D_F27_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F27_save.jpeg used on input line 242.
+Package pdftex.def Info: images/plot_100D_F27_save.jpeg used on input line 269.
 
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_50D_F6_save.jpeg, id=147, 803.0pt x 602.25pt>
+<images/plot_50D_F6_save.jpeg, id=149, 803.0pt x 602.25pt>
 File: images/plot_50D_F6_save.jpeg Graphic file (type jpg)
 
 <use images/plot_50D_F6_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F6_save.jpeg used on input line 247.
+Package pdftex.def Info: images/plot_50D_F6_save.jpeg used on input line 274.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_100D_F6_save.jpeg, id=148, 803.0pt x 602.25pt>
+<images/plot_100D_F6_save.jpeg, id=150, 803.0pt x 602.25pt>
 File: images/plot_100D_F6_save.jpeg Graphic file (type jpg)
 
 <use images/plot_100D_F6_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F6_save.jpeg used on input line 251.
+Package pdftex.def Info: images/plot_100D_F6_save.jpeg used on input line 278.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_50D_F20_save.jpeg, id=149, 803.0pt x 602.25pt>
+<images/plot_50D_F20_save.jpeg, id=151, 803.0pt x 602.25pt>
 File: images/plot_50D_F20_save.jpeg Graphic file (type jpg)
 
 <use images/plot_50D_F20_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F20_save.jpeg used on input line 255.
+Package pdftex.def Info: images/plot_50D_F20_save.jpeg used on input line 282.
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
-<images/plot_100D_F20_save.jpeg, id=150, 803.0pt x 602.25pt>
+<images/plot_100D_F20_save.jpeg, id=152, 803.0pt x 602.25pt>
 File: images/plot_100D_F20_save.jpeg Graphic file (type jpg)
 
 <use images/plot_100D_F20_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F20_save.jpeg used on input line 259.
+Package pdftex.def Info: images/plot_100D_F20_save.jpeg used on input line 286.
 
 (pdftex.def)             Requested size: 121.51358pt x 91.13309pt.
 
@@ -2652,9 +2692,11 @@ images/plot_50D_F6_save.jpeg> <./images/plot_100D_F6_save.jpeg> <./images/plot_
 50D_F20_save.jpeg> <./images/plot_100D_F20_save.jpeg>]
 Missing character: There is no â in font LinLibertineT-tlf-ot1!
 Missing character: There is no ™ in font LinLibertineT-tlf-ot1!
-) (./sample-sigconf.bbl
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+)
+(./sample-sigconf.bbl
 LaTeX Font Info:    Try loading font information for OT1+zi4 on input line 156.
 
 
@@ -2666,31 +2708,28 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 ) [8.8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
 
 (./sample-sigconf.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
 Package rerunfilecheck Info: File `sample-sigconf.out' has not changed.
 (rerunfilecheck)             Checksum: DE51227334F5CF89565EB63FC7E06DDE;704.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 170.
  ) 
 Here is how much of TeX's memory you used:
- 14813 strings out of 493029
- 229733 string characters out of 6136233
- 511854 words of memory out of 5000000
- 17596 multiletter control sequences out of 15000+600000
- 75212 words of font info for 254 fonts, out of 8000000 for 9000
+ 15348 strings out of 493029
+ 239141 string characters out of 6136233
+ 527633 words of memory out of 5000000
+ 18114 multiletter control sequences out of 15000+600000
+ 76155 words of font info for 259 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,12n,94p,1260b,608s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,94p,1260b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-4.enc}{/usr
 /share/texlive/texmf-dist/fonts/enc/dvips/newtx/libertinealt.enc}{/usr/share/te
 xlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_tltjc6.enc}{/usr/share/texlive/
@@ -2709,13 +2748,13 @@ neTI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/fxlri-7letters
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/newtx/zxlr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/
-zxlri.pfb>
-Output written on sample-sigconf.pdf (8 pages, 2001099 bytes).
+/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newt
+x/zxlr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
+Output written on sample-sigconf.pdf (8 pages, 2005518 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
- 199 compressed objects within 2 object streams
- 48 named destinations out of 1000 (max. 500000)
+ 257 PDF objects out of 1000 (max. 8388607)
+ 204 compressed objects within 3 object streams
+ 49 named destinations out of 1000 (max. 500000)
  37068 words of extra memory for PDF output out of 42996 (max. 10000000)
 
