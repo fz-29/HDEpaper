@@ -72,14 +72,14 @@ as E$_{g}$ and E$_{l}$ on the contour of a two dimensional objective function.}
   \label{fig:contourDL}
 \end{figure}
 
-The position of each particle in the population is affected by the influence of global leaders and local leaders, while also being affected by a randomly chosen particle from the population to induce some stochasticity in the optimization pipeline. We first model the influence of the global leader on the local leaders and the influences of the local leaders  on each population element using equation \eqref{one} and \eqref{two}. We introduce a hierarchical crossover between the two influencing equations governed by a hierarchical crossover parameter $HC$.
+The position of each particle in the population is affected by the influence of global leader and local leaders, while also being affected by a randomly chosen particle from the population to induce some stochasticity in the optimization pipeline. We first model the influence of the global leader on the local leaders and the influences of the local leaders  on each population element using equation \eqref{one} and \eqref{two}. We introduce a hierarchical crossover between the two influencing equations governed by a hierarchical crossover parameter $HC$.
 
 \begin{algorithm}
 \caption{Hierarchy Influenced Differential Evolution}
 \label{algo}
 \begin{algorithmic}[1]
   \Procedure{Start}{}
-    \State Initialize parameters ($HC$, $P$, $N_l$, $NP$).
+    \State Initialize parameters ($HC$, $HC$, $P$, $N_l$, $NP$).
     \State Generate initial global leader $g_L$ as a random point.
     \State Generate $N_l$ local leader points around $g_L$.
     \State Using a Normal distribution, generate $NP$ points for population $P$ around the local leaders.
