@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.17)  5 FEB 2017 00:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.17)  5 FEB 2017 10:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2708,9 +2708,6 @@ ges/plot_30D_F27_save.jpeg> <./images/plot_50D_F27_save.jpeg> <./images/plot_10
 jpeg> <./images/plot_50D_F11_save.jpeg> <./images/plot_100D_F11_save.jpeg> <./i
 mages/plot_50D_F12_save.jpeg> <./images/plot_100D_F12_save.jpeg> <./images/plot
 _50D_F20_save.jpeg> <./images/plot_100D_F20_save.jpeg>]
-Missing character: There is no â in font LinLibertineT-tlf-ot1!
-Missing character: There is no ™ in font LinLibertineT-tlf-ot1!
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
@@ -2741,13 +2738,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 170.
  ) 
 Here is how much of TeX's memory you used:
- 15367 strings out of 493029
- 239254 string characters out of 6136234
+ 15370 strings out of 493029
+ 239332 string characters out of 6136234
  528629 words of memory out of 5000000
  18114 multiletter control sequences out of 15000+600000
- 82178 words of font info for 278 fonts, out of 8000000 for 9000
+ 82451 words of font info for 280 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,12n,94p,1265b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,94p,1262b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/inconsolata/i4-ot1-4.enc}{/usr
 /share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_tltjc6.enc}{/usr/share
 /texlive/texmf-dist/fonts/enc/dvips/newtx/libertinealt.enc}{/usr/share/texlive/
@@ -2770,7 +2767,7 @@ xmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/zx
 lr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
-Output written on sample-sigconf.pdf (8 pages, 2067200 bytes).
+Output written on sample-sigconf.pdf (8 pages, 2068009 bytes).
 PDF statistics:
  262 PDF objects out of 1000 (max. 8388607)
  208 compressed objects within 3 object streams
