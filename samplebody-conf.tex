@@ -66,16 +66,10 @@ To obtain the updated position of the individual, a crossover operation is imple
 
 Taking inspiration from the human motor system, we model the hierarchical motor operations in our optimization agents, where we define a global leader which influences the action of several distributed local leaders and the particle agents which act as the effectors. The global leader is analogous to the decision making and planning section in the motor system hierarchy whilst, the local leaders correspond to motion generators acting under the influence of the  global leader.
 
-\begin{figure}[h!]
-  \includegraphics[scale=0.25]{contourDL}
-  \caption{Hierarchical Decisive Motion planning of individuals in HIDE on two dimensional example of objective function. The position vectors resulting from the influence of global leader and local leaders are both represented
-as E$_{g}$ and E$_{l}$ on the contour of a two dimensional objective function.}
-  \label{fig:contourDL}
-\end{figure}
 
 The position of each particle in the population is affected by the influence of global leader and local leaders, while also being affected by a randomly chosen particle from the population to induce some stochasticity in the optimization pipeline. We first model the influence of the global leader on the local leaders and the influences of the local leaders  on each population element using equation \eqref{one} and \eqref{two}. We introduce a hierarchical crossover between the two influencing equations governed by a hierarchical crossover parameter $HC$.
 
-\begin{algorithm}
+\begin{algorithm}[b]
 \caption{Hierarchy Influenced Differential Evolution}
 \label{algo}
 \begin{algorithmic}[1]
@@ -154,6 +148,15 @@ x'_{j,i} =
 \end{equation}\\
 \vspace{-5.5mm}
 
+
+\begin{figure}[h!]
+  \includegraphics[scale=0.25]{contourDL}
+  \caption{Hierarchical Decisive Motion planning of individuals in HIDE on two dimensional example of objective function. The position vectors resulting from the influence of global leader and local leaders are both represented
+as E$_{g}$ and E$_{l}$ on the contour of a two dimensional objective function.}
+  \label{fig:contourDL}
+\end{figure}
+
+
 where, \\
 $G_{t}$ is the total number of generations,\\
 $F$ is factor responsible for amplification of differential variation, \\
@@ -169,6 +172,8 @@ $x'_{j,i}$ is the trial vector\\
 
 $x_{r,G}$ is randomly chosen particle from the population to induce stochasticity. The hierarchical operation is affected by the global leader $g_L$ and the local leader $x_{L_i,G}$  through the parametric equations \eqref{one} and \eqref{two}. Switching between the two is governed by the hierarchical crossover parameter $HC$.
 
+
+
 \vspace{-1.5mm}
 \begin{equation}
 x_{i,G+1} =  
@@ -179,7 +184,7 @@ x_{i,G+1} =
 \end{array} 
 \right. 
 \end{equation}\\
-
+\vspace{-2mm}
 where
 $x_{i,G+1}$ is the vector position of $x_{i,G}$ for next generation\\
 
