@@ -98,8 +98,8 @@ The position of each particle in the population is affected by the influence of 
             \State Set $x'_{j,i} = u_{j,i}$
           \EndIf
         \EndFor
-        \If {$f(x') \textless f(x)$}
-          \State Replace $x$ with $x'$ in the population.
+        \If {$f(x'_{i}) \textless f(x_{i,G})$}
+          \State Replace $x_{i,G}$ with $x'_{i}$ in the next generation.
         \EndIf
       \EndFor
       \State Alter local leaders in each population cluster based on objective function value.
@@ -312,7 +312,7 @@ For fair comparisons, the parameters for all algorithms are fixed to the values 
         \caption{}
     \end{subfigure}
 
-    \caption{Comparison analysis over various functions and dimensions}
+    \caption{Comparative convergence profiles for test functions from CEC 2017 Benchmark over D = 10,30,50,100}
     \vspace{-4mm}
 \end{figure*}
 
