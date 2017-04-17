@@ -51,6 +51,20 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Brest, Greiner, Boskovic, Mernik, and
+  Zumer}{Brest et~al\mbox{.}}{2006}]%
+        {brest2006self}
+\bibfield{author}{\bibinfo{person}{Janez Brest}, \bibinfo{person}{Sao Greiner},
+  \bibinfo{person}{Borko Boskovic}, \bibinfo{person}{Marjan Mernik}, {and}
+  \bibinfo{person}{Viljem Zumer}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Self-adapting control parameters in differential
+  evolution: A comparative study on numerical benchmark problems}.
+\newblock \bibinfo{journal}{{\em IEEE transactions on evolutionary
+  computation\/}} \bibinfo{volume}{10}, \bibinfo{number}{6}
+  (\bibinfo{year}{2006}), \bibinfo{pages}{646--657}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Das and Suganthan}{Das and Suganthan}{2011}]%
         {das2011differential}
 \bibfield{author}{\bibinfo{person}{Swagatam Das} {and}
@@ -87,14 +101,35 @@
 \newblock
 
 
-\bibitem[\protect\citeauthoryear{Kennedy}{Kennedy}{2011}]%
+\bibitem[\protect\citeauthoryear{Kennedy and Eberhart}{Kennedy and
+  Eberhart}{1995}]%
         {kennedy2011particle}
-\bibfield{author}{\bibinfo{person}{James Kennedy}.}
-  \bibinfo{year}{2011}\natexlab{}.
-\newblock \showarticletitle{Particle swarm optimization}.
-\newblock In \bibinfo{booktitle}{{\em Encyclopedia of machine learning}}.
-  \bibinfo{publisher}{Springer}, \bibinfo{pages}{760--766}.
+\bibfield{author}{\bibinfo{person}{J. Kennedy} {and} \bibinfo{person}{R.
+  Eberhart}.} \bibinfo{year}{1995}\natexlab{}.
+\newblock \showarticletitle{Particle swarm optimization}. In
+  \bibinfo{booktitle}{{\em Neural Networks, 1995. Proceedings., IEEE
+  International Conference on}}, Vol.~\bibinfo{volume}{4}.
+  \bibinfo{pages}{1942--1948 vol.4}.
 \newblock
+\showDOI{%
+\url{http://dx.doi.org/10.1109/ICNN.1995.488968}}
+
+
+\bibitem[\protect\citeauthoryear{Mezura-Montes, Vel\'{a}zquez-Reyes, and
+  Coello~Coello}{Mezura-Montes et~al\mbox{.}}{2006}]%
+        {Mezura-Montes}
+\bibfield{author}{\bibinfo{person}{Efr\~{n}n Mezura-Montes},
+  \bibinfo{person}{Jes\'{u}s Vel\'{a}zquez-Reyes}, {and}
+  \bibinfo{person}{Carlos~A. Coello~Coello}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{A Comparative Study of Differential Evolution
+  Variants for Global Optimization}. In \bibinfo{booktitle}{{\em Proceedings of
+  the 8th Annual Conference on Genetic and Evolutionary Computation}} {\em
+  (\bibinfo{series}{GECCO '06})}. \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{485--492}.
+\newblock
+\showISBNx{1-59593-186-4}
+\showDOI{%
+\url{http://dx.doi.org/10.1145/1143997.1144086}}
 
 
 \bibitem[\protect\citeauthoryear{Oliphant}{Oliphant}{2007}]%

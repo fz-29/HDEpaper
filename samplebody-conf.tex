@@ -89,15 +89,14 @@ The position of each particle in the population is affected by the influence of 
         \Else
           \State $u_i = E_l$ from \eqref{two}.
         \EndIf
-        
-        \For{each dimension $j$}
-%          \State Generate $r_j = U(0, 1)$, a random number between 0 and 1.
-          \If {$random(0, 1) \textless HC$}
-            \State Set $x'_{j,i} = x_{j,i,G}$.
-          \Else
-            \State Set $x'_{j,i} = u_{j,i}$
-          \EndIf
-        \EndFor
+        % \For{each dimension $j$}
+        %   \If {$random(0, 1) \textless HC$}
+        %     \State Set $x'_{j,i} = x_{j,i,G}$.
+        %   \Else
+        %     \State Set $x'_{j,i} = u_{j,i}$
+        %   \EndIf
+        % \EndFor
+        \State $x'_{i}$ = BinomialCrossover($u_{i}$, $x_{i,G}$, $CR$)
         \If {$f(x'_{i}) \textless f(x_{i,G})$}
           \State Replace $x_{i,G}$ with $x'_{i}$ in the next generation.
         \EndIf
@@ -109,7 +108,26 @@ The position of each particle in the population is affected by the influence of 
 \end{algorithmic}
 \end{algorithm}
 
-Analogously to the brain motor operation as depicted in Figure 1, the updation of particle positions requires generating feedback for the leaders as a part of the optimization procedure, and hence the local leaders and the global leader are updated based on their objective function value generated from the perturbations in population particles. This series of events comprise of one optimization pass (one generation step). On execution of several optimization passes as described, the system is able to converge to an optimal configuration, analogous to the successful execution of the required task as shown in the final steps of Figure 1.
+\begin{algorithm}[b]
+\caption{Binomial\_Crossover($u$, $x$, $CR$)}
+\label{algo}
+\begin{algorithmic}[1]
+  \Procedure{Start}{}
+    \State Let $x' = 0$ be an empty vector.
+    \State Select a random integer k = $irand$(\{1,2,...,d\}); where d = number of dimensions
+    \For{each dimension $j$}
+      \If {$random(0, 1) \textless CR$ \textbf{or} $j==k$}
+        \State Set $x'_{j} = u_{j}$
+      \Else
+        \State Set $x'_{j} = x_{j}$
+      \EndIf
+    \EndFor
+  \EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+
+Analogously to the brain motor operation as depicted in Figure 1, the update of particle positions requires generating feedback for the leaders as a part of the optimization procedure, and hence the local leaders and the global leader are updated based on their objective function value generated from the perturbations in population particles. This series of events comprise of one optimization pass (one generation step). On execution of several optimization passes as described, the system is able to converge to an optimal configuration, analogous to the successful execution of the required task as shown in the final steps of Figure 1.
 
 For each particle $x_{i,G}$, $i = 0, 1, 2,...NP-1$ for generation G, the trial vector $x'_{i}$ of the particle, is governed by the hierarchical crossover operation and a mutation operation as follows : 
 
@@ -148,32 +166,6 @@ x'_{j,i} =
 \end{equation}\\
 \vspace{-5.5mm}
 
-
-\begin{figure}[h!]
-  \includegraphics[scale=0.25]{contourDL}
-  \caption{Hierarchical Decisive Motion planning of individuals in HIDE on two dimensional example of objective function. The position vectors resulting from the influence of global leader and local leaders are both represented
-as E$_{g}$ and E$_{l}$ on the contour of a two dimensional objective function.}
-  \label{fig:contourDL}
-\end{figure}
-
-
-where, \\
-$G_{t}$ is the total number of generations,\\
-$F$ is factor responsible for amplification of differential variation, \\
-$f$ is the objective function, \\
-$x_{i,G}$ is the current position of the individual for generation G,\\
-$u_i$ is the intermediate trial vector of the current individual,\\
-$E_g$ represents the global and local leader interaction,\\
-$E_l$ represents the local leader and effector interaction,\\
-$g_L$ is the global leader for generation G, \\
-$x_{L_i,G}$ is the position of the local leader for current individual,\\
-$x_{r,G}$ \epsilon P $;$ \thinspace r \epsilon [0,1,.. NP-1] \\
-$x'_{j,i}$ is the trial vector\\
-
-$x_{r,G}$ is randomly chosen particle from the population to induce stochasticity. The hierarchical operation is affected by the global leader $g_L$ and the local leader $x_{L_i,G}$  through the parametric equations \eqref{one} and \eqref{two}. Switching between the two is governed by the hierarchical crossover parameter $HC$.
-
-
-
 \vspace{-1.5mm}
 \begin{equation}
 x_{i,G+1} =  
@@ -185,15 +177,39 @@ x_{i,G+1} =
 \right. 
 \end{equation}\\
 \vspace{-2mm}
-where
-$x_{i,G+1}$ is the vector position of $x_{i,G}$ for next generation\\
 
+
+\begin{figure}[h!]
+  \includegraphics[scale=0.25]{contourDL}
+  \caption{Hierarchical Decisive Motion planning of individuals in HIDE on two dimensional example of objective function. The position vectors resulting from the influence of global leader and local leaders are both represented
+as E$_{g}$ and E$_{l}$ on the contour of a two dimensional objective function.}
+  \label{fig:contourDL}
+\end{figure}
+
+
+where, \\
+$G_{t}$ is the total number of generations,\\
+$x_{i,G+1}$ is the vector position of $x_{i,G}$ for next generation\\
+$F$ is factor responsible for amplification of differential variation, \\
+$f$ is the objective function, \\
+$x_{i,G}$ is the current position of the individual for generation G,\\
+$u_i$ is the intermediate trial vector of the current individual,\\
+$E_g$ represents the global and local leader interaction,\\
+$E_l$ represents the local leader and effector interaction,\\
+$g_L$ is the global leader for generation G, \\
+$x_{L_i,G}$ is the position of the local leader for current individual,\\
+$x_{r,G} \epsilon$ P $;$  \thinspace r $\epsilon$ [0,1,.. NP-1] \\
+$x'_{j,i}$ is the trial vector\\
+
+$x_{r,G}$ is randomly chosen particle from the population to induce stochasticity. The hierarchical operation is affected by the global leader $g_L$ and the local leader $x_{L_i,G}$  through the parametric equations \eqref{one} and \eqref{two}. Switching between the two is governed by the hierarchical crossover parameter $HC$.
 
 
 \subsection{Hierarchical Crossover}
 
-Convergence trend in HIDE is largely pivoted about (3) and (4), which in unison, lend a hierarchical structure to the algorithm. A successful optimization algorithm involves establishing a trade-off between fast convergence and robust optimization \cite{storn1995differential}. Achieving global optimization can be visualized as collaboration of two forces, greedy exploration over a larger subspace followed by intensive exploration over the resulting restricted search space. Phase 1, involving (3) is marked by the interaction between the global and local leaders representing decision planning and facilitation of gross motion. This is followed by phase 2, involving (4) wherein the local leaders interact with and guide their effector population to control intricate motion over the constraint subspace to achieve smooth convergence. Robust covergence necessitates an optimal transition from phase 1 to phase 2 in the hierarchy. This hierarchical transition is characterized by our proposed parameter, HC. The value of HC belongs to [0,1]. An optimal value for HC was observed experimentally to lie about one-quarter. For the purpose of our results, we have fixed $HC$ to be 0.27.
-The differential influence of the global leader and distributed local leaders at the higher levels of hierarchy balances the greediness of mutation. Running these vector configurations concurrently has enabled our algorithm to largely avoid local minima in quest to attain global minimum. Our proposition is complemented by the observations in our results section wherein we significantly outperform several popular algorithms on involved multimodal hybrid and composite functions on higher dimensions.
+Convergence trend in HIDE is largely pivoted about (3) and (4), which in unison, lend a hierarchical structure to the algorithm. A successful optimization algorithm involves establishing a trade-off between exploration and exploitation. Achieving global optimization can be visualized as collaboration of two forces, exploration over a larger subspace followed by intensive exploitation over the resulting search space governed by clusters. Phase 1, involving (3) is marked by the interaction between the global and local leaders representing decision planning and facilitation of gross motion. This is followed by phase 2, involving (4) wherein the local leaders interact with and guide their effector population to control intricate motion over the constraint subspace to achieve smooth convergence. Robust covergence necessitates an optimal transition from phase 1 to phase 2 in the hierarchy. This hierarchical transition is characterized by our proposed parameter, HC. \textbf{The value of HC belongs to [0,1]. An optimal value for HC was observed experimentally to lie about one-quarter. For the purpose of our experiment, we have deterministic fixed $HC$ to be 0.27. The choice for $HC$ was made after successful experimental observation on more than 50\% of the test functions with $HC$ set as 27\% of the total generation budget.}
+%The differential influence of the global leader and distributed local leaders at the higher levels of hierarchy balances the greediness of mutation. Running these vector configurations concurrently has enabled our algorithm to largely avoid local minima in quest to attain global minimum. 
+
+The HIDE algorithm achieves a performance improvement in the early optimization phase ($G \textless HC*G_{t}$) by replacing clusters of the initially generated candidate solutions with the locally best. This strategy rules out a number of mutation vectors that are more unfavorable in terms of performance gain. Additionally, by focusing on mutants of the globally best candidate solution the search space is explored rather quickly during this phase. After the population advances to $HC*G_{t}$ generations, the algorithm changes its reference point (the trial vector) to the locally best candidate solutions of a certain cluster. That is, having approached a closer distance from the optimal, the algorithm is able to exploit the search space. Our proposition is complemented by the observations in our results section wherein we significantly outperform several popular algorithms on involved multimodal hybrid and composite functions in higher dimensions.
 
 % In algorithm \ref{algo}, The Hierarchical crossover is controlled by the conditional equation $i_c \textless (HC*i_N)$, which controls the decision making between global or local gross motion. The decision control is also portrayed in Fig 3. where the position vectors resulting from the influence of global leader and local leaders are both represented as $E_g$ and $E_l$ on the contour of a two dimensional objective function. Using the hierarchical crossover on the conditional equation, we model the decisive action between global and local influences.
 
@@ -211,12 +227,12 @@ All evaluations were performed using Python 2.7.12 with Scipy\cite{oliphant2007p
 
 The set of objective functions considered for testing the proposed algorithm and compare its performance against classical DE and its variants PSODE and JADE have been taken from the CEC 2017 set of benchmark functions. Exhaustive comparisons and analysis have been depicted on dimensions D = 10, 30, 50 and 100 for a clear understanding of the strengths of the proposed algorithm. Objective functions $f_1 - f_3$ are simple unimodal functions and $f_4 - f_{10}$ are multimodal functions with a high number of local optima values. Functions $f_{11} - f_{20}$ are all hybrid functions using a combination of functions from $f_1 - f_{10}$. The set of composite function range from $f_{21} - f_{30}$ and merges the properties of the sub-functions better while incorporating the basic functions as well as hybrid functions to increase complexity while maintaining continuity around the global optima.
 
-Summarized in Table 1 are the 30 objective functions from the CEC 2017 dataset and the global optimum value for each fiction denoted by $F*$. In all simulation runs, we set the population size $NP$ to a fixed value of $40$, and the results are shown in a tabular structure depicting the best and average values of the population individuals for the simulations. Additionally, several graphical results have been discussed to observe the convergence rate and efficiency of the algorithms used in the simulation. These graphs were plotted based on the numerical results obtained from the simulation runs used to build the tables.
+Summarized in Table 1 are the 30 objective functions from the CEC 2017 dataset and the global optimum value for each function denoted by $F*$. In all simulation runs, we set the population size $NP$ to a fixed value of $100$, and the results are shown in a tabular structure depicting the best and average values of the population individuals for the simulations. Additionally, several graphical results have been discussed to observe the convergence rate and efficiency of the algorithms used in the simulation. These graphs were plotted based on the numerical results obtained from the simulation runs used to build the tables.
 
 \subsection{Parameter Settings}
 \input{paramsTable}
 
-For fair comparisons, the parameters for all algorithms are fixed to the values depicted in table 2. As clear from the table, we set the parameters F and CR as 0.42 and 0.48 for DE across all experiments. The parameters for JADE were selected as suggested in the original work. These parameter settiings allow transparency in results and a base for fair and clear comparisons in the analysis of the algorithms.
+For fair comparisons, the parameters for all algorithms are fixed to the values depicted in table \ref{table:params}. As clear from the table, we set the parameters F and CR as 0.5 and 0.9 for DE across all experiments, as recommended in \cite{storn1995differential},\cite{Mezura-Montes},\cite{brest2006self}. The parameters for JADE were selected as suggested in the original work\cite{zhang2009jade}. These parameter settings allow transparency in results and a base for fair and clear comparisons in the analysis of the algorithms.
 
 \input{table1}
 \input{table3}
@@ -318,15 +334,15 @@ For fair comparisons, the parameters for all algorithms are fixed to the values 
 
 
 \subsection{Numerical and Graphical Results} 
-In tables 3-6, the best and mean values obtained for the population agents in the simulation runs have been reported, and the optimum values for each objective function have been highlighted in \textbf{bold}. For the sake of clarity, the comparison results in each table have been summarized in $"w/t/l"$ format wherein w represents the number of objective functions where the algorithm outperforms all other algorithms, t specifies the number of objective functions where it is tied as the best algorithm for the objective function and l represents the no of test functions where it does not finish first. The utilization of the evaluation metric facilitates a definitive comparison of the different algorithms under consideration.
+In tables 3-6, the best and mean values obtained for the population agents in the simulation runs have been reported, and the optimum values for each objective function have been highlighted in \textbf{bold}. For the sake of clarity, the comparison results in each table have been summarized in $"w/t/l"$ format wherein w represents the number of objective functions where the algorithm outperforms all other algorithms, t specifies the number of objective functions where it is tied as the best algorithm for the objective function and l represents the number of test functions where it does not finish first. The utilization of the evaluation metric facilitates a definitive comparison of the different algorithms under consideration.
  
 Tables 3 and 4 highlight the performance of the algorithms for $D = 10$ and $D = 30$ respectively. For $D = 10$, HIDE depicits impressive performance. It registered a "$w/t/l$" score of $12/7/11$ in the best case and $14/4/12$ in the mean of population case. In both these test functions, JADE achieved the second best performance registering a w/t/l of $5/7/18$ on the best optimal value case and $9/4/17$ on the mean of optimal value case. On $D = 30$, HIDE achieved maximum number of wins in both best and mean case (17 and 18 respectively). JADE achieved second position with 8 and 9 wins in the best and mean case. The decent performance of JADE can be attributed to the adaptive nature of its parameter selection which enables enhancement of its convergence rate.
 
 The results for $D = 50$ and $D = 100$ (higher dimensions) have been summarized in tables 5 and 6. On $D = 50$, HIDE depicted exceptional performance, outperforming all other algorithms. It registered 17 wins in the best case and 18 wins in the mean case. Classical DE shows no wins in any case in high dimensional settings owing to its slow convergence rate and inability to attain global optimum thus highlighting the usefulness of the modifications introduced in the variants including HIDE. Similarly for $D = 100$, HIDE again outperforms all other algorithms by an appreciable margin.
-From a functional standpoint, It would be worthwhile to highlight that HIDE outperformed the other algorithm on majority on the composite and hybrid functions, particularly on the higher dimensional settings. The efficiency of HIDE can be attributed to the hierarchical nature of crossover selection and concurrency in vector configurations at the higher hierarchy levels.
+From a functional standpoint, It would be worthwhile to highlight that HIDE outperformed the other 3 compared algorithms on majority on the composite and hybrid functions, particularly on the higher dimensional settings. The efficiency of HIDE can be attributed to the hierarchical nature of crossover selection and concurrency in vector configurations at the higher hierarchy levels.
 The tabular results reinforce the fact that HIDE outperforms JADE, PSODE and DE. On close analysis, it can be witnessed that HIDE falls behind the other algorithms on a small fraction of unimodal functions such as $f_5, f_7$ on lower dimensions due to fast convergence during early stages of execution. However, the performance of higher dimensions, particularly on the more involved functions highlights utility for real world problems.
 
-The tabular results are complemented through the graphical representations in Figure 4. For the sake of clarity, representations of higher dimensional problems span more number of iterations than those for lower dimensional settings. Analysis of the plots clearly depicts that HIDE shows better convergence rate as compared to other algorithms. As the analysis transcends to higher dimensional settings, the proposed approach outperforms the other algorithms on majority of the objective functions with respect to both convergence rate and optimality. the superiority of our algorithm on higher dimensions (50 and 100) is clearly evident from Figure 4. (m,n,q,r,s,t). Figure 4. (e,f,g,h) depict that for functions where HIDE and the other variants may depict similar trends on lower dimensions, HIDE eventually excels and surpasses them on higher dimensions in most scenarios. Almost all figures are representative of a faster convergence rate for HIDE on higher dimensions. This remarkable trait in HIDE enhances its utility for high dimensional problems where fast convergence to global optimum value is required, hence making it superior to the other considered algorithms and several variants of the DE algorithm.
+The tabular results are complemented through the graphical representations in Figure 4. For the sake of clarity, representations of higher dimensional problems span more number of iterations than those for lower dimensional settings. Analysis of the plots clearly depicts that HIDE shows better convergence rate as compared to other algorithms. As the analysis transcends to higher dimensional settings, the proposed approach outperforms the other algorithms on majority of the objective functions with respect to both convergence rate and optimality. the superiority of our algorithm in higher dimensions (50 and 100) is clearly evident from Figure 4. (m,n,q,r,s,t). Figure 4. (e,f,g,h) depict that for functions where HIDE and the other variants may depict similar trends on lower dimensions, HIDE eventually excels and surpasses them in higher dimensions in most scenarios. Almost all figures are representative of a faster convergence rate for HIDE on higher dimensions. This remarkable trait in HIDE enhances its utility for high dimensional problems where fast convergence to global optimum value is required, hence making it superior to the other considered algorithms and several variants of the DE algorithm.
 
 
 \section{Conclusion}
