@@ -69,6 +69,15 @@ Taking inspiration from the human motor system, we model the hierarchical motor 
 
 The position of each particle in the population is affected by the influence of global leader and local leaders, while also being affected by a randomly chosen particle from the population to induce some stochasticity in the optimization pipeline. We first model the influence of the global leader on the local leaders and the influences of the local leaders  on each population element using equation \eqref{one} and \eqref{two}. We introduce a hierarchical crossover between the two influencing equations governed by a hierarchical crossover parameter $HC$.
 
+
+        % \For{each dimension $j$}
+        %   \If {$random(0, 1) \textless HC$}
+        %     \State Set $x'_{j,i} = x_{j,i,G}$.
+        %   \Else
+        %     \State Set $x'_{j,i} = u_{j,i}$
+        %   \EndIf
+        % \EndFor
+
 \begin{algorithm}[b]
 \caption{Hierarchy Influenced Differential Evolution}
 \label{algo}
@@ -84,20 +93,16 @@ The position of each particle in the population is affected by the influence of 
         \State Determine the corresponding local leader $x_{L_i,G}$ from the set of all local leader based on nearest position.
         \State Let $u = 0$ be an empty vector.
         \State Let $G$ and $G_{t}$ be the current generation and total generations of the procedure.
-        \If {$G \textless (HC * G_{t})$}
+        \If {$G == (HC * G_{t})$}
+          \State Increase the population : $G_{t} = 2 * G_{t}$
+        \EndIf
+        \If {$G < (HC * G_{t})$}
           \State $u_i = E_g$ from \eqref{one}.
         \Else
           \State $u_i = E_l$ from \eqref{two}.
         \EndIf
-        % \For{each dimension $j$}
-        %   \If {$random(0, 1) \textless HC$}
-        %     \State Set $x'_{j,i} = x_{j,i,G}$.
-        %   \Else
-        %     \State Set $x'_{j,i} = u_{j,i}$
-        %   \EndIf
-        % \EndFor
         \State $x'_{i}$ = BinomialCrossover($u_{i}$, $x_{i,G}$, $CR$)
-        \If {$f(x'_{i}) \textless f(x_{i,G})$}
+        \If {$f(x'_{i})$ < $f(x_{i,G})$}
           \State Replace $x_{i,G}$ with $x'_{i}$ in the next generation.
         \EndIf
       \EndFor
