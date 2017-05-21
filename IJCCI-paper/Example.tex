@@ -47,208 +47,706 @@
 
 \section{\uppercase{Introduction}}
 \label{sec:introduction}
+\section{Introduction}
 
-Operational maturity of biological control systems have enamored researchers across various domains. Consequently, they have been the source of inspiration of mathematical and logical models for control, automation and optimization. At the cellular and organ levels, In the E.Coli bacterium, there is sensing and locomotion involved in seeking nourishment and avoiding harmful chemicals. There is sensing via the recognition of chemicals, internal decision making and actuation via locomotion. These behavioural characteristics have fueled the inspiration for the Bacterial Foraging Optimization Algorithm.\\
+Evolutionary algorithms are classified as meta-heuristic search algorithms, where possible solution elements span the n-dimensional search space to find the global optimum solution. Over the years, natural phenomena and biological processes have laid the foundation for several algorithms for control and optimization that have highlighted their applicability in solving intricate optimization problems. For instance, at the cellular level in the E.Coli Bacterium, there is sensing and locomotion involved in seeking nourishment and avoiding harmful chemicals. These behavioral characteristics fuelled the inspiration for the Bacterial Foraging Optimization algorithm \cite{passino2002biomimicry}\cite{onwubolu2013new}. Ant Colony Optimization \cite{dorigo2010ant} deals with behavior of ants and has been a successful model for solving complex problems. Particle Swarm Optimization \cite{kennedy2011particle} is a swarm intelligence algorithm based on behavior of birds and fishes that models these particles as they traverse an n-dimensional search space and share information in order to obtain global optimum.
+From a biological control point, the human brain represents one of the most advanced architectures and several research attempts seek to mimic its functional accuracy, precision and efficiency. The brain function activities can be broadly classified into 2 categories: sensory and motor operations. Sensory cortical functions inspired the concept of neural networks that are being scaled successfully in deep learning to solve vast amount of problems.
 
-The function of human brain is at the pinnacle of relevance at the current social and technological standing, and several research initiatives have been attempting to mimic human-like precision, accuracy and efficiency. The brain has developed amazing performance in several day-to-day tasks such as grasping, walking etc. which happens due to the parallel work and management of brain sections governing various steps involved in completion of a task. The brain function activities can be categorised in 2 broad categories: sensory and motor operations. Sensory cortical functions have inspired the concepts of neural networks and deep learning which have already been successfully scaled to solve a vast amount of problems.\\
-While not always the case, it is at times useful and accurate to view a biological neural system to be arranged in a hierarchical fashion. One part of the brin that is clearly hierarchical is the human motor system. It is a hierarchical and distributed control system. It can be classified as having local control functions for movement and higher level controllers that control gross motion and decision making involved in planning actions. It is connected to many parts of the brain, so that we can plan, learn and execute motions or actions. The motor learning sequence of operations involves an adaptive model building in attaining optimal co-ordination of motion. The hierarchy of motor operations can be represented as the following steps:
-\begin{itemize}
-	\item[1.] Motivation and planning of the action.
-	\item[2.] Generation of instructions for movement.
-	\item[3.] Refinement of instructions based on feedback.
-	\item[4.] Maintenance of posture and smooth execution of actions.
-\end{itemize}
-Signal detection in the somatosensory cortex area, that pertains to touch sense, can participate as a possible motivator for the initiation of motor actions. Motor control is a type of neural hierarchical distributed learning control system. The neurons interface via special cells to the sensory inputs and are also control systems so that we can move our arms and legs via the neuronal control of muscle contraction and expansioin.
-
-The human motor function represents a distributed and hierarchical system. The optimal execution involves distributed brain structures at different levels of hierarchy. These include the pre-frontal cortex, motor cortex, spinal cord, the anterior horn cells etc. in generating action sequences, a sequence of actions is implemented by a string of subsequences of actions, each possibly implemented in a different part of the body. The optimization of the motor learning procedure takes place at multiple levels of hierarchy:
-
-\begin{figure}
+\begin{figure}[h!]
   \includegraphics[scale=0.6]{motorControl}
-  \caption{Description of Heirarchical Motor Operations in Humans}
+  \caption{Hierarchy of Motor Control in Humans}
   \label{fig:motorControl}
 \end{figure}
 
+The human motor function represents a distributed neural and hierarchical control system. It can be classified as having local control functions for movement as well as higher level controllers for gross motion and decision making. The execution of motor operation involves distributed brain structures at different levels of hierarchy. These include the pre-frontal cortex, motor cortex, spinal cord, anterior horn cells etc \cite{Shaw1982119}. For executing an action sequence, a sequence of actions is implemented by a string of subsequences of actions each implemented in a different part of the body. The operational structure has been depicted in Figure 1\cite{passino2005biomimicry}.
+For optimality of actions, neurons act in unison. The neurons in the motor cortex act like global leaders and send inhibitory or facilitatory influence over anterior horn cells, the local leaders, located in the spinal cord\cite{Shaw1982119}. These local leaders are connected to muscle fibers, the effectors, through a peripheral nerve and neuromuscular junction.
+Efficient execution of task requires feedback based facilitation and inhibition of the effectors over the anterior horn cells. These sequence of operations realise the optimal convergence of the system leading to smooth motor execution.
 
-\begin{itemize}
-\item[1.] Stage 1 involves motivation and planning for the action to be performed. This may be categorised as involving collaboration of the sensory and the pre-motor components. For instance, signals in the somatosensory cortex area, pertaining to the sense of touch may trigger a chain of motor actions. For voluntary motor actions, decision making and planning occurs in the pre-frontal cortex and the  pyramidal cells of the motor cortex.
 
-\item[2.] These global leaders then pass the information to the anterior horn cells in the spinal cord. These cells represent the local leaders and govern the operations of a set of effectors.
+The present work introduces an algorithm modelled intuitively on the distributed and hierarchical operation of the brain motor function.     
 
-\item[3.] For optimality of all actions, neurons act in unison. The neurons in the motor cortex act like global leaders and send inhibitory influence over the anterior horn cells (local leaders) located in the spinal cord. These local leaders are connected to the muscle fibre (effectors) through a peripheral nerve and neuromuscular junction.
+The Classical DE Algorithm \cite{storn1995differential}, proposed by Storn and Price has been hailed as one of the premier evolutionary algorithms, owing to its simple yet effective structure\cite{das2011differential}. However, in recent times, it has been criticized for its slow convergence rate and inability to effectively optimize multimodal composite functions\cite{das2011differential}. This work focusses on supplementing the algorithm's performance through the introduction of hierarchical influence in the pipeline. The architecture enables the algorithm to control the flow of agents through the cummulative effect of global and local leaders in the hierarchy. \\
+The proposed approach, Hierarchy Influenced Differential Evolution (HIDE), has been subjected to exhaustive analysis on the hybrid and composite objective functions of the CEC 2017 benchmark\cite{cec2017benchmark}. Comparison with the classical DE algorithm and its other popular variants including JADE and PSODE \cite{zhang2009jade} highlights the particular viability of the schemed approach in solving complex optimization tasks. We show that even with fixed parameters, HIDE is able to outperform adaptive architectures such as JADE by a respectable margin, as discussed in the result sections.
 
-\item[4.] Whenever, a person plans to perform an action, the electrical signals generated from the pyramidal neurons in the motor cortex (representing the decision making process) are transmitted via a supraspinal tract on the anterior horn cells (communicating to the local leaders). Initially, send inhibitory influence to the population over the local leaders. Efficient execution of task requires feedback based faciliation and inhibition of the effectors. These result in contraction of the antagonist and relaxation of the agonist muscle fibres through the local leaders.
 
-\item[5.] This sequence of updation of the constituent particles characteristics, categories Stage 4, representing the optimaal convergence of the system leading to smooth motor execution (enjoy the coffee!).
-\end{itemize}
 
-The prefrontal cortex and motor cortex combined, represent the frontal cortex and constitute the action based decision making process, or in conjunction, what we call the global leader.
+% Operational maturity of biological control systems have enamored researchers across various domains.Consequently, these have been the source of inspiration of various mathematical and logical models for control, automation and optimization. The behavioral characteristics observed at the Cellular level in E.Coli fueled the inspiration for the Bacterial Foraging Optimization algorithm.
+
+% The biological system most relevant to us is the human brain. It represents the most advanced control architecture and several research initiative seek to mimic its level of accuracy and precision in day-to-day activities. The brain activities can be distributed into two categories: sensory and motor operations. Sensory cortical functions have to an extent inspired the concept of neural networks that have been successfully scaled to a large number of domains. 
+
+% While not always the case, it is at times useful and accurate to view a biological neural network as being arranged in a hierarchical fashion. As a naive example, consider a day-to-day activity of grasping a cup of coffee.
+% One part of the brain that is clearly hierarchical is the human motor system. The hierarchical and distributed control of the human motor system can be classified as having local control functions for movement and higher level controllers that facilitate gross motion and decision making.
+
+% The optimal execution of any human motor operation, such as grasping a cup of coffee, involves distributed brain structures at different levels of hierarchy. It broadly includes the prefrontal cortex, motor cortex, spinal cord, anterior horn cells etc. In generating actions sequences, a sequence of actions is implemented by string of subsequences of actions, each possibly implemented in different parts of the body.
+
+% The hierarchy of the operations can be classified as:
+
+% \begin{itemize}
+% \item[1.] Motivation and planning of the movement or task.
+% \item[2.] Generation of instructions for movement.
+% \item[3.] Refinement of instruction based on feedback from components.
+% \item[4.] Maintenance of posture and smooth execution of task.
+% \end{itemize}
+
+% Whenever a person plans to perform an action, electrical signal generated from the pyramidal neurons in the prefrontal cortex(global leaders, center for the decision making) are transmitted a supraspinal tract on the anterior horn cells(communicating to local leaders). Initially, these global leaders send inhibitory influence to the population over the local leaders. Efficient and optimal execution of tasks involves feedback based facilitation and inhibition of the effectors. These result in contraction and relaxation of the agonist and antagonist muscle fibers through the local leaders. The sequence of updation of the represents the optimal convergence of the system, leading to smooth motor operations.
 
 \section{Classical Differential Evolution}
 
-The classical Differential Evolution (DE) algorithm is a population-based global optimization algorithm, utilizing a crossover and mmutation approach to generate new individuals in the population for achieving optimum solutions. For each individual $x_i$ that belongs to the population, DE randomly samples three other individuals from the population $a_i$, $b_i$ and $c_i$. Then using the randomly chosen points, a new individual vector is generated using equation \eqref{de}:
+The classical Differential Evolution (DE) algorithm is a population-based global optimization algorithm, utilizing a crossover and mutation approach to generate new individuals in the population for achieving optimum solutions\cite{das2011differential}. For each individual $x_i$ that belongs to the population for generation $G$, DE randomly samples three individuals from the population namely $x_{r1,G}$, $x_{r2,G}$ and $x_{r3,G}$. Employing these randomly chosen points, a new individual trial vector, $v_i$, is generated using equation \eqref{de}:
 
 \begin{equation}
 \label{de}
-u_i = a_i + F (b_i - c_i)
+v_i = x_{r1,G} + F (x_{r2,G} - x_{r3,G})
 \end{equation}
 
 Where, $F$ is called the differential weight (Usually lies between $[0, 1]$).\\
-And to obtain the new position of the individual, a crossover operation is implemented between $x_i$ and $u_i$, controlled by the parameter $CR$ called the crossover probability. The value for $CR$ always lies between $[0, 1]$.
+To obtain the updated position of the individual, a crossover operation is implemented between $x_{i,G}$ and $v_i$, controlled by the parameter $CR$ called the crossover probability. The value for $CR$ always lies between $[0, 1]$.
 
-\begin{figure}
+\begin{figure}[h!]
   \includegraphics[scale=0.3]{contourDE}
-  \caption{Two dimensional example of an objective function showing its contour lines and the process for
-generating v in scheme DE2}
+ \caption{Motion planning of individuals in DE on two dimensional example of objective function.}
+
   \label{fig:contourDE}
 \end{figure}
 
-\section{Distributed Leader Optimization}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Hierarchy Influenced Differential Evolution}
+
 Taking inspiration from the human motor system, we model the hierarchical motor operations in our optimization agents, where we define a global leader which influences the action of several distributed local leaders and the particle agents which act as the effectors. The global leader is analogous to the decision making and planning section in the motor system hierarchy whilst, the local leaders correspond to motion generators acting under the influence of the  global leader.
 
-The position of each particle in the population is affected by the influence of global leaders and local leaders, while also being affected by a randomly chosen particle from the population to induce some stochasticity in the optimization pipeline. We first model the influence of the global leader on the local leaders and the influences of the local leaders  on each population element using equation \eqref{one} and \eqref{two}. We introduce a hierarchical crossover between the two influencing equations governed by a hierarchical crossover parameter $HC$.
 
-Analogously to [step 3] in the brain motor operation, the updation of particle positions requires generating feedback for the leaders as a part of the optimization procedure, and hence the local leaders and the global leader are updated based onn their objective function value generated from the perturbations in population particles. This series of events comprise of one optimization pass (one loop step). On execution of several optimization passes as described, the system is able to converge to an optimal configuration, analogous to the successful execution of the required task as shown in [step 4].
+The position of each particle in the population is affected by the influence of global leader and local leaders, while also being affected by a randomly chosen particle from the population to induce some stochasticity in the optimization pipeline. We first model the influence of the global leader on the local leaders and the influences of the local leaders  on each population element using equation \eqref{one} and \eqref{two}. We introduce a hierarchical crossover between the two influencing equations governed by a hierarchical crossover parameter $HC$.
 
-The updated position of the particle $x$ is governed by the hierarchical crossover operation and a mutation operation. The hierarchical operation is affected by the global leader $g_L$ and the local leader $l$ through the parametric equations \eqref{one} and \eqref{two}. Switching between the two is governed by the hierarchical crossover parameter $HC$. The given equations are discussed as follows:
 
-\begin{equation}
-\label{one}
-E_g = g_L + F (l - c)
-\end{equation}
+        % \For{each dimension $j$}
+        %   \If {$random(0, 1) \textless HC$}
+        %     \State Set $x'_{j,i} = x_{j,i,G}$.
+        %   \Else
+        %     \State Set $x'_{j,i} = u_{j,i}$
+        %   \EndIf
+        % \EndFor
 
-\begin{equation}
-\label{two}
-E_l = l + F (x - c)
-\end{equation}
-
-\begin{algorithm}
-\caption{Distributed Leader Optimization}
+\begin{algorithm}[b]
+\caption{Hierarchy Influenced Differential Evolution}
 \label{algo}
 \begin{algorithmic}[1]
-	\Procedure{Start}{}
-		\State Initialize parameters ($HC$, $P$, $N_l$, $N$).
-		\State Generate initial global leader $g_L$ as a random point.
-		\State Generate $N_l$ local leader points around $g_L$.
-		\State Using a Normal distribution, generate $N$ points for population $P$ around the local leaders.
-		\While{termination criteria is not met}
-		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-			\For{each individual $x_i$ in $P$}
-				\State compute the corresponding local leader $l$ based on nearest position.
-				\State Let $u = 0$ be an empty vector.
-				\State Let $i_c$ and $i_N$ be the current generation and total generations of the procedure.
-				\If {$i_c \textless (HC*i_N)$}
-					\State $u = E_g$ from \eqref{one}.
-				\Else
-					\State $u = E_l$ from \eqref{two}.
-				\EndIf
-				
-				\For{each dimension $i$}
-					\State Generate $r_i = U(0, 1)$, a random number between 0 and 1.
-					\If {$r_i \textless HC$}
-						\State Set $x_i^{'} = x_i$.
-					\Else
-						\State Set $x_i^{'} = u_i$
-					\EndIf
-				\EndFor
-				\If {$f(x^{'}) \textless f(x)$}
-					\State Replace $x$ with $x^{'}$ in the population.
-				\EndIf
-			\EndFor
-			\State Alter local leaders in each population cluster based on objective function value.
-			\State Compute updated global leader $g_L$.
-		\EndWhile
-	\EndProcedure
+  \Procedure{Start}{}
+    \State Initialize parameters ($HC$, $F$, $P$, $N_l$, $NP$).
+    \State Generate initial global leader $g_L$ as a random point.
+    \State Generate $N_l$ local leader points around $g_L$ global leader.
+    \State Using a Normal distribution, generate $NP$ points for population $P$ around the local leaders.
+    \While{termination criteria is not met}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      \For{each individual $x_{i,G}$ in $P$}
+        \State Determine the corresponding local leader $x_{L_i,G}$ from the set of all local leader based on nearest position.
+        \State Let $u = 0$ be an empty vector.
+        \State Let $G$ and $G_{t}$ be the current generation and total generations of the procedure.
+        \If {$G == (HC * G_{t})$}
+          \State Increase the population : $G_{t} = 2 * G_{t}$
+        \EndIf
+        \If {$G < (HC * G_{t})$}
+          \State $u_i = E_g$ from \eqref{one}.
+        \Else
+          \State $u_i = E_l$ from \eqref{two}.
+        \EndIf
+        \State $x'_{i}$ = BinomialCrossover($u_{i}$, $x_{i,G}$, $CR$)
+        \If {$f(x'_{i})$ < $f(x_{i,G})$}
+          \State Replace $x_{i,G}$ with $x'_{i}$ in the next generation.
+        \EndIf
+      \EndFor
+      \State Alter local leaders in each population cluster based on objective function value.
+      \State Compute updated global leader $g_L$.
+    \EndWhile
+  \EndProcedure
 \end{algorithmic}
 \end{algorithm}
 
-\begin{figure}
+\begin{algorithm}[b]
+\caption{Binomial\_Crossover($u$, $x$, $CR$)}
+\label{algo}
+\begin{algorithmic}[1]
+  \Procedure{Start}{}
+    \State Let $x' = 0$ be an empty vector.
+    \State Select a random integer k = $irand$(\{1,2,...,d\}); where d = number of dimensions
+    \For{each dimension $j$}
+      \If {$random(0, 1) \textless CR$ \textbf{or} $j==k$}
+        \State Set $x'_{j} = u_{j}$
+      \Else
+        \State Set $x'_{j} = x_{j}$
+      \EndIf
+    \EndFor
+  \EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+
+Analogously to the brain motor operation as depicted in Figure 1, the update of particle positions requires generating feedback for the leaders as a part of the optimization procedure, and hence the local leaders and the global leader are updated based on their objective function value generated from the perturbations in population particles. This series of events comprise of one optimization pass (one generation step). On execution of several optimization passes as described, the system is able to converge to an optimal configuration, analogous to the successful execution of the required task as shown in the final steps of Figure 1.
+
+For each particle $x_{i,G}$, $i = 0, 1, 2,...NP-1$ for generation G, the trial vector $x'_{i}$ of the particle, is governed by the hierarchical crossover operation and a mutation operation as follows : 
+
+\vspace{-1.5mm}
+\begin{equation}
+u_i =  
+\left\{
+\begin{array}{ll}
+      E_g, & if \thinspace\thinspace G < HC * G_{t} \\
+      E_l, & otherwise \\
+\end{array} 
+\right. 
+\end{equation}\\
+
+\vspace{-5.5mm}
+\begin{equation}
+\label{one}
+E_g = g_L + F (x_{L_i,G} - x_{r,G})
+\end{equation}
+
+\vspace{-1.5mm}
+\begin{equation}
+\label{two}
+E_l = x_{L_i,G} + F (x_{i,G} - x_{r,G})
+\end{equation}
+
+for each dimension $j$ of $x_{j,i,G}$:
+\begin{equation}
+x'_{j,i} =  
+\left\{
+\begin{array}{ll}
+      x_{j,i,G} & if \thinspace\thinspace rand(0,1) < HC \\
+      u_{j,i} & otherwise \\
+\end{array} 
+\right. 
+\end{equation}\\
+\vspace{-5.5mm}
+
+\vspace{-1.5mm}
+\begin{equation}
+x_{i,G+1} =  
+\left\{
+\begin{array}{ll}
+      x'_{i,G}, & if \thinspace\thinspace f(x'_{i,G}) < f(x_{i,G}) \\
+      x_{i,G}, & otherwise \\
+\end{array} 
+\right. 
+\end{equation}\\
+\vspace{-2mm}
+
+
+\begin{figure}[h!]
   \includegraphics[scale=0.25]{contourDL}
-  \caption{The process for generating generation of $E_g$ and $E_l$ in a 2 dimensional optimization.}
+  \caption{Hierarchical Decisive Motion planning of individuals in HIDE on two dimensional example of objective function. The position vectors resulting from the influence of global leader and local leaders are both represented
+as E$_{g}$ and E$_{l}$ on the contour of a two dimensional objective function.}
   \label{fig:contourDL}
 \end{figure}
 
-In the algorithm \ref{algo}, The Hierarchical crossover is controlled by the conditional equation $i_c \textless (HC*i_N)$. According to this equation, during the initial phases ($HC$ fraction of total generations) of the optimization procedure, only the local leader is responsible for the motion of the agents, and after a certain amount of time has passed, the global leader also takes part in the motion generation process, signifying the motor control operation.
-Additionaly, The hierarchical crossover parameter $HC$ also influences the mutation process wherein the degree of final mutation is decided based on the probability $HC$.
+
+where, \\
+$G_{t}$ is the total number of generations,\\
+$x_{i,G+1}$ is the vector position of $x_{i,G}$ for next generation\\
+$F$ is factor responsible for amplification of differential variation, \\
+$f$ is the objective function, \\
+$x_{i,G}$ is the current position of the individual for generation G,\\
+$u_i$ is the intermediate trial vector of the current individual,\\
+$E_g$ represents the global and local leader interaction,\\
+$E_l$ represents the local leader and effector interaction,\\
+$g_L$ is the global leader for generation G, \\
+$x_{L_i,G}$ is the position of the local leader for current individual,\\
+$x_{r,G} \epsilon$ P $;$  \thinspace r $\epsilon$ [0,1,.. NP-1] \\
+$x'_{j,i}$ is the trial vector\\
+
+$x_{r,G}$ is randomly chosen particle from the population to induce stochasticity. The hierarchical operation is affected by the global leader $g_L$ and the local leader $x_{L_i,G}$  through the parametric equations \eqref{one} and \eqref{two}. Switching between the two is governed by the hierarchical crossover parameter $HC$.
+
+
+\subsection{Hierarchical Crossover}
+
+Convergence trend in HIDE is largely pivoted about (3) and (4), which in unison, lend a hierarchical structure to the algorithm. A successful optimization algorithm involves establishing a trade-off between exploration and exploitation. Achieving global optimization can be visualized as collaboration of two forces, exploration over a larger subspace followed by intensive exploitation over the resulting search space governed by clusters. Phase 1, involving (3) is marked by the interaction between the global and local leaders representing decision planning and facilitation of gross motion. This is followed by phase 2, involving (4) wherein the local leaders interact with and guide their effector population to control intricate motion over the constraint subspace to achieve smooth convergence. Robust covergence necessitates an optimal transition from phase 1 to phase 2 in the hierarchy. This hierarchical transition is characterized by our proposed parameter, HC. \textbf{The value of HC belongs to [0,1]. An optimal value for HC was observed experimentally to lie about one-quarter. For the purpose of our experiment, we have deterministic fixed $HC$ to be 0.27. The choice for $HC$ was made after successful experimental observation on more than 50\% of the test functions with $HC$ set as 27\% of the total generation budget.}
+%The differential influence of the global leader and distributed local leaders at the higher levels of hierarchy balances the greediness of mutation. Running these vector configurations concurrently has enabled our algorithm to largely avoid local minima in quest to attain global minimum. 
+
+The HIDE algorithm achieves a performance improvement in the early optimization phase ($G \textless HC*G_{t}$) by replacing clusters of the initially generated candidate solutions with the locally best. This strategy rules out a number of mutation vectors that are more unfavorable in terms of performance gain. Additionally, by focusing on mutants of the globally best candidate solution the search space is explored rather quickly during this phase. After the population advances to $HC*G_{t}$ generations, the algorithm changes its reference point (the trial vector) to the locally best candidate solutions of a certain cluster. That is, having approached a closer distance from the optimal, the algorithm is able to exploit the search space. Our proposition is complemented by the observations in our results section wherein we significantly outperform several popular algorithms on involved multimodal hybrid and composite functions in higher dimensions.
+
+% In algorithm \ref{algo}, The Hierarchical crossover is controlled by the conditional equation $i_c \textless (HC*i_N)$, which controls the decision making between global or local gross motion. The decision control is also portrayed in Fig 3. where the position vectors resulting from the influence of global leader and local leaders are both represented as $E_g$ and $E_l$ on the contour of a two dimensional objective function. Using the hierarchical crossover on the conditional equation, we model the decisive action between global and local influences.
+
+% According to this equation, during the initial planning phases ($HC$ fraction of total generations) of the optimization procedure, the global leader largely characterizes the motion of the agents, and after a certain amount of time has passed, motion generation process is substantially affected by the collective influence of local leaders and population entities, signifying the smooth execution of actions in the hierarchy control flow depicted in Fig 1.
+% Additionally, The hierarchical crossover parameter $HC$ also influences the mutation process wherein the degree of final mutation is decided based on the probability $HC$.
+
+% The hierarchical structure of control also aids in the avoidance of local minima points via the influence of the global leader, where during the initial planning process all population entities start to converge towards the global [point], and afterwards the influence from local leaders and effector population ensure smooth convergence towards the global optimum.
+\input{functable}
 
 \section{Results and Discussions}
 
-All evaluations were performed using Python 2.7.12 with Scipy and Numpy for numerical computations and Matplotlib package for graphical representation of the result data. This section is divided into two sub-sections: Section A provides description about the problem set used for analysis of algorithmic efficiency and accuracy, and section B comprises of tabular and graphical data to support the claim of eminence of the proposed approach.
+All evaluations were performed using Python 2.7.12 with Scipy\cite{oliphant2007python} and Numpy\cite{van2011numpy} for numerical computations and Matplotlib \cite{Hunter:2007} package for graphical representation of the result data. This section is divided into two sub-sections: Section A provides description about the problem set used for analysis of algorithmic efficiency and accuracy, and section B comprises of tabular and graphical data to reinforce the claim of superiority of the proposed approach.
 
 \subsection{Problem Set Description}
 
-The set of objective functions considered for testing the proposed algorithm and compare it's performance against DE, Particle Swarm Optimization Differential Evolution (PSODE) and Joint Adaptive Differential Evolution (JADE) has been taken from the CEC 2017 [] set of benchmark functions.
+The set of objective functions considered for testing the proposed algorithm and compare its performance against classical DE and its variants PSODE and JADE have been taken from the CEC 2017 set of benchmark functions. Exhaustive comparisons and analysis have been depicted on dimensions D = 10, 30, 50 and 100 for a clear understanding of the strengths of the proposed algorithm. Objective functions $f_1 - f_3$ are simple unimodal functions and $f_4 - f_{10}$ are multimodal functions with a high number of local optima values. Functions $f_{11} - f_{20}$ are all hybrid functions using a combination of functions from $f_1 - f_{10}$. The set of composite function range from $f_{21} - f_{30}$ and merges the properties of the sub-functions better while incorporating the basic functions as well as hybrid functions to increase complexity while maintaining continuity around the global optima.
 
-\input{functable}
+Summarized in Table 1 are the 30 objective functions from the CEC 2017 dataset and the global optimum value for each function denoted by $F*$. In all simulation runs, we set the population size $NP$ to a fixed value of $100$, and the results are shown in a tabular structure depicting the best and average values of the population individuals for the simulations. Additionally, several graphical results have been discussed to observe the convergence rate and efficiency of the algorithms used in the simulation. These graphs were plotted based on the numerical results obtained from the simulation runs used to build the tables.
 
-\subsection{Results}
-
+\subsection{Parameter Settings}
 \input{paramsTable}
 
+For fair comparisons, the parameters for all algorithms are fixed to the values depicted in table \ref{table:params}. As clear from the table, we set the parameters F and CR as 0.5 and 0.9 for DE across all experiments, as recommended in \cite{storn1995differential},\cite{Mezura-Montes},\cite{brest2006self}. The parameters for JADE were selected as suggested in the original work\cite{zhang2009jade}. These parameter settings allow transparency in results and a base for fair and clear comparisons in the analysis of the algorithms.
+
 \input{table1}
-%\include{table2}
 \input{table3}
-%\include{table4}
 
-
-\begin{figure*}[hptb]
+%% Convergence Profiles over CEC functions
+\begin{figure*}[h!]
     \centering
-    \begin{subfigure}[b]{0.30\textwidth}
+    \begin{subfigure}[b]{0.24\textwidth}
         % \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D10}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D10}
-        \caption{F1D10}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_10D_F1_save}
+        \caption{}
     \end{subfigure}
-    \begin{subfigure}[b]{0.30\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D30}
-        \caption{F1D30}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_30D_F1_save}
+        \caption{}
     \end{subfigure}    
-    \begin{subfigure}[b]{0.30\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D50}
-        \caption{F1D10}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F1_save}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F1_save}
+        \caption{}
     \end{subfigure}
 
-    \begin{subfigure}[b]{0.30\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D100}
-        \caption{F1D30}
+    \begin{subfigure}[b]{0.24\textwidth}
+        % \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D10}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_10D_F22_save}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_30D_F22_save}
+        \caption{}
     \end{subfigure}    
-    \begin{subfigure}[b]{0.30\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F5D10}
-        \caption{F1D10}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F22_save}
+        \caption{}
     \end{subfigure}
-    \begin{subfigure}[b]{0.30\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F12D30}
-        \caption{F1D30}
-    \end{subfigure}
-        
-    \begin{subfigure}[b]{0.30\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F27D50}
-        \caption{F1D10}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.30\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F23D100}
-        \caption{F1D30}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F22_save}
+        \caption{}
     \end{subfigure}
 
-    \caption{Comparision analysis over various functions and dimensions}
+    \begin{subfigure}[b]{0.24\textwidth}
+        % \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D10}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_10D_F27_save}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_30D_F27_save}
+        \caption{}
+    \end{subfigure}    
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F27_save}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F27_save}
+        \caption{}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F6_save}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F6_save}
+        \caption{}
+    \end{subfigure}        
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F11_save}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F11_save}
+        \caption{}
+    \end{subfigure}
+
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F12_save}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F12_save}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F20_save}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.24\textwidth}
+        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F20_save}
+        \caption{}
+    \end{subfigure}
+
+    \caption{Comparative convergence profiles for test functions from CEC 2017 Benchmark over D = 10,30,50,100}
     \vspace{-4mm}
 \end{figure*}
 
 
-\section{Conclusion}
-%\include{conclude}
-Differential Evolution is one of the most popular and widely used evolutionary meta-heuristic for the task of optimization. In this work,  we have proposed a new variant of the same called "Hierarchical Motor Differential Evolution", inspired from the hierarchical structure of the brain motor function. This approach enables the population to follow two distince motion patterns, one governed by their local leaders and one by the global leader. Based on these two influences, the individuals try to achieve the global optimum, and have shown to outperform the algorithms taken under consideration by a appreciable factor, as is clearly depicted through the numerical results and performance plots. however, since the proposed algorithm fizzles on a small fraction of the objective functions, we shall continue our quest to improve it's performance through continous modifications through our future work, and analyse it's performance on several real-world applications.
+\subsection{Numerical and Graphical Results} 
+In tables 3-6, the best and mean values obtained for the population agents in the simulation runs have been reported, and the optimum values for each objective function have been highlighted in \textbf{bold}. For the sake of clarity, the comparison results in each table have been summarized in $"w/t/l"$ format wherein w represents the number of objective functions where the algorithm outperforms all other algorithms, t specifies the number of objective functions where it is tied as the best algorithm for the objective function and l represents the number of test functions where it does not finish first. The utilization of the evaluation metric facilitates a definitive comparison of the different algorithms under consideration.
+ 
+Tables 3 and 4 highlight the performance of the algorithms for $D = 10$ and $D = 30$ respectively. For $D = 10$, HIDE depicits impressive performance. It registered a "$w/t/l$" score of $12/7/11$ in the best case and $14/4/12$ in the mean of population case. In both these test functions, JADE achieved the second best performance registering a w/t/l of $5/7/18$ on the best optimal value case and $9/4/17$ on the mean of optimal value case. On $D = 30$, HIDE achieved maximum number of wins in both best and mean case (17 and 18 respectively). JADE achieved second position with 8 and 9 wins in the best and mean case. The decent performance of JADE can be attributed to the adaptive nature of its parameter selection which enables enhancement of its convergence rate.
 
+The results for $D = 50$ and $D = 100$ (higher dimensions) have been summarized in tables 5 and 6. On $D = 50$, HIDE depicted exceptional performance, outperforming all other algorithms. It registered 17 wins in the best case and 18 wins in the mean case. Classical DE shows no wins in any case in high dimensional settings owing to its slow convergence rate and inability to attain global optimum thus highlighting the usefulness of the modifications introduced in the variants including HIDE. Similarly for $D = 100$, HIDE again outperforms all other algorithms by an appreciable margin.
+From a functional standpoint, It would be worthwhile to highlight that HIDE outperformed the other 3 compared algorithms on majority on the composite and hybrid functions, particularly on the higher dimensional settings. The efficiency of HIDE can be attributed to the hierarchical nature of crossover selection and concurrency in vector configurations at the higher hierarchy levels.
+The tabular results reinforce the fact that HIDE outperforms JADE, PSODE and DE. On close analysis, it can be witnessed that HIDE falls behind the other algorithms on a small fraction of unimodal functions such as $f_5, f_7$ on lower dimensions due to fast convergence during early stages of execution. However, the performance of higher dimensions, particularly on the more involved functions highlights utility for real world problems.
+
+The tabular results are complemented through the graphical representations in Figure 4. For the sake of clarity, representations of higher dimensional problems span more number of iterations than those for lower dimensional settings. Analysis of the plots clearly depicts that HIDE shows better convergence rate as compared to other algorithms. As the analysis transcends to higher dimensional settings, the proposed approach outperforms the other algorithms on majority of the objective functions with respect to both convergence rate and optimality. the superiority of our algorithm in higher dimensions (50 and 100) is clearly evident from Figure 4. (m,n,q,r,s,t). Figure 4. (e,f,g,h) depict that for functions where HIDE and the other variants may depict similar trends on lower dimensions, HIDE eventually excels and surpasses them in higher dimensions in most scenarios. Almost all figures are representative of a faster convergence rate for HIDE on higher dimensions. This remarkable trait in HIDE enhances its utility for high dimensional problems where fast convergence to global optimum value is required, hence making it superior to the other considered algorithms and several variants of the DE algorithm.
+
+
+\section{Conclusion}
+
+Differential Evolution has been regarded as one of the most successful optimization algorithms
+and over the years, several variants have been proposed to enhance its convergence rate and performance. In the present work, we introduced a hierarchy influenced variant of the classical DE algorithm and modeled the same on the brain motor operation. The algorithm was characterized by global leader, local leaders and an effector population. The global leader and distributed local leaders interacted to facilitate gross motion via a greedy exploration strategy. The local leaders and their effectors interacted to control intricate motion for smooth convergence. A hierarchical crossover parameter was introduced to characterize the hierarchical transition between the two interactions. The influence of the vector configurations at the higher levels of hierarchy enabled the algorithm to avoid local minima in most objective functions. The same is complemented through our result observations wherein we significantly outperform several popular algorithm on complex multimodal functions in higher dimensional settings.
+Our proposed approach has sought to establish a viable tradeoff between fast optimization, robust convergence and low number of control parameters.
+The performance analysis of the algorithm highlights the particular effectiveness of the proposed approach on high dimensional hybrid and composite functions. The observed results provide sufficient motivation to extend the scope of the work to complex high dimensional real life problems including image enhancement, traveling salesman problem and flexible job-shop scheduling.
+
+
+% \begin{acks}
+%   The authors would like to thank Dr. Yuhua Li for providing the
+%   matlab code of  the \textit{BEPS} method. 
+
+%   The authors would also like to thank the anonymous referees for
+%   their valuable comments and helpful suggestions. The work is
+%   supported by the \grantsponsor{GS501100001809}{National Natural
+%     Science Foundation of
+%     China}{http://dx.doi.org/10.13039/501100001809} under Grant
+%   No.:~\grantnum{GS501100001809}{61273304}
+%   and~\grantnum[http://www.nnsf.cn/youngscientsts]{GS501100001809}{Young
+%     Scientists' Support Program}.
+
+% \end{acks}
+
+% \subsection{Citations}
+% Citations to articles~\cite{bowman:reasoning,
+% clark:pct, braams:babel, herlihy:methodology},
+% conference proceedings~\cite{clark:pct} or maybe
+% books \cite{Lamport:LaTeX, salas:calculus} listed
+% in the Bibliography section of your
+% article will occur throughout the text of your article.
+% You should use BibTeX to automatically produce this bibliography;
+% you simply need to insert one of several citation commands with
+% a key of the item cited in the proper location in
+% the \texttt{.tex} file~\cite{Lamport:LaTeX}.
+% The key is a short reference you invent to uniquely
+% identify each work; in this sample document, the key is
+% the first author's surname and a
+% word from the title.  This identifying key is included
+% with each item in the \texttt{.bib} file for your article.
+
+% The details of the construction of the \texttt{.bib} file
+% are beyond the scope of this sample document, but more
+% information can be found in the \textit{Author's Guide},
+% and exhaustive details in the \textit{\LaTeX\ User's
+% Guide}~\cite{Lamport:LaTeX}.
+
+% This article shows only the plainest form
+% of the citation command, using \texttt{{\char'134}cite}.
+
+
+% \subsection{Type Changes and {\itshape Special} Characters}
+
+% We have already seen several typeface changes in this sample.  You can
+% indicate italicized words or phrases in your text with the command
+% \texttt{{\char'134}textit}; emboldening with the command
+% \texttt{{\char'134}textbf} and typewriter-style (for instance, for
+% computer code) with \texttt{{\char'134}texttt}.  But remember, you do
+% not have to indicate typestyle changes when such changes are part of
+% the \textit{structural} elements of your article; for instance, the
+% heading of this subsection will be in a sans serif\footnote{Another
+%   footnote, here.  Let's make this a rather short one to see how it
+%   looks.} typeface, but that is handled by the document class file.
+% Take care with the use of\footnote{A third, and last, footnote.}  the
+% curly braces in typeface changes; they mark the beginning and end of
+% the text that is to be in the different typeface.
+
+% You can use whatever symbols, accented characters, or non-English
+% characters you need anywhere in your document; you can find a complete
+% list of what is available in the \textit{\LaTeX\ User's Guide}
+% \cite{Lamport:LaTeX}.
+
+% \subsection{Math Equations}
+% You may want to display math equations in three distinct styles:
+% inline, numbered or non-numbered display.  Each of
+% the three are discussed in the next sections.
+
+% \subsubsection{Inline (In-text) Equations}
+% A formula that appears in the running text is called an
+% inline or in-text formula.  It is produced by the
+% \textbf{math} environment, which can be
+% invoked with the usual \texttt{{\char'134}begin\,\ldots{\char'134}end}
+% construction or with the short form \texttt{\$\,\ldots\$}. You
+% can use any of the symbols and structures,
+% from $\alpha$ to $\omega$, available in
+% \LaTeX~\cite{Lamport:LaTeX}; this section will simply show a
+% few examples of in-text equations in context. Notice how
+% this equation:
+% \begin{math}
+%   \lim_{n\rightarrow \infty}x=0
+% \end{math},
+% set here in in-line math style, looks slightly different when
+% set in display style.  (See next section).
+
+% \subsubsection{Display Equations}
+% A numbered display equation---one set off by vertical space from the
+% text and centered horizontally---is produced by the \textbf{equation}
+% environment. An unnumbered display equation is produced by the
+% \textbf{displaymath} environment.
+
+% Again, in either environment, you can use any of the symbols
+% and structures available in \LaTeX\@; this section will just
+% give a couple of examples of display equations in context.
+% First, consider the equation, shown as an inline equation above:
+% \begin{equation}
+%   \lim_{n\rightarrow \infty}x=0
+% \end{equation}
+% Notice how it is formatted somewhat differently in
+% the \textbf{displaymath}
+% environment.  Now, we'll enter an unnumbered equation:
+% \begin{displaymath}
+%   \sum_{i=0}^{\infty} x + 1
+% \end{displaymath}
+% and follow it with another numbered equation:
+% \begin{equation}
+%   \sum_{i=0}^{\infty}x_i=\int_{0}^{\pi+2} f
+% \end{equation}
+% just to demonstrate \LaTeX's able handling of numbering.
+
+
+% \subsection{Tables}
+% Because tables cannot be split across pages, the best
+% placement for them is typically the top of the page
+% nearest their initial cite.  To
+% ensure this proper ``floating'' placement of tables, use the
+% environment \textbf{table} to enclose the table's contents and
+% the table caption.  The contents of the table itself must go
+% in the \textbf{tabular} environment, to
+% be aligned properly in rows and columns, with the desired
+% horizontal and vertical rules.  Again, detailed instructions
+% on \textbf{tabular} material
+% are found in the \textit{\LaTeX\ User's Guide}.
+
+% Immediately following this sentence is the point at which
+% Table~\ref{tab:freq} is included in the input file; compare the
+% placement of the table here with the table in the printed
+% output of this document.
+
+% \begin{table}
+%   \caption{Frequency of Special Characters}
+%   \label{tab:freq}
+%   \begin{tabular}{ccl}
+%     \toprule
+%     Non-English or Math&Frequency&Comments\\
+%     \midrule
+%     \O & 1 in 1,000& For Swedish names\\
+%     $\pi$ & 1 in 5& Common in math\\
+%     \$ & 4 in 5 & Used in business\\
+%     $\Psi^2_1$ & 1 in 40,000& Unexplained usage\\
+%   \bottomrule
+% \end{tabular}
+% \end{table}
+
+% To set a wider table, which takes up the whole width of the page's
+% live area, use the environment \textbf{table*} to enclose the table's
+% contents and the table caption.  As with a single-column table, this
+% wide table will ``float'' to a location deemed more desirable.
+% Immediately following this sentence is the point at which
+% Table~\ref{tab:commands} is included in the input file; again, it is
+% instructive to compare the placement of the table here with the table
+% in the printed output of this document.
+
+
+% \begin{table*}
+%   \caption{Some Typical Commands}
+%   \label{tab:commands}
+%   \begin{tabular}{ccl}
+%     \toprule
+%     Command &A Number & Comments\\
+%     \midrule
+%     \texttt{{\char'134}author} & 100& Author \\
+%     \texttt{{\char'134}table}& 300 & For tables\\
+%     \texttt{{\char'134}table*}& 400& For wider tables\\
+%     \bottomrule
+%   \end{tabular}
+% \end{table*}
+% % end the environment with {table*}, NOTE not {table}!
+
+% It is strongly recommended to use the package booktabs~\cite{Fear05}
+% and follow its main principles of typography with respect to tables:
+% \begin{enumerate}
+% \item Never, ever use vertical rules.
+% \item Never use double rules.
+% \end{enumerate}
+% It is also a good idea not to overuse horizontal rules.
+
+
+% \subsection{Figures}
+
+% Like tables, figures cannot be split across pages; the best placement
+% for them is typically the top or the bottom of the page nearest their
+% initial cite.  To ensure this proper ``floating'' placement of
+% figures, use the environment \textbf{figure} to enclose the figure and
+% its caption.
+
+% This sample document contains examples of \texttt{.eps} files to be
+% displayable with \LaTeX.  If you work with pdf\LaTeX, use files in the
+% \texttt{.pdf} format.  Note that most modern \TeX\ systems will convert
+% \texttt{.eps} to \texttt{.pdf} for you on the fly.  More details on
+% each of these are found in the \textit{Author's Guide}.
+
+% \begin{figure}
+% \includegraphics{fly}
+% \caption{A sample black and white graphic.}
+% \end{figure}
+
+% \begin{figure}
+% \includegraphics[height=1in, width=1in]{fly}
+% \caption{A sample black and white graphic
+% that has been resized with the \texttt{includegraphics} command.}
+% \end{figure}
+
+
+% As was the case with tables, you may want a figure that spans two
+% columns.  To do this, and still to ensure proper ``floating''
+% placement of tables, use the environment \textbf{figure*} to enclose
+% the figure and its caption.  And don't forget to end the environment
+% with \textbf{figure*}, not \textbf{figure}!
+
+% \begin{figure*}
+% \includegraphics{flies}
+% \caption{A sample black and white graphic
+% that needs to span two columns of text.}
+% \end{figure*}
+
+
+% \begin{figure}
+% \includegraphics[height=1in, width=1in]{rosette}
+% \caption{A sample black and white graphic that has
+% been resized with the \texttt{includegraphics} command.}
+% \end{figure}
+
+% \subsection{Theorem-like Constructs}
+
+% Other common constructs that may occur in your article are the forms
+% for logical constructs like theorems, axioms, corollaries and proofs.
+% ACM uses two types of these constructs:  theorem-like and
+% definition-like.
+
+% Here is a theorem:
+% \begin{theorem}
+%   Let $f$ be continuous on $[a,b]$.  If $G$ is
+%   an antiderivative for $f$ on $[a,b]$, then
+%   \begin{displaymath}
+%     \int^b_af(t)\,dt = G(b) - G(a).
+%   \end{displaymath}
+% \end{theorem}
+
+% Here is a definition:
+% \begin{definition}
+%   If $z$ is irrational, then by $e^z$ we mean the
+%   unique number that has
+%   logarithm $z$:
+%   \begin{displaymath}
+%     \log e^z = z.
+%   \end{displaymath}
+% \end{definition}
+
+% The pre-defined theorem-like constructs are \textbf{theorem},
+% \textbf{conjecture}, \textbf{proposition}, \textbf{lemma} and
+% \textbf{corollary}.  The pre-defined de\-fi\-ni\-ti\-on-like constructs are
+% \textbf{example} and \textbf{definition}.  You can add your own
+% constructs using the \textsl{amsthm} interface~\cite{Amsthm15}.  The
+% styles used in the \verb|\theoremstyle| command are \textbf{acmplain}
+% and \textbf{acmdefinition}.
+
+% Another construct is \textbf{proof}, for example,
+
+% \begin{proof}
+%   Suppose on the contrary there exists a real number $L$ such that
+%   \begin{displaymath}
+%     \lim_{x\rightarrow\infty} \frac{f(x)}{g(x)} = L.
+%   \end{displaymath}
+%   Then
+%   \begin{displaymath}
+%     l=\lim_{x\rightarrow c} f(x)
+%     = \lim_{x\rightarrow c}
+%     \left[ g{x} \cdot \frac{f(x)}{g(x)} \right ]
+%     = \lim_{x\rightarrow c} g(x) \cdot \lim_{x\rightarrow c}
+%     \frac{f(x)}{g(x)} = 0\cdot L = 0,
+%   \end{displaymath}
+%   which contradicts our assumption that $l\neq 0$.
+% \end{proof}
+
+% \section{Conclusions}
+% This paragraph will end the body of this sample document.
+% Remember that you might still have Acknowledgments or
+% Appendices; brief samples of these
+% follow.  There is still the Bibliography to deal with; and
+% we will make a disclaimer about that here: with the exception
+% of the reference to the \LaTeX\ book, the citations in
+% this paper are to articles which have nothing to
+% do with the present subject and are used as
+% examples only.
+% %\end{document}  % This is where a 'short' article might terminate
+
+
+
+% \appendix
+% %Appendix A
+% \section{Headings in Appendices}
+% The rules about hierarchical headings discussed above for
+% the body of the article are different in the appendices.
+% In the \textbf{appendix} environment, the command
+% \textbf{section} is used to
+% indicate the start of each Appendix, with alphabetic order
+% designation (i.e., the first is A, the second B, etc.) and
+% a title (if you include one).  So, if you need
+% hierarchical structure
+% \textit{within} an Appendix, start with \textbf{subsection} as the
+% highest level. Here is an outline of the body of this
+% document in Appendix-appropriate form:
+% \subsection{Introduction}
+% \subsection{The Body of the Paper}
+% \subsubsection{Type Changes and  Special Characters}
+% \subsubsection{Math Equations}
+% \paragraph{Inline (In-text) Equations}
+% \paragraph{Display Equations}
+% \subsubsection{Citations}
+% \subsubsection{Tables}
+% \subsubsection{Figures}
+% \subsubsection{Theorem-like Constructs}
+% \subsubsection*{A Caveat for the \TeX\ Expert}
+% \subsection{Conclusions}
+% \subsection{References}
+% Generated by bibtex from your \texttt{.bib} file.  Run latex,
+% then bibtex, then latex twice (to resolve references)
+% to create the \texttt{.bbl} file.  Insert that \texttt{.bbl}
+% file into the \texttt{.tex} source file and comment out
+% the command \texttt{{\char'134}thebibliography}.
+% % This next section command marks the start of
+% % Appendix B, and does not continue the present hierarchy
+% \section{More Help for the Hardy}
+
+% Of course, reading the source code is always useful.  The file
+% \path{acmart.pdf} contains both the user guide and the commented
+% code.
 
 \vfill
-\bibliographystyle{apalike}
-{\small
-\bibliography{example}}
+%\bibliographystyle{apalike}
+%{\small
+%\bibliography{example}}
 
 
-\section*{\uppercase{Appendix}}
+%\section*{\uppercase{Appendix}}
 
-\noindent If any, the appendix should appear directly after the
-references without numbering, and not on a new page. To do so please use the following command:
-\textit{$\backslash$section*\{APPENDIX\}}
+%\noindent If any, the appendix should appear directly after the
+%references without numbering, and not on a new page. To do so please use the following command:
+%\textit{$\backslash$section*\{APPENDIX\}}
 
 \vfill
 \end{document}
