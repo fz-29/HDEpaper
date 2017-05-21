@@ -1,0 +1,87 @@
+\begin{thebibliography}{}
+
+\bibitem[Awad et~al., 2016]{cec2017benchmark}
+Awad, N., Ali, M., Liang, J., Qu, B., and Suganthan, P. (2016).
+\newblock Problem definitions and evaluation criteria for the cec 2017 special
+  session and competition on single objective real-parameter numerical
+  optimization.
+\newblock {\em Technical Report,}.
+
+\bibitem[Brest et~al., 2006]{brest2006self}
+Brest, J., Greiner, S., Boskovic, B., Mernik, M., and Zumer, V. (2006).
+\newblock Self-adapting control parameters in differential evolution: A
+  comparative study on numerical benchmark problems.
+\newblock {\em IEEE transactions on evolutionary computation}, 10(6):646--657.
+
+\bibitem[Das and Suganthan, 2011]{das2011differential}
+Das, S. and Suganthan, P.~N. (2011).
+\newblock Differential evolution: A survey of the state-of-the-art.
+\newblock {\em Evolutionary Computation, IEEE Transactions on}, 15(99):4--31.
+
+\bibitem[Dorigo and St{\"u}tzle, 2010]{dorigo2010ant}
+Dorigo, M. and St{\"u}tzle, T. (2010).
+\newblock Ant colony optimization: overview and recent advances.
+\newblock In {\em Handbook of metaheuristics}, pages 227--263. Springer.
+
+\bibitem[Hunter, 2007]{Hunter:2007}
+Hunter, J.~D. (2007).
+\newblock Matplotlib: A 2d graphics environment.
+\newblock {\em Computing In Science \& Engineering}, 9(3):90--95.
+
+\bibitem[Kennedy and Eberhart, 1995]{kennedy2011particle}
+Kennedy, J. and Eberhart, R. (1995).
+\newblock Particle swarm optimization.
+\newblock In {\em Neural Networks, 1995. Proceedings., IEEE International
+  Conference on}, volume~4, pages 1942--1948 vol.4.
+
+\bibitem[Mezura-Montes et~al., 2006]{Mezura-Montes}
+Mezura-Montes, E.~n., Vel\'{a}zquez-Reyes, J., and Coello~Coello, C.~A. (2006).
+\newblock A comparative study of differential evolution variants for global
+  optimization.
+\newblock In {\em Proceedings of the 8th Annual Conference on Genetic and
+  Evolutionary Computation}, GECCO '06, pages 485--492, New York, NY, USA. ACM.
+
+\bibitem[Oliphant, 2007]{oliphant2007python}
+Oliphant, T.~E. (2007).
+\newblock Python for scientific computing.
+\newblock {\em Computing in Science \& Engineering}, 9(3):10--20.
+
+\bibitem[Onwubolu and Babu, 2013]{onwubolu2013new}
+Onwubolu, G.~C. and Babu, B. (2013).
+\newblock {\em New optimization techniques in engineering}, volume 141.
+\newblock Springer.
+
+\bibitem[Passino, 2002]{passino2002biomimicry}
+Passino, K.~M. (2002).
+\newblock Biomimicry of bacterial foraging for distributed optimization and
+  control.
+\newblock {\em IEEE control systems}, 22(3):52--67.
+
+\bibitem[Passino, 2005]{passino2005biomimicry}
+Passino, K.~M. (2005).
+\newblock {\em Biomimicry for optimization, control, and automation}.
+\newblock Springer Science \& Business Media.
+
+\bibitem[Shaw et~al., 1982]{Shaw1982119}
+Shaw, D.~M., Kellam, A., and Mottram, R. (1982).
+\newblock Brain sciences in psychiatry.
+\newblock In Shaw, D.~M., Kellam, A., and Mottram, R., editors, {\em Brain
+  Sciences in Psychiatry}. Butterworth-Heinemann.
+
+\bibitem[Storn and Price, 1995]{storn1995differential}
+Storn, R. and Price, K. (1995).
+\newblock {\em Differential evolution-a simple and efficient adaptive scheme
+  for global optimization over continuous spaces}, volume~3.
+\newblock ICSI Berkeley.
+
+\bibitem[Van Der~Walt et~al., 2011]{van2011numpy}
+Van Der~Walt, S., Colbert, S.~C., and Varoquaux, G. (2011).
+\newblock The numpy array: a structure for efficient numerical computation.
+\newblock {\em Computing in Science \& Engineering}, 13(2):22--30.
+
+\bibitem[Zhang and Sanderson, 2009]{zhang2009jade}
+Zhang, J. and Sanderson, A.~C. (2009).
+\newblock Jade: adaptive differential evolution with optional external archive.
+\newblock {\em IEEE Transactions on evolutionary computation}, 13(5):945--958.
+
+\end{thebibliography}
