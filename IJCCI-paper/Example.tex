@@ -35,7 +35,7 @@
 
 \begin{document}
 
-\title{Authors' Instructions  \subtitle{Preparation of Camera-Ready Contributions to SCITEPRESS Proceedings} }
+\title{Hierarchy Influenced Differential Evolution: A Motor Operation Inspired Approach}
 
 \author{\authorname{First Author Name\sup{1}, Second Author Name\sup{1} and Third Author Name\sup{2}}
 \affiliation{\sup{1}Institute of Problem Solving, XYZ University, My Street, MyTown, MyCountry}
@@ -49,15 +49,13 @@
 
 \onecolumn \maketitle \normalsize \vfill
 
-\section{\uppercase{Introduction}}
-\label{sec:introduction}
 \section{Introduction}
 
 Evolutionary algorithms are classified as meta-heuristic search algorithms, where possible solution elements span the n-dimensional search space to find the global optimum solution. Over the years, natural phenomena and biological processes have laid the foundation for several algorithms for control and optimization that have highlighted their applicability in solving intricate optimization problems. For instance, at the cellular level in the E.Coli Bacterium, there is sensing and locomotion involved in seeking nourishment and avoiding harmful chemicals. These behavioral characteristics fuelled the inspiration for the Bacterial Foraging Optimization algorithm \cite{passino2002biomimicry}\cite{onwubolu2013new}. Ant Colony Optimization \cite{dorigo2010ant} deals with behavior of ants and has been a successful model for solving complex problems. Particle Swarm Optimization \cite{kennedy2011particle} is a swarm intelligence algorithm based on behavior of birds and fishes that models these particles as they traverse an n-dimensional search space and share information in order to obtain global optimum.
 From a biological control point, the human brain represents one of the most advanced architectures and several research attempts seek to mimic its functional accuracy, precision and efficiency. The brain function activities can be broadly classified into 2 categories: sensory and motor operations. Sensory cortical functions inspired the concept of neural networks that are being scaled successfully in deep learning to solve vast amount of problems.
 
 \begin{figure}[h!]
-  \includegraphics[scale=0.6]{motorControl}
+  \includegraphics[scale=0.55]{motorControl}
   \caption{Hierarchy of Motor Control in Humans}
   \label{fig:motorControl}
 \end{figure}
@@ -107,7 +105,7 @@ Where, $F$ is called the differential weight (Usually lies between $[0, 1]$).\\
 To obtain the updated position of the individual, a crossover operation is implemented between $x_{i,G}$ and $v_i$, controlled by the parameter $CR$ called the crossover probability. The value for $CR$ always lies between $[0, 1]$.
 
 \begin{figure}[h!]
-  \includegraphics[scale=0.3]{contourDE}
+  \includegraphics[scale=0.25]{contourDE}
  \caption{Motion planning of individuals in DE on two dimensional example of objective function.}
 
   \label{fig:contourDE}
@@ -238,7 +236,7 @@ x_{i,G+1} =
 
 
 \begin{figure}[h!]
-  \includegraphics[scale=0.25]{contourDL}
+  \includegraphics[scale=0.24]{contourDL}
   \caption{Hierarchical Decisive Motion planning of individuals in HIDE on two dimensional example of objective function. The position vectors resulting from the influence of global leader and local leaders are both represented
 as E$_{g}$ and E$_{l}$ on the contour of a two dimensional objective function.}
   \label{fig:contourDL}
