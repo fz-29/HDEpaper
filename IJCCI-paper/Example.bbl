@@ -34,6 +34,12 @@ Kennedy, J. and Eberhart, R. (1995).
 \newblock In {\em Neural Networks, 1995. Proceedings., IEEE International
   Conference on}, volume~4, pages 1942--1948 vol.4.
 
+\bibitem[Liu et~al., 2010]{psodeLiu}
+Liu, H., Cai, Z., and Wang, Y. (2010).
+\newblock Hybridizing particle swarm optimization with differential evolution
+  for constrained numerical and engineering optimization.
+\newblock {\em Appl. Soft Comput.}, 10(2):629--640.
+
 \bibitem[Mezura-Montes et~al., 2006]{Mezura-Montes}
 Mezura-Montes, E.~n., Vel\'{a}zquez-Reyes, J., and Coello~Coello, C.~A. (2006).
 \newblock A comparative study of differential evolution variants for global
@@ -61,6 +67,10 @@ Passino, K.~M. (2002).
 Passino, K.~M. (2005).
 \newblock {\em Biomimicry for optimization, control, and automation}.
 \newblock Springer Science \& Business Media.
+
+\bibitem[Poli et~al., 2007]{review07particleswarm}
+Poli, R., Kennedy, J., and Blackwell, T. (2007).
+\newblock Particle swarm optimization -- an overview.
 
 \bibitem[Shaw et~al., 1982]{Shaw1982119}
 Shaw, D.~M., Kellam, A., and Mottram, R. (1982).
