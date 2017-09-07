@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  7 SEP 2017 01:24
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.8.28)  7 SEP 2017 23:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -127,7 +127,7 @@ Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -138,9 +138,10 @@ Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode not found.
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
@@ -214,36 +215,52 @@ LaTeX Info: Redefining \pageref on input line 6369.
 \c@Hfootnote=\count103
 )
 
-Package hyperref Message: Driver (autodetected): hpdftex.
+Package hyperref Message: Driver (autodetected): hxetex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count104
-\c@bookmark@seq@number=\count105
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2012/11/06 v6.83m Hyperref driver for XeTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/stringenc.sty
+Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box52
+\c@Hy@AnnotLevel=\count104
+\HyField@AnnotCount=\count105
+\Fld@listcount=\count106
+\c@bookmark@seq@number=\count107
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
+(rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
+
+(rerunfilecheck)             Therefore file contents cannot be checked efficien
+tly
+(rerunfilecheck)             and the loading of the package is aborted.
 )
 \Hy@SectionHShift=\skip46
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count106
+Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
+\linenopenalty=\count108
 \output=\toks15
-\linenoprevgraf=\count107
+\linenoprevgraf=\count109
 \linenumbersep=\dimen116
 \linenumberwidth=\dimen117
-\c@linenumber=\count108
-\c@pagewiselinenumber=\count109
-\c@LN@truepage=\count110
-\c@internallinenumber=\count111
-\c@internallinenumbers=\count112
+\c@linenumber=\count110
+\c@pagewiselinenumber=\count111
+\c@LN@truepage=\count112
+\c@internallinenumber=\count113
+\c@internallinenumbers=\count114
 \quotelinenumbersep=\dimen118
 \bframerule=\dimen119
 \bframesep=\dimen120
-\bframebox=\box52
+\bframebox=\box53
 LaTeX Info: Redefining \\ on input line 3056.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
@@ -266,30 +283,30 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count113
+\inf@bad=\count115
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count114
-\leftroot@=\count115
+\uproot@=\count116
+\leftroot@=\count117
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count116
-\DOTSCASE@=\count117
+\classnum@=\count118
+\DOTSCASE@=\count119
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
-\Mathstrutbox@=\box53
-\strutbox@=\box54
+\Mathstrutbox@=\box54
+\strutbox@=\box55
 \big@size=\dimen123
 LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count118
-\c@MaxMatrixCols=\count119
+\macc@depth=\count120
+\c@MaxMatrixCols=\count121
 \dotsspace@=\muskip11
-\c@parentequation=\count120
-\dspbrk@lvl=\count121
+\c@parentequation=\count122
+\dspbrk@lvl=\count123
 \tag@help=\toks17
-\row@=\count122
-\column@=\count123
-\maxfields@=\count124
+\row@=\count124
+\column@=\count125
+\maxfields@=\count126
 \andhelp@=\toks18
 \eqnshift@=\dimen124
 \alignsep@=\dimen125
@@ -305,22 +322,23 @@ LaTeX Info: Redefining \[ on input line 2735.
 LaTeX Info: Redefining \] on input line 2736.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count125
+\c@float@type=\count127
 \float@exts=\toks21
-\float@box=\box55
+\float@box=\box56
 \@float@everytoks=\toks22
-\@floatcapt=\box56
+\@floatcapt=\box57
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks23
-\c@algorithm=\count126
+\c@algorithm=\count128
 )
 (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
@@ -329,15 +347,15 @@ Package: algpseudocode
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count127
-\c@ALG@rem=\count128
-\c@ALG@nested=\count129
+\c@ALG@line=\count129
+\c@ALG@rem=\count130
+\c@ALG@nested=\count131
 \ALG@tlm=\skip50
 \ALG@thistlm=\skip51
-\c@ALG@Lnr=\count130
-\c@ALG@blocknr=\count131
-\c@ALG@storecount=\count132
-\c@ALG@tmpcounter=\count133
+\c@ALG@Lnr=\count132
+\c@ALG@blocknr=\count133
+\c@ALG@storecount=\count134
+\c@ALG@tmpcounter=\count135
 \ALG@tmplength=\skip52
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
@@ -353,11 +371,11 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 95.
+Package graphics Info: Driver file: xetex.def on input line 95.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count134
+(/usr/share/texlive/texmf-dist/tex/xelatex/xetex-def/xetex.def
+File: xetex.def 2015/09/11 v4.06 LaTeX color/graphics driver for XeTeX (TeX Liv
+e/RRM/JK)
 ))
 \Gin@req@height=\dimen130
 \Gin@req@width=\dimen131
@@ -376,18 +394,18 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen137
 \caption@hangindent=\dimen138
 )
-\c@ContinuedFloat=\count135
+\c@ContinuedFloat=\count136
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
-\c@subfigure=\count136
-\c@subtable=\count137
+\c@subfigure=\count137
+\c@subtable=\count138
 )
 (/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count138
+\c@KVtest=\count139
 \sf@farskip=\skip53
 \sf@captopadj=\dimen139
 \sf@capskip=\skip54
@@ -407,12 +425,12 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen147
 \cmidrulekern=\dimen148
 \defaultaddspace=\dimen149
-\@cmidla=\count139
-\@cmidlb=\count140
+\@cmidla=\count140
+\@cmidlb=\count141
 \@aboverulesep=\dimen150
 \@belowrulesep=\dimen151
-\@thisruleclass=\count141
-\@lastruleclass=\count142
+\@thisruleclass=\count142
+\@lastruleclass=\count143
 \@thisrulewidth=\dimen152
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
@@ -447,7 +465,9 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
-\AtBeginShipoutBox=\box57
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+\AtBeginShipoutBox=\box58
 Package hyperref Info: Link coloring OFF on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -456,7 +476,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count143
+\c@section@level=\count144
 )
 LaTeX Info: Redefining \ref on input line 36.
 LaTeX Info: Redefining \pageref on input line 36.
@@ -466,35 +486,6 @@ LaTeX Info: Redefining \nameref on input line 36.
 \@outlinefile=\write3
 \openout3 = `Example.out'.
 
-
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count144
-\scratchdimen=\dimen154
-\scratchbox=\box58
-\nofMPsegments=\count145
-\nofMParguments=\count146
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count147
-\MPscratchDim=\dimen155
-\MPnumerator=\count148
-\makeMPintoPDFobject=\count149
-\everyMPtoPDFconversion=\toks25
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-)
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -504,7 +495,12 @@ Package caption Info: End \AtBeginDocument code.
                            
 l.36 \begin{document}
                      
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
 
@@ -517,32 +513,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--50
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
-<images/motorControl.png, id=7, 383.4325pt x 362.35374pt>
-File: images/motorControl.png Graphic file (type png)
-
-<use images/motorControl.png>
-Package pdftex.def Info: images/motorControl.png used on input line 59.
-(pdftex.def)             Requested size: 210.88852pt x 199.29517pt.
-
+File: images/motorControl.png Graphic file (type QTm)
+<use  "images/motorControl.png" >
 Underfull \vbox (badness 1838) has occurred while \output is active []
 
 
 Underfull \vbox (badness 4217) has occurred while \output is active []
 
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
+
+)
+[1
 
 
 
 
- <./images/motorControl.png>]
-<images/contourDE.png, id=32, 863.225pt x 567.11874pt>
-File: images/contourDE.png Graphic file (type png)
-
-<use images/contourDE.png>
-Package pdftex.def Info: images/contourDE.png used on input line 101.
-(pdftex.def)             Requested size: 215.80573pt x 141.77933pt.
-
-Overfull \hbox (2.3913pt too wide) in paragraph at lines 101--102
+]
+File: images/contourDE.png Graphic file (type QTm)
+ <use  "images/contourDE.png" >
+Overfull \hbox (2.39128pt too wide) in paragraph at lines 101--102
 [][] 
  []
 
@@ -599,17 +590,13 @@ LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
 
 LaTeX Warning: Command \textless invalid in math mode on input line 178.
 
-[2 <./images/contourDE.png>]
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
-<images/contourDL.png, id=63, 935.495pt x 722.7pt>
-File: images/contourDL.png Graphic file (type png)
- <use images/contourDL.png>
-Package pdftex.def Info: images/contourDL.png used on input line 242.
-(pdftex.def)             Requested size: 224.52338pt x 173.45154pt.
-
+File: images/contourDL.png Graphic file (type QTm)
+<use  "images/contourDL.png" >
 Overfull \hbox (11.10895pt too wide) in paragraph at lines 242--244
 [][] 
  []
@@ -637,7 +624,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 249--262
 
  []
 
-[3 <./images/contourDL.png>]
+[3]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 266.
 
@@ -647,1002 +634,7 @@ LaTeX Warning: Command \textless invalid in math mode on input line 272.
 
 LaTeX Warning: Command \textless invalid in math mode on input line 272.
 
-(./paramsTable.tex) (./table1.tex
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 100.000051| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 100.011085| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 100.000712| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 185.975885| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 300.214502| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 300.000006| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 300.000985| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 400.042617| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 403.674837| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 400.409399| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 400.064644| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 404.307763| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 400.000003| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 566.661791| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 604.867489| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 523.908977| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 541.521084| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 525.868824| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 533.803201| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 579.483815| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 621.914237| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 634.807962| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 620.878276| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 636.034759| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 603.187964| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 635.865001| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 613.730565| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 629.293758| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 724.831278| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 739.129935| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 717.016542| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 723.983312| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 720.345706| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 725.233785| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 818.904202| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 829.749207| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 821.914433| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 826.321588| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 830.246691| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 821.064763| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 828.160987| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 908.104383| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1084.47825| 
- []
-
-
-Overfull \hbox (6.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1124.102561| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 903.454324| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1911.51009| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2447.44375| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1760.95686| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2162.64858| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2049.64472| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2518.24109| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 1694.43759| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 2049.07426| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1102.98570| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1113.42310| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1105.66167| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1117.50974| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1105.97013| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1120.19297| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 1101.76974| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 1108.86359| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2531.74630| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 6509.74307| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1438.60571| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 5430.67468| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 4089.00635| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 10810.3876| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 1308.43834| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 1327.40588| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1313.13022| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1404.90360| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 1304.68156| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 1328.75526| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1319.83919| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1453.34078| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1306.68204| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1344.28224| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1409.94961| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1426.57193| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1412.93443| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1428.16943| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1420.91065| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1434.11288| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 1404.92899| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 1410.00077| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1504.13139| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1521.44661| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1502.49618| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1508.31154| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1501.38951| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1518.31035| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 1500.08137| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 1503.16926| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1958.42062| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2104.55573| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1958.85799| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2094.63082| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 1958.41153| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 2048.15688| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1958.43351| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2062.38595| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1728.19497| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 1743.15524| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1730.71532| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1748.12987| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1727.80039| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1791.60774| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 1723.85397| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1747.58908| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1801.58601| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1838.84055| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1804.29854| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1825.09164| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1817.15464| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1840.54692| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 1800.23551| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 1804.01430| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1901.19548| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1903.60476| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1900.39977| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1902.15296| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1902.71174| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 1906.25233| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 1900.00563| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 1901.01412| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2204.55412| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2289.22658| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2148.53894| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2178.31317| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2140.56131| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2261.03877| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 2139.91553| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 2172.81652| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2337.77299| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2387.23036| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 2314.42114| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 2338.68872| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2337.20734| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2351.89886| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2320.49621| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2344.61612| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2300.80585| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2304.13288| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 2300.09348| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2300.68418| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2301.71048| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2300.00002| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2301.09598| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3070.17708| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3145.77229| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3003.67856| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3091.22041| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 2773.37286| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3060.02252| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2867.02004| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 3047.98231| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2899.58497| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2933.24981| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2899.58497| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2930.26651| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 2897.74287| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 2921.27479| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2897.83339| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 2927.97651| 
- []
-
-
-Overfull \hbox (6.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 4117.597033| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 2956.06417| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3367.60765| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3161.54808| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3113.15765| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3358.80643| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3072.43902| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3178.50964| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3078.87313| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3240.50181| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 3071.20357| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 3107.26854| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3184.75565| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3230.92142| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3184.75565| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 3195.11304| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3184.75565| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3198.37069| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3195.41196| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 3148.58712| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3266.97978| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3172.40019| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 3233.70768| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3191.34819| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3244.89264| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3189.21142| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3292.42047| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3442.55509| 
- []
-
-
-Overfull \hbox (6.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 11927.40468| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 3207.76694| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 4615.59132| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 4573.35851| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/m/n/10 16415.1629| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 3205.74095| 
- []
-
-
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
-[]\OT1/ptm/b/n/10 3249.71098| 
- []
-
-) (./table2.tex
+(./paramsTable.tex) (./table2.tex
 Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
 []\OT1/ptm/m/n/10 100.001508| 
  []
@@ -4880,174 +3872,48 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
+File: images/plot_10D_F22_save.jpeg Graphic file (type QTm)
+
+<use  "images/plot_10D_F22_save.jpeg" >
+File: images/plot_30D_F22_save.jpeg Graphic file (type QTm)
+
+<use  "images/plot_30D_F22_save.jpeg" >
+File: images/plot_50D_F22_save.jpeg Graphic file (type QTm)
+
+<use  "images/plot_50D_F22_save.jpeg" >
+File: images/plot_100D_F22_save.jpeg Graphic file (type QTm)
+
+<use  "images/plot_100D_F22_save.jpeg" >
+File: images/plot_50D_F6_save.jpeg Graphic file (type QTm)
+
+<use  "images/plot_50D_F6_save.jpeg" >
+File: images/plot_100D_F6_save.jpeg Graphic file (type QTm)
+ <use  "images/plot_100D_F6_save.jpeg" >
+File: images/plot_50D_F11_save.jpeg Graphic file (type QTm)
+
+<use  "images/plot_50D_F11_save.jpeg" >
+File: images/plot_100D_F11_save.jpeg Graphic file (type QTm)
+
+<use  "images/plot_100D_F11_save.jpeg" >
+File: images/plot_50D_F12_save.jpeg Graphic file (type QTm)
+
+<use  "images/plot_50D_F12_save.jpeg" >
+File: images/plot_100D_F12_save.jpeg Graphic file (type QTm)
+
+<use  "images/plot_100D_F12_save.jpeg" >
+File: images/plot_50D_F20_save.jpeg Graphic file (type QTm)
+
+<use  "images/plot_50D_F20_save.jpeg" >
+File: images/plot_100D_F20_save.jpeg Graphic file (type QTm)
+
+<use  "images/plot_100D_F20_save.jpeg" > [6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
-<images/plot_10D_F1_save.jpeg, id=113, 803.0pt x 602.25pt>
-File: images/plot_10D_F1_save.jpeg Graphic file (type jpg)
-
-<use images/plot_10D_F1_save.jpeg>
-Package pdftex.def Info: images/plot_10D_F1_save.jpeg used on input line 314.
-(pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
-
-<images/plot_30D_F1_save.jpeg, id=114, 803.0pt x 602.25pt>
-File: images/plot_30D_F1_save.jpeg Graphic file (type jpg)
-
-<use images/plot_30D_F1_save.jpeg>
-Package pdftex.def Info: images/plot_30D_F1_save.jpeg used on input line 318.
-(pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
-
-<images/plot_50D_F1_save.jpeg, id=115, 803.0pt x 602.25pt>
-File: images/plot_50D_F1_save.jpeg Graphic file (type jpg)
-
-<use images/plot_50D_F1_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F1_save.jpeg used on input line 322.
-(pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
-
-<images/plot_100D_F1_save.jpeg, id=116, 803.0pt x 602.25pt>
-File: images/plot_100D_F1_save.jpeg Graphic file (type jpg)
-
-<use images/plot_100D_F1_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F1_save.jpeg used on input line 326.
-(pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
-
-<images/plot_10D_F22_save.jpeg, id=117, 803.0pt x 602.25pt>
-File: images/plot_10D_F22_save.jpeg Graphic file (type jpg)
-
-<use images/plot_10D_F22_save.jpeg>
-Package pdftex.def Info: images/plot_10D_F22_save.jpeg used on input line 332.
-(pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
-
-<images/plot_30D_F22_save.jpeg, id=118, 803.0pt x 602.25pt>
-File: images/plot_30D_F22_save.jpeg Graphic file (type jpg)
-
-<use images/plot_30D_F22_save.jpeg>
-Package pdftex.def Info: images/plot_30D_F22_save.jpeg used on input line 336.
-(pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
-
-<images/plot_50D_F22_save.jpeg, id=119, 803.0pt x 602.25pt>
-File: images/plot_50D_F22_save.jpeg Graphic file (type jpg)
-
-<use images/plot_50D_F22_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F22_save.jpeg used on input line 340.
-(pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
-
-<images/plot_100D_F22_save.jpeg, id=120, 803.0pt x 602.25pt>
-File: images/plot_100D_F22_save.jpeg Graphic file (type jpg)
-
-<use images/plot_100D_F22_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F22_save.jpeg used on input line 344.
-
-(pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
-
-<images/plot_10D_F27_save.jpeg, id=121, 803.0pt x 602.25pt>
-File: images/plot_10D_F27_save.jpeg Graphic file (type jpg)
-
-<use images/plot_10D_F27_save.jpeg>
-Package pdftex.def Info: images/plot_10D_F27_save.jpeg used on input line 350.
-(pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
-
-<images/plot_30D_F27_save.jpeg, id=122, 803.0pt x 602.25pt>
-File: images/plot_30D_F27_save.jpeg Graphic file (type jpg)
-
-<use images/plot_30D_F27_save.jpeg>
-Package pdftex.def Info: images/plot_30D_F27_save.jpeg used on input line 354.
-(pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
-
-<images/plot_50D_F27_save.jpeg, id=123, 803.0pt x 602.25pt>
-File: images/plot_50D_F27_save.jpeg Graphic file (type jpg)
-
-<use images/plot_50D_F27_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F27_save.jpeg used on input line 358.
-(pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
-
-<images/plot_100D_F27_save.jpeg, id=124, 803.0pt x 602.25pt>
-File: images/plot_100D_F27_save.jpeg Graphic file (type jpg)
-
-<use images/plot_100D_F27_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F27_save.jpeg used on input line 362.
-
-(pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
-
-<images/plot_50D_F6_save.jpeg, id=125, 803.0pt x 602.25pt>
-File: images/plot_50D_F6_save.jpeg Graphic file (type jpg)
-
-<use images/plot_50D_F6_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F6_save.jpeg used on input line 367.
-(pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
-
-<images/plot_100D_F6_save.jpeg, id=126, 803.0pt x 602.25pt>
-File: images/plot_100D_F6_save.jpeg Graphic file (type jpg)
-
-<use images/plot_100D_F6_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F6_save.jpeg used on input line 371.
-(pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
-
-<images/plot_50D_F11_save.jpeg, id=127, 803.0pt x 602.25pt>
-File: images/plot_50D_F11_save.jpeg Graphic file (type jpg)
-
-<use images/plot_50D_F11_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F11_save.jpeg used on input line 375.
-(pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
-
-<images/plot_100D_F11_save.jpeg, id=128, 803.0pt x 602.25pt>
-File: images/plot_100D_F11_save.jpeg Graphic file (type jpg)
-
-<use images/plot_100D_F11_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F11_save.jpeg used on input line 379.
-
-(pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
-
-<images/plot_50D_F12_save.jpeg, id=129, 803.0pt x 602.25pt>
-File: images/plot_50D_F12_save.jpeg Graphic file (type jpg)
-
-<use images/plot_50D_F12_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F12_save.jpeg used on input line 384.
-(pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
-
-<images/plot_100D_F12_save.jpeg, id=130, 803.0pt x 602.25pt>
-File: images/plot_100D_F12_save.jpeg Graphic file (type jpg)
-
-<use images/plot_100D_F12_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F12_save.jpeg used on input line 388.
-
-(pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
-
-<images/plot_50D_F20_save.jpeg, id=131, 803.0pt x 602.25pt>
-File: images/plot_50D_F20_save.jpeg Graphic file (type jpg)
-
-<use images/plot_50D_F20_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F20_save.jpeg used on input line 392.
-(pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
-
-<images/plot_100D_F20_save.jpeg, id=132, 803.0pt x 602.25pt>
-File: images/plot_100D_F20_save.jpeg Graphic file (type jpg)
-
-<use images/plot_100D_F20_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F20_save.jpeg used on input line 396.
-
-(pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
-
-Underfull \vbox (badness 2970) has occurred while \output is active []
 
  [7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8 <./images/plot_10D_F1_save.jpeg> <./images/plot_30D_F1_save.jpeg> <./images
-/plot_50D_F1_save.jpeg> <./images/plot_100D_F1_save.jpeg> <./images/plot_10D_F2
-2_save.jpeg> <./images/plot_30D_F22_save.jpeg> <./images/plot_50D_F22_save.jpeg
-> <./images/plot_100D_F22_save.jpeg> <./images/plot_10D_F27_save.jpeg> <./image
-s/plot_30D_F27_save.jpeg> <./images/plot_50D_F27_save.jpeg> <./images/plot_100D
-_F27_save.jpeg> <./images/plot_50D_F6_save.jpeg> <./images/plot_100D_F6_save.jp
-eg> <./images/plot_50D_F11_save.jpeg> <./images/plot_100D_F11_save.jpeg> <./ima
-ges/plot_50D_F12_save.jpeg> <./images/plot_100D_F12_save.jpeg> <./images/plot_5
-0D_F20_save.jpeg> <./images/plot_100D_F20_save.jpeg>] (./Example.bbl
+(./Example.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 44--49
 []\OT1/ptm/m/n/9 Mezura-Montes, E. n., Vel[]azquez-Reyes, J., and
  []
@@ -5070,13 +3936,11 @@ Underfull \hbox (badness 3078) in paragraph at lines 93--96
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 764.
- [9]
+ [8]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 764.
  (./Example.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 764.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 764.
-Package rerunfilecheck Info: File `Example.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 764.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 764.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -5084,25 +3948,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 764.
  ) 
 Here is how much of TeX's memory you used:
- 8383 strings out of 493029
- 127264 string characters out of 6136234
- 391857 words of memory out of 5000000
- 11701 multiletter control sequences out of 15000+600000
- 44063 words of font info for 85 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
+ 11229 strings out of 493638
+ 161035 string characters out of 6146796
+ 350037 words of memory out of 5000000
+ 14501 multiletter control sequences out of 15000+600000
+ 24782 words of font info for 60 fonts, out of 8000000 for 9000
+ 1328 hyphenation exceptions out of 8191
  36i,12n,39p,1362b,433s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Example.pdf (9 pages, 1578113 bytes).
-PDF statistics:
- 200 PDF objects out of 1000 (max. 8388607)
- 153 compressed objects within 2 object streams
- 54 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+Output written on Example.pdf (8 pages).

@@ -280,7 +280,7 @@ The HIDE algorithm achieves a performance improvement in the early optimization 
 %\input{functable}
 \input{paramsTable}
 
-\input{table1}
+%\input{table1}
 \input{table2}
 \input{table3}
 \input{table4}
@@ -294,7 +294,7 @@ All evaluations were performed using Python 2.7.12 with Scipy\cite{oliphant2007p
 
 The set of objective functions considered for testing the proposed algorithm and compare its performance against classical DE and its variants PSODE and JADE have been taken from the CEC 2017 set of benchmark functions. Exhaustive comparisons and analysis have been depicted on dimensions D = 10, 30, 50 and 100 for a clear understanding of the strengths of the proposed algorithm. Objective functions $f_1 - f_3$ are simple unimodal functions and $f_4 - f_{10}$ are multimodal functions with a high number of local optima values. Functions $f_{11} - f_{20}$ are all hybrid functions using a combination of functions from $f_1 - f_{10}$. The set of composite function range from $f_{21} - f_{30}$ and merges the properties of the sub-functions better while incorporating the basic functions as well as hybrid functions to increase complexity while maintaining continuity around the global optima.
 
-Summarized in Table 1 are the 30 objective functions from the CEC 2017 dataset and the global optimum value for each function denoted by $F*$. In all simulation runs, we set the population size $NP$ to a fixed value of $100$, and the results are shown in a tabular structure depicting the best and average values of the population individuals for the simulations. Additionally, several graphical results have been discussed to observe the convergence rate and efficiency of the algorithms used in the simulation. These graphs were plotted based on the numerical results obtained from the simulation runs used to build the tables.
+%Summarized in Table 1 are the 30 objective functions from the CEC 2017 dataset and the global optimum value for each function denoted by $F*$. In all simulation runs, we set the population size $NP$ to a fixed value of $100$, and the results are shown in a tabular structure depicting the best and average values of the population individuals for the simulations. Additionally, several graphical results have been discussed to observe the convergence rate and efficiency of the algorithms used in the simulation. These graphs were plotted based on the numerical results obtained from the simulation runs used to build the tables.
 
 \subsection{Parameter Settings}
 
@@ -309,23 +309,23 @@ The work seeks to allow transparency in results by establishing a base for fair 
 %% Convergence Profiles over CEC functions
 \begin{figure*}[t!]
     \centering
-    \begin{subfigure}[b]{0.24\textwidth}
+    %\begin{subfigure}[b]{0.24\textwidth}
         % \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D10}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_10D_F1_save}
-        \caption{}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_30D_F1_save}
-        \caption{}
-    \end{subfigure}    
-    \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F1_save}
-        \caption{}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F1_save}
-        \caption{}
-    \end{subfigure}
+     %   \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_10D_F1_save}
+      %  \caption{}
+    %\end{subfigure}
+    %\begin{subfigure}[b]{0.24\textwidth}
+    %    \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_30D_F1_save}
+     %   \caption{}
+    %\end{subfigure}    
+    %\begin{subfigure}[b]{0.24\textwidth}
+     %   \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F1_save}
+      %  \caption{}
+    %\end{subfigure}
+    %\begin{subfigure}[b]{0.24\textwidth}
+     %   \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F1_save}
+      %  \caption{}
+    %\end{subfigure}
 
     \begin{subfigure}[b]{0.24\textwidth}
         % \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D10}
@@ -345,23 +345,23 @@ The work seeks to allow transparency in results by establishing a base for fair 
         \caption{}
     \end{subfigure}
 
-    \begin{subfigure}[b]{0.24\textwidth}
+    %\begin{subfigure}[b]{0.24\textwidth}
         % \includegraphics[width=\textwidth,natwidth=800,natheight=600]{F1D10}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_10D_F27_save}
-        \caption{}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_30D_F27_save}
-        \caption{}
-    \end{subfigure}    
-    \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F27_save}
-        \caption{}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.24\textwidth}
-        \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F27_save}
-        \caption{}
-    \end{subfigure}
+     %   \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_10D_F27_save}
+      %  \caption{}
+    %\end{subfigure}
+    %\begin{subfigure}[b]{0.24\textwidth}
+     %   \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_30D_F27_save}
+      %  \caption{}
+    %\end{subfigure}    
+    %\begin{subfigure}[b]{0.24\textwidth}
+     %   \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F27_save}
+      %  \caption{}
+    %\end{subfigure}
+    %\begin{subfigure}[b]{0.24\textwidth}
+     %   \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_100D_F27_save}
+      %  \caption{}
+    %\end{subfigure}
 
     \begin{subfigure}[b]{0.24\textwidth}
         \includegraphics[width=\textwidth,natwidth=800,natheight=600]{plot_50D_F6_save}
