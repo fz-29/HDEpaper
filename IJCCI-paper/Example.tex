@@ -97,7 +97,7 @@ The proposed approach, Hierarchy Influenced Differential Evolution (HIDE), has b
 \section{Classical Differential Evolution}
 
 \begin{figure}[h!]
-  \includegraphics[scale=0.25]{contourDE}
+  \includegraphics[scale=0.24]{contourDE}
  \caption{Motion planning of individuals in DE on two dimensional example of objective function.}
 
   \label{fig:contourDE}
@@ -168,13 +168,13 @@ The position of each particle in the population is affected by the influence of 
 
 \begin{algorithm}[b]
 \caption{Binomial\_Crossover($u$, $x$, $CR$)}
-\label{algo}
+\label{algo2}
 \begin{algorithmic}[1]
   \Procedure{Start}{}
     \State Let $x' = 0$ be an empty vector.
     \State Select a random integer k = $irand$(\{1,2,...,d\}); where d = number of dimensions
     \For{each dimension $j$}
-      \If {$random(0, 1) \textless CR$ \textbf{or} $j==k$}
+      \If {$random(0, 1)$ $<$ $CR$ \textbf{or} $j==k$}
         \State Set $x'_{j} = u_{j}$
       \Else
         \State Set $x'_{j} = x_{j}$
@@ -268,7 +268,7 @@ Convergence trend in HIDE is largely pivoted about (3) and (4), which in unison,
 %The differential influence of the global leader and distributed local leaders at the higher levels of hierarchy balances the greediness of mutation. Running these vector configurations concurrently has enabled our algorithm to largely avoid local minima in quest to attain global minimum. 
 
 
-The HIDE algorithm achieves a performance improvement in the early optimization phase ($G \textless HC*G_{t}$) by replacing clusters of the initially generated candidate solutions with the locally best. This strategy rules out a number of mutation vectors that are more unfavorable in terms of performance gain. Additionally, by focusing on mutants of the globally best candidate solution the search space is explored rather quickly during this phase. After the population advances to $HC*G_{t}$ generations, the algorithm changes its reference point (the trial vector) to the locally best candidate solutions of a certain cluster. That is, having approached a closer distance from the optimal, the algorithm is able to exploit the search space. Our proposition is complemented by the observations in our results section wherein we significantly outperform several popular algorithms on involved multimodal hybrid and composite functions in higher dimensions.
+The HIDE algorithm achieves a performance improvement in the early optimization phase ($G$ < $HC*G_{t}$) by replacing clusters of the initially generated candidate solutions with the locally best. This strategy rules out a number of mutation vectors that are more unfavorable in terms of performance gain. Additionally, by focusing on mutants of the globally best candidate solution the search space is explored rather quickly during this phase. After the population advances to $HC*G_{t}$ generations, the algorithm changes its reference point (the trial vector) to the locally best candidate solutions of a certain cluster. That is, having approached a closer distance from the optimal, the algorithm is able to exploit the search space. Our proposition is complemented by the observations in our results section wherein we significantly outperform several popular algorithms on involved multimodal hybrid and composite functions in higher dimensions.
 
 % In algorithm \ref{algo}, The Hierarchical crossover is controlled by the conditional equation $i_c \textless (HC*i_N)$, which controls the decision making between global or local gross motion. The decision control is also portrayed in Fig 3. where the position vectors resulting from the influence of global leader and local leaders are both represented as $E_g$ and $E_l$ on the contour of a two dimensional objective function. Using the hierarchical crossover on the conditional equation, we model the decisive action between global and local influences.
 
