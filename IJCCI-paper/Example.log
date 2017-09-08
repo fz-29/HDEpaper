@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  8 SEP 2017 17:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  9 SEP 2017 00:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -385,43 +385,37 @@ Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
 \c@subfigure=\count136
 \c@subtable=\count137
 )
-(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
-Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count138
-\sf@farskip=\skip53
-\sf@captopadj=\dimen139
-\sf@capskip=\skip54
-\sf@nearskip=\skip55
-\sf@top=\skip56
-\sf@bottom=\skip57
-)
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen140
-\lightrulewidth=\dimen141
-\cmidrulewidth=\dimen142
-\belowrulesep=\dimen143
-\belowbottomsep=\dimen144
-\aboverulesep=\dimen145
-\abovetopsep=\dimen146
-\cmidrulesep=\dimen147
-\cmidrulekern=\dimen148
-\defaultaddspace=\dimen149
-\@cmidla=\count139
-\@cmidlb=\count140
-\@aboverulesep=\dimen150
-\@belowrulesep=\dimen151
-\@thisruleclass=\count141
-\@lastruleclass=\count142
-\@thisrulewidth=\dimen152
+\heavyrulewidth=\dimen139
+\lightrulewidth=\dimen140
+\cmidrulewidth=\dimen141
+\belowrulesep=\dimen142
+\belowbottomsep=\dimen143
+\aboverulesep=\dimen144
+\abovetopsep=\dimen145
+\cmidrulesep=\dimen146
+\cmidrulekern=\dimen147
+\defaultaddspace=\dimen148
+\@cmidla=\count138
+\@cmidlb=\count139
+\@aboverulesep=\dimen149
+\@belowrulesep=\dimen150
+\@thisruleclass=\count140
+\@lastruleclass=\count141
+\@thisrulewidth=\dimen151
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen153
+\bigstrutjot=\dimen152
 )
 (./SCITEPRESS.sty
 Conference Style for SCITEPRESS for LaTeX 2e -- version of April 2015
-\titlebox=\skip58
-) (./Example.aux)
+\titlebox=\skip53
+) (./Example.aux
+
+LaTeX Warning: Label `algo' multiply defined.
+
+)
 \openout1 = `Example.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
@@ -452,7 +446,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count143
+\c@section@level=\count142
 )
 LaTeX Info: Redefining \ref on input line 36.
 LaTeX Info: Redefining \pageref on input line 36.
@@ -465,16 +459,16 @@ LaTeX Info: Redefining \nameref on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count144
-\scratchdimen=\dimen154
+\scratchcounter=\count143
+\scratchdimen=\dimen153
 \scratchbox=\box58
-\nofMPsegments=\count145
-\nofMParguments=\count146
+\nofMPsegments=\count144
+\nofMParguments=\count145
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count147
-\MPscratchDim=\dimen155
-\MPnumerator=\count148
-\makeMPintoPDFobject=\count149
+\MPscratchCnt=\count146
+\MPscratchDim=\dimen154
+\MPnumerator=\count147
+\makeMPintoPDFobject=\count148
 \everyMPtoPDFconversion=\toks25
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -492,94 +486,120 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-
-! Undefined control sequence.
-<argument> \sf@counterlist 
-                           
-l.36 \begin{document}
-                     
-? 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 49.
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 49
+.
 
-LaTeX Warning: No \author given.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
+File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 49
+.
 
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptmcm.fd
+File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 49
+.
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxpsycm.fd
+File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.69997> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
+LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <9> not available
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 49.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
-
-LaTeX Warning: Citation `passino2002biomimicry' on page 1 undefined on input li
-ne 55.
-
-
-LaTeX Warning: Citation `onwubolu2013new' on page 1 undefined on input line 55.
-
-
-
-LaTeX Warning: Citation `kennedy2011particle' on page 1 undefined on input line
- 57.
-
-<images/motorControl.png, id=4, 383.4325pt x 362.35374pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
+<images/motorControl.png, id=7, 383.4325pt x 362.35374pt>
 File: images/motorControl.png Graphic file (type png)
 
 <use images/motorControl.png>
-Package pdftex.def Info: images/motorControl.png used on input line 59.
+Package pdftex.def Info: images/motorControl.png used on input line 58.
 (pdftex.def)             Requested size: 210.88852pt x 199.29517pt.
-
-
-LaTeX Warning: Citation `Shaw1982119' on page 1 undefined on input line 66.
-
-
-LaTeX Warning: Citation `passino2005biomimicry' on page 1 undefined on input li
-ne 66.
-
-
-LaTeX Warning: Citation `Shaw1982119' on page 1 undefined on input line 67.
-
-
-Underfull \vbox (badness 4217) has occurred while \output is active []
-
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
 
  <./images/motorControl.png>]
-
-LaTeX Warning: Citation `storn1995differential' on page 2 undefined on input li
-ne 73.
-
-
-LaTeX Warning: Citation `das2011differential' on page 2 undefined on input line
- 73.
-
-
-LaTeX Warning: Citation `das2011differential' on page 2 undefined on input line
- 73.
-
-
-LaTeX Warning: Citation `cec2017benchmark' on page 2 undefined on input line 74
-.
-
-
-LaTeX Warning: Citation `zhang2009jade' on page 2 undefined on input line 74.
-
-<images/contourDE.png, id=16, 863.225pt x 567.11874pt>
+<images/contourDE.png, id=33, 863.225pt x 567.11874pt>
 File: images/contourDE.png Graphic file (type png)
 
 <use images/contourDE.png>
-Package pdftex.def Info: images/contourDE.png used on input line 101.
+Package pdftex.def Info: images/contourDE.png used on input line 100.
 (pdftex.def)             Requested size: 215.80573pt x 141.77933pt.
 
-Overfull \hbox (2.3913pt too wide) in paragraph at lines 101--102
+Overfull \hbox (2.3913pt too wide) in paragraph at lines 100--101
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 106.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 106.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 106.
+ [2 <./images/contourDE.png>]
+Underfull \hbox (badness 2318) in paragraph at lines 146--147
+[] \OT1/ptm/m/n/10 De-ter-mine the cor-re-spond-ing lo-cal
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 162--163
+[] \OT1/ptm/m/n/10 Al-ter lo-cal lead-ers in each pop-u-la-tion
+ []
+
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 175.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 177.
+
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 177.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptm.fd
+File: omlptm.fd 
+)
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 177.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 177.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+
+ []
+
+<images/contourDL.png, id=61, 935.495pt x 722.7pt>
+File: images/contourDL.png Graphic file (type png)
+ <use images/contourDL.png>
+Package pdftex.def Info: images/contourDL.png used on input line 241.
+(pdftex.def)             Requested size: 224.52338pt x 173.45154pt.
+
+Overfull \hbox (11.10895pt too wide) in paragraph at lines 241--243
 [][] 
  []
 
@@ -587,132 +607,31 @@ Overfull \hbox (2.3913pt too wide) in paragraph at lines 101--102
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Citation `das2011differential' on page 2 undefined on input line
- 107.
-
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 10
-7.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
-File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
-)
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 10
-7.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptmcm.fd
-File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
-)
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 10
-7.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxpsycm.fd
-File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 107.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 107.
-
-
-LaTeX Warning: Reference `de' on page 2 undefined on input line 107.
-
-
-Underfull \vbox (badness 3965) has occurred while \output is active []
-
-
-
-LaTeX Warning: Reference `one' on page 2 undefined on input line 124.
-
-
-LaTeX Warning: Reference `two' on page 2 undefined on input line 124.
-
-
-Underfull \hbox (badness 2318) in paragraph at lines 147--148
-[] \OT1/ptm/m/n/10 De-ter-mine the cor-re-spond-ing lo-cal
- []
-
-
-LaTeX Warning: Reference `one' on page 2 undefined on input line 154.
-
-
-LaTeX Warning: Reference `two' on page 2 undefined on input line 156.
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 163--164
-[] \OT1/ptm/m/n/10 Al-ter lo-cal lead-ers in each pop-u-la-tion
- []
-
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 176.
-
-
-LaTeX Warning: Command \textless invalid in math mode on input line 178.
-
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 178.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptm.fd
-File: omlptm.fd 
-)
-LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 178.
-
-
-LaTeX Warning: Command \textless invalid in math mode on input line 178.
-
-[2 <./images/contourDE.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
-
- []
-
-<images/contourDL.png, id=30, 935.495pt x 722.7pt>
-File: images/contourDL.png Graphic file (type png)
- <use images/contourDL.png>
-Package pdftex.def Info: images/contourDL.png used on input line 242.
-(pdftex.def)             Requested size: 224.52338pt x 173.45154pt.
-
-Overfull \hbox (11.10895pt too wide) in paragraph at lines 242--244
-[][] 
- []
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 244.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 244.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 244.
-
-Underfull \hbox (badness 1142) in paragraph at lines 249--262
+Underfull \hbox (badness 1142) in paragraph at lines 248--261
 \OML/ptmcm/m/it/10 x[]$ \OT1/ptm/m/n/10 is the cur-rent po-si-tion of the in-di
 -vid-ual for
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 249--262
+Underfull \hbox (badness 1158) in paragraph at lines 248--261
 \OML/ptmcm/m/it/10 u[]$ \OT1/ptm/m/n/10 is the in-ter-me-di-ate trial vec-tor o
 f the cur-rent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--262
+Underfull \hbox (badness 10000) in paragraph at lines 248--261
 
  []
 
-[3 <./images/contourDL.png>]
-
-LaTeX Warning: Reference `one' on page 4 undefined on input line 263.
-
-
-LaTeX Warning: Reference `two' on page 4 undefined on input line 263.
-
+[3]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 266.
-
-LaTeX Warning: Command \textless invalid in math mode on input line 272.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 265.
 
 
-LaTeX Warning: Command \textless invalid in math mode on input line 272.
+LaTeX Warning: Command \textless invalid in math mode on input line 271.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 271.
 
 (./paramsTable.tex) (./table2.tex
 Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
@@ -3941,139 +3860,108 @@ Overfull \hbox (1.97542pt too wide) in paragraph at lines 73--73
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
-
-LaTeX Warning: Citation `oliphant2007python' on page 4 undefined on input line 
-291.
-
-
-LaTeX Warning: Citation `van2011numpy' on page 4 undefined on input line 291.
-
-
-LaTeX Warning: Citation `Hunter:2007' on page 4 undefined on input line 291.
-
-
-Underfull \hbox (badness 1325) in paragraph at lines 291--292
+Underfull \hbox (badness 1325) in paragraph at lines 290--291
 []\OT1/ptm/m/n/10 All eval-u-a-tions were per-formed us-ing Python
  []
 
-[4]
+[4 <./images/contourDL.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-
-LaTeX Warning: Reference `table:params' on page 6 undefined on input line 301.
-
-
-LaTeX Warning: Citation `storn1995differential' on page 6 undefined on input li
-ne 301.
-
-
-LaTeX Warning: Citation `Mezura-Montes' on page 6 undefined on input line 301.
-
-
-LaTeX Warning: Citation `brest2006self' on page 6 undefined on input line 301.
-
-
-LaTeX Warning: Citation `zhang2009jade' on page 6 undefined on input line 301.
-
-
-LaTeX Warning: Citation `psodeLiu' on page 6 undefined on input line 301.
-
-
-LaTeX Warning: Citation `review07particleswarm' on page 6 undefined on input li
-ne 301.
-
-<images/plot_10D_F22_save.jpeg, id=60, 803.0pt x 602.25pt>
+<images/plot_10D_F22_save.jpeg, id=106, 803.0pt x 602.25pt>
 File: images/plot_10D_F22_save.jpeg Graphic file (type jpg)
 
 <use images/plot_10D_F22_save.jpeg>
-Package pdftex.def Info: images/plot_10D_F22_save.jpeg used on input line 332.
+Package pdftex.def Info: images/plot_10D_F22_save.jpeg used on input line 331.
 (pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
 
-<images/plot_30D_F22_save.jpeg, id=61, 803.0pt x 602.25pt>
+<images/plot_30D_F22_save.jpeg, id=107, 803.0pt x 602.25pt>
 File: images/plot_30D_F22_save.jpeg Graphic file (type jpg)
 
 <use images/plot_30D_F22_save.jpeg>
-Package pdftex.def Info: images/plot_30D_F22_save.jpeg used on input line 336.
+Package pdftex.def Info: images/plot_30D_F22_save.jpeg used on input line 335.
 (pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
 
-<images/plot_50D_F22_save.jpeg, id=62, 803.0pt x 602.25pt>
+<images/plot_50D_F22_save.jpeg, id=108, 803.0pt x 602.25pt>
 File: images/plot_50D_F22_save.jpeg Graphic file (type jpg)
 
 <use images/plot_50D_F22_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F22_save.jpeg used on input line 340.
+Package pdftex.def Info: images/plot_50D_F22_save.jpeg used on input line 339.
 (pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
 
-<images/plot_100D_F22_save.jpeg, id=63, 803.0pt x 602.25pt>
+<images/plot_100D_F22_save.jpeg, id=109, 803.0pt x 602.25pt>
 File: images/plot_100D_F22_save.jpeg Graphic file (type jpg)
 
 <use images/plot_100D_F22_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F22_save.jpeg used on input line 344.
+Package pdftex.def Info: images/plot_100D_F22_save.jpeg used on input line 343.
 
 (pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
 
-<images/plot_50D_F6_save.jpeg, id=64, 803.0pt x 602.25pt>
+<images/plot_50D_F6_save.jpeg, id=110, 803.0pt x 602.25pt>
 File: images/plot_50D_F6_save.jpeg Graphic file (type jpg)
 
 <use images/plot_50D_F6_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F6_save.jpeg used on input line 367.
+Package pdftex.def Info: images/plot_50D_F6_save.jpeg used on input line 366.
 (pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
 
-<images/plot_100D_F6_save.jpeg, id=65, 803.0pt x 602.25pt>
+<images/plot_100D_F6_save.jpeg, id=111, 803.0pt x 602.25pt>
 File: images/plot_100D_F6_save.jpeg Graphic file (type jpg)
 
 <use images/plot_100D_F6_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F6_save.jpeg used on input line 371.
+Package pdftex.def Info: images/plot_100D_F6_save.jpeg used on input line 370.
 (pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
 
-<images/plot_50D_F11_save.jpeg, id=66, 803.0pt x 602.25pt>
+<images/plot_50D_F11_save.jpeg, id=112, 803.0pt x 602.25pt>
 File: images/plot_50D_F11_save.jpeg Graphic file (type jpg)
 
 <use images/plot_50D_F11_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F11_save.jpeg used on input line 375.
+Package pdftex.def Info: images/plot_50D_F11_save.jpeg used on input line 374.
 (pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
 
-<images/plot_100D_F11_save.jpeg, id=67, 803.0pt x 602.25pt>
+<images/plot_100D_F11_save.jpeg, id=113, 803.0pt x 602.25pt>
 File: images/plot_100D_F11_save.jpeg Graphic file (type jpg)
 
 <use images/plot_100D_F11_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F11_save.jpeg used on input line 379.
+Package pdftex.def Info: images/plot_100D_F11_save.jpeg used on input line 378.
 
 (pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
 
-<images/plot_50D_F12_save.jpeg, id=68, 803.0pt x 602.25pt>
+<images/plot_50D_F12_save.jpeg, id=114, 803.0pt x 602.25pt>
 File: images/plot_50D_F12_save.jpeg Graphic file (type jpg)
 
 <use images/plot_50D_F12_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F12_save.jpeg used on input line 384.
+Package pdftex.def Info: images/plot_50D_F12_save.jpeg used on input line 383.
 (pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
 
-<images/plot_100D_F12_save.jpeg, id=69, 803.0pt x 602.25pt>
+<images/plot_100D_F12_save.jpeg, id=115, 803.0pt x 602.25pt>
 File: images/plot_100D_F12_save.jpeg Graphic file (type jpg)
 
 <use images/plot_100D_F12_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F12_save.jpeg used on input line 388.
+Package pdftex.def Info: images/plot_100D_F12_save.jpeg used on input line 387.
 
 (pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
 
-<images/plot_50D_F20_save.jpeg, id=70, 803.0pt x 602.25pt>
+<images/plot_50D_F20_save.jpeg, id=116, 803.0pt x 602.25pt>
 File: images/plot_50D_F20_save.jpeg Graphic file (type jpg)
 
 <use images/plot_50D_F20_save.jpeg>
-Package pdftex.def Info: images/plot_50D_F20_save.jpeg used on input line 392.
+Package pdftex.def Info: images/plot_50D_F20_save.jpeg used on input line 391.
 (pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
 
-<images/plot_100D_F20_save.jpeg, id=71, 803.0pt x 602.25pt>
+<images/plot_100D_F20_save.jpeg, id=117, 803.0pt x 602.25pt>
 File: images/plot_100D_F20_save.jpeg Graphic file (type jpg)
 
 <use images/plot_100D_F20_save.jpeg>
-Package pdftex.def Info: images/plot_100D_F20_save.jpeg used on input line 396.
+Package pdftex.def Info: images/plot_100D_F20_save.jpeg used on input line 395.
 
 (pdftex.def)             Requested size: 107.90434pt x 80.92346pt.
  [6]
+Underfull \vbox (badness 7415) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7 <./images/plot_10D_F22_save.jpeg> <./images/plot_30D_F22_save.jpeg> <./imag
@@ -4103,31 +3991,28 @@ Underfull \hbox (badness 3078) in paragraph at lines 93--96
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 765.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 764.
  [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 765.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 764.
  (./Example.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 765.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 765.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 764.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 764.
 Package rerunfilecheck Info: File `Example.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 765.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 764.
  ) 
 Here is how much of TeX's memory you used:
- 8338 strings out of 493029
- 125976 string characters out of 6136234
- 354215 words of memory out of 5000000
- 11669 multiletter control sequences out of 15000+600000
- 44063 words of font info for 85 fonts, out of 8000000 for 9000
+ 8264 strings out of 493029
+ 124632 string characters out of 6136234
+ 352492 words of memory out of 5000000
+ 11590 multiletter control sequences out of 15000+600000
+ 58199 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,12n,39p,1362b,433s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,39p,1362b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -4136,10 +4021,10 @@ type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Example.pdf (8 pages, 1068586 bytes).
+Output written on Example.pdf (8 pages, 1070629 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
+ 187 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
  52 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
